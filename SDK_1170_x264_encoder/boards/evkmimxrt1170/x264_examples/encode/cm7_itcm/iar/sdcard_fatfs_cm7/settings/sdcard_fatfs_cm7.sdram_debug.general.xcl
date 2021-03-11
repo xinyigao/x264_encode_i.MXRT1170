@@ -1,0 +1,19 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4_2\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4_2\arm\bin\armJET.dll" 
+
+"C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar\sdram_debug\sdcard_fatfs_cm7.out" 
+
+--plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4_2\arm\bin\armbat.dll" 
+
+--device_macro="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4_2\arm\config\debugger\NXP\iMXRT_1170.dmac" 
+
+--device_macro="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4_2\arm\config\debugger\NXP\iMXRT_1170_cm7.dmac" 
+
+--macro="C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar/evkmimxrt1170_connect_cm7.mac" 
+
+--flash_loader="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4_2\arm\config\flashloader\NXP\FlashIMXRT1170_FlexSPI.board" 
+
+
+
+

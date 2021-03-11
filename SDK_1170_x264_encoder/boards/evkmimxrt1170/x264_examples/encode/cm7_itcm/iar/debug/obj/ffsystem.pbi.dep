@@ -1,0 +1,10 @@
+ffsystem.pbi: \
+  C:\Users\nxf44444\Downloads\SDK_1170\middleware\fatfs\source\ffsystem.c \
+  C:\Users\nxf44444\Downloads\SDK_1170\middleware\fatfs\source/ff.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar/..\ffconf.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\stdint.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\DLib_Config_Normal.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\DLib_Product.h

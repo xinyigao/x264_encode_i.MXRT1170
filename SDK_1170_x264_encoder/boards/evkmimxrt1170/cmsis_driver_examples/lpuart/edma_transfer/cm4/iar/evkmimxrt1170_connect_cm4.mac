@@ -1,0 +1,50 @@
+/*
+ * Copyright 2018-2019 NXP
+ * All rights reserved.
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+
+prepareCM4SpinCode()
+{
+    __var start;
+    start = 0x2021FF00;
+    __writeMemory32(0x223105, start + 0x4, "AP0_Memory");
+    __writeMemory32(start & 0xFFFF, 0x40c0c000, "AP0_Memory");
+    __writeMemory32((start >> 16) & 0xFFFF, 0x40c0c004, "AP0_Memory");
+    __message "CM4 spin code is ready";
+}
+
+prepareCM7SpinCode()
+{
+    __writeMemory32(0x20250000, 0x2001ff00, "AP0_Memory");
+    __writeMemory32(0x223105, 0x2001ff04, "AP0_Memory");
+    __writeMemory32(0x4003FE, 0x40C0C068, "AP0_Memory");
+}
+
+releaseCM4()
+{
+    // release CM4
+    __writeMemory32(0x1, 0x40c04000, "AP0_Memory");
+    __message "CM4 has been released";
+}
+
+_ExecDeviceCoreConnect()
+{
+    __var rev;
+    __var reg;
+    __probeCmd("j.i swd /force");
+
+    // dummy read
+    __readAPReg(2);
+    __delay(10);
+
+    __writeMemory32(0x1400, 0x40C04004, "AP0_Memory");
+    prepareCM7SpinCode();
+    prepareCM4SpinCode();
+
+    releaseCM4();
+    // switch to AP1
+    __writeDPReg(1<<24, 2);
+}
+

@@ -1,0 +1,18 @@
+system_MIMXRT1176_cm7.pbi: \
+  C:\Users\nxf44444\Downloads\SDK_1170\devices\MIMXRT1176\MIMXRT1176_cm7_features.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\devices\MIMXRT1176\system_MIMXRT1176_cm7.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar\..\..\..\..\..\..\CMSIS\Include\mpu_armv7.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\iccarm_builtin.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar\..\..\..\..\..\..\CMSIS\Include\cmsis_iccarm.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar\..\..\..\..\..\..\CMSIS\Include\cmsis_compiler.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar\..\..\..\..\..\..\CMSIS\Include\cmsis_version.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar\..\..\..\..\..\..\CMSIS\Include\core_cm7.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\devices\MIMXRT1176\MIMXRT1176_cm7.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\devices\MIMXRT1176\fsl_device_registers.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\DLib_Config_Normal.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\stdint.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\devices\MIMXRT1176\system_MIMXRT1176_cm7.c

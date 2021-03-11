@@ -1,0 +1,39 @@
+fsl_sd.pbi: \
+  C:\Users\nxf44444\Downloads\SDK_1170\middleware\sdmmc\sd\fsl_sd.c \
+  C:\Users\nxf44444\Downloads\SDK_1170\middleware\sdmmc\sd/fsl_sd.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar/../../../../../../middleware/sdmmc/common\fsl_sdmmc_common.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar/../../../../../../devices/MIMXRT1176/drivers\fsl_common.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\assert.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\DLib_Config_Normal.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\stdbool.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\stdint.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\string.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\ysizet.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\DLib_Product_string.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\stdlib.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\DLib_Product_stdlib.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\stddef.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar/../../../../../../devices/MIMXRT1176\fsl_device_registers.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar/../../../../../../devices/MIMXRT1176/MIMXRT1176_cm7.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar/../../../../../../CMSIS/Include\core_cm7.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar/../../../../../../CMSIS/Include/cmsis_version.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar/../../../../../../CMSIS/Include/cmsis_compiler.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar/../../../../../../CMSIS/Include\cmsis_iccarm.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\iccarm_builtin.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar/../../../../../../CMSIS/Include/mpu_armv7.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar/../../../../../../devices/MIMXRT1176/system_MIMXRT1176_cm7.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar/../../../../../../devices/MIMXRT1176/MIMXRT1176_cm7_features.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar/../../../../../../devices/MIMXRT1176/drivers/fsl_clock.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar/../../../../../../devices/MIMXRT1176/drivers/fsl_common.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar/../../../../../../middleware/sdmmc/host/usdhc\fsl_sdmmc_host.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar/../../../../../../devices/MIMXRT1176/drivers\fsl_usdhc.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar/../../../../../../middleware/sdmmc/osa\fsl_sdmmc_osa.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar/../../../../../../components/osa\fsl_os_abstraction.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar/../../../../../../components/osa/fsl_os_abstraction_config.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar/../../../../../../components/lists\fsl_component_generic_list.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar/../../../../../../components/osa/fsl_os_abstraction_bm.h \
+  C:\Users\nxf44444\Downloads\SDK_1170\boards\evkmimxrt1170\sdmmc_examples\sdcard_fatfs\cm7\iar/../../../../../../middleware/sdmmc/common/fsl_sdmmc_spec.h

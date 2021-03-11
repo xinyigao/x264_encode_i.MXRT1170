@@ -1,0 +1,115 @@
+#Generating source browse information for project sdcard_fatfs_cm7
+
+
+#Abbreviations
+cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4_2\common\bin\SourceIndexer.exe
+ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4_2\common\bin\PbdLink.exe
+bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4_2\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build board.pbi : index board.xcl
+build clock_config.pbi : index clock_config.xcl
+build dcd.pbi : index dcd.xcl
+build pin_mux.pbi : index pin_mux.xcl
+build sdmmc_config.pbi : index sdmmc_config.xcl
+build fsl_component_generic_list.pbi : index fsl_component_generic_list.xcl
+build fsl_os_abstraction_bm.pbi : index fsl_os_abstraction_bm.xcl
+build fsl_component_serial_manager.pbi : index fsl_component_serial_manager.xcl
+build fsl_component_serial_port_uart.pbi : index fsl_component_serial_port_uart.xcl
+build fsl_adapter_lpuart.pbi : index fsl_adapter_lpuart.xcl
+build system_MIMXRT1176_cm7.pbi : index system_MIMXRT1176_cm7.xcl
+build fsl_anatop.pbi : index fsl_anatop.xcl
+build fsl_anatop_ai.pbi : index fsl_anatop_ai.xcl
+build fsl_cache.pbi : index fsl_cache.xcl
+build fsl_clock.pbi : index fsl_clock.xcl
+build fsl_common.pbi : index fsl_common.xcl
+build fsl_dcdc.pbi : index fsl_dcdc.xcl
+build fsl_gpio.pbi : index fsl_gpio.xcl
+build fsl_gpt.pbi : index fsl_gpt.xcl
+build fsl_lpuart.pbi : index fsl_lpuart.xcl
+build fsl_pmu.pbi : index fsl_pmu.xcl
+build fsl_usdhc.pbi : index fsl_usdhc.xcl
+build fsl_sd_disk.pbi : index fsl_sd_disk.xcl
+build diskio.pbi : index diskio.xcl
+build ff.pbi : index ff.xcl
+build ffsystem.pbi : index ffsystem.xcl
+build ffunicode.pbi : index ffunicode.xcl
+build fsl_sdmmc_host.pbi : index fsl_sdmmc_host.xcl
+build fsl_sdmmc_osa.pbi : index fsl_sdmmc_osa.xcl
+build fsl_sd.pbi : index fsl_sd.xcl
+build fsl_sdmmc_common.pbi : index fsl_sdmmc_common.xcl
+build gpt.pbi : index gpt.xcl
+build sdcard_fatfs.pbi : index sdcard_fatfs.xcl
+build x264.pbi : index x264.xcl
+build fsl_assert.pbi : index fsl_assert.xcl
+build fsl_debug_console.pbi : index fsl_debug_console.xcl
+build fsl_str.pbi : index fsl_str.xcl
+build bitstream.pbi : index bitstream.xcl
+build cabac.pbi : index cabac.xcl
+build common.pbi : index common.xcl
+build cpu.pbi : index cpu.xcl
+build dct.pbi : index dct.xcl
+build deblock.pbi : index deblock.xcl
+build frame.pbi : index frame.xcl
+build macroblock.pbi : index macroblock.xcl
+build mc.pbi : index mc.xcl
+build mvpred.pbi : index mvpred.xcl
+build osdep.pbi : index osdep.xcl
+build pixel.pbi : index pixel.xcl
+build predict.pbi : index predict.xcl
+build quant.pbi : index quant.xcl
+build rectangle.pbi : index rectangle.xcl
+build set.pbi : index set.xcl
+build threadpool.pbi : index threadpool.xcl
+build vlc.pbi : index vlc.xcl
+build analyse.pbi : index analyse.xcl
+build cabac_encoder.pbi : index cabac_encoder.xcl
+build cavlc.pbi : index cavlc.xcl
+build encoder.pbi : index encoder.xcl
+build lookahead.pbi : index lookahead.xcl
+build macroblock_encoder.pbi : index macroblock_encoder.xcl
+build me.pbi : index me.xcl
+build ratecontrol.pbi : index ratecontrol.xcl
+build set_encoder.pbi : index set_encoder.xcl
+build slicetype.pbi : index slicetype.xcl
+build filters.pbi : index filters.xcl
+build input.pbi : index input.xcl
+build raw_input.pbi : index raw_input.xcl
+build raw.pbi : index raw.xcl
+build cache.pbi : index cache.xcl
+build crop.pbi : index crop.xcl
+build depth.pbi : index depth.xcl
+build fix_vfr_pts.pbi : index fix_vfr_pts.xcl
+build internal.pbi : index internal.xcl
+build resize.pbi : index resize.xcl
+build select_every.pbi : index select_every.xcl
+build source.pbi : index source.xcl
+build video.pbi : index video.xcl
+build evkmimxrt1170_flexspi_nor_config.pbi : index evkmimxrt1170_flexspi_nor_config.xcl
+build fsl_flexspi_nor_boot.pbi : index fsl_flexspi_nor_boot.xcl
+build sdcard_fatfs_cm7_part0.pbi : link board.pbi clock_config.pbi dcd.pbi pin_mux.pbi sdmmc_config.pbi fsl_component_generic_list.pbi fsl_os_abstraction_bm.pbi fsl_component_serial_manager.pbi fsl_component_serial_port_uart.pbi
+build sdcard_fatfs_cm7_part1.pbi : link fsl_adapter_lpuart.pbi system_MIMXRT1176_cm7.pbi fsl_anatop.pbi fsl_anatop_ai.pbi fsl_cache.pbi fsl_clock.pbi fsl_common.pbi fsl_dcdc.pbi fsl_gpio.pbi
+build sdcard_fatfs_cm7_part2.pbi : link fsl_gpt.pbi fsl_lpuart.pbi fsl_pmu.pbi fsl_usdhc.pbi fsl_sd_disk.pbi diskio.pbi ff.pbi ffsystem.pbi ffunicode.pbi
+build sdcard_fatfs_cm7_part3.pbi : link fsl_sdmmc_host.pbi fsl_sdmmc_osa.pbi fsl_sd.pbi fsl_sdmmc_common.pbi gpt.pbi sdcard_fatfs.pbi x264.pbi fsl_assert.pbi fsl_debug_console.pbi
+build sdcard_fatfs_cm7_part4.pbi : link fsl_str.pbi bitstream.pbi cabac.pbi common.pbi cpu.pbi dct.pbi deblock.pbi frame.pbi macroblock.pbi
+build sdcard_fatfs_cm7_part5.pbi : link mc.pbi mvpred.pbi osdep.pbi pixel.pbi predict.pbi quant.pbi rectangle.pbi set.pbi threadpool.pbi
+build sdcard_fatfs_cm7_part6.pbi : link vlc.pbi analyse.pbi cabac_encoder.pbi cavlc.pbi encoder.pbi lookahead.pbi macroblock_encoder.pbi me.pbi ratecontrol.pbi
+build sdcard_fatfs_cm7_part7.pbi : link set_encoder.pbi slicetype.pbi filters.pbi input.pbi raw_input.pbi raw.pbi cache.pbi crop.pbi depth.pbi
+build sdcard_fatfs_cm7_part8.pbi : link fix_vfr_pts.pbi internal.pbi resize.pbi select_every.pbi source.pbi video.pbi evkmimxrt1170_flexspi_nor_config.pbi fsl_flexspi_nor_boot.pbi
+build sdcard_fatfs_cm7.pbd : link sdcard_fatfs_cm7_part0.pbi sdcard_fatfs_cm7_part1.pbi sdcard_fatfs_cm7_part2.pbi sdcard_fatfs_cm7_part3.pbi sdcard_fatfs_cm7_part4.pbi sdcard_fatfs_cm7_part5.pbi sdcard_fatfs_cm7_part6.pbi sdcard_fatfs_cm7_part7.pbi sdcard_fatfs_cm7_part8.pbi
+build sdcard_fatfs_cm7.pbw : browsedata sdcard_fatfs_cm7.pbd
+
+

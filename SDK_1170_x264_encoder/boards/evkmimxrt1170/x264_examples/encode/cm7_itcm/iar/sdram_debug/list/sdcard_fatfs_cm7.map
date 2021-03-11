@@ -1,0 +1,2782 @@
+###############################################################################
+#
+# IAR ELF Linker V8.50.6.265/W32 for ARM                  11/Mar/2021  15:10:48
+# Copyright 2007-2020 IAR Systems AB.
+#
+#    Output file  =
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\sdcard_fatfs_cm7.out
+#    Map file     =
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\list\sdcard_fatfs_cm7.map
+#    Command line =
+#        -f C:\Users\nxf44444\AppData\Local\Temp\1\EW31D7.tmp
+#        (C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\analyse.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\bitstream.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\board.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\cabac.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\cabac_encoder.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\cache.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\cavlc.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\clock_config.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\common.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\cpu.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\crop.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\dcd.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\dct.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\deblock.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\depth.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\diskio.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\encoder.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\evkmimxrt1170_flexspi_nor_config.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\ff.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\ffsystem.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\ffunicode.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\filters.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\fix_vfr_pts.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\frame.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\fsl_adapter_lpuart.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\fsl_anatop.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\fsl_anatop_ai.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\fsl_assert.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\fsl_cache.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\fsl_clock.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\fsl_common.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\fsl_component_generic_list.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\fsl_component_serial_manager.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\fsl_component_serial_port_uart.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\fsl_dcdc.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\fsl_debug_console.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\fsl_flexspi_nor_boot.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\fsl_gpio.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\fsl_gpt.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\fsl_lpuart.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\fsl_os_abstraction_bm.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\fsl_pmu.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\fsl_sd.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\fsl_sd_disk.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\fsl_sdmmc_common.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\fsl_sdmmc_host.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\fsl_sdmmc_osa.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\fsl_str.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\fsl_usdhc.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\gpt.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\input.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\internal.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\lookahead.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\macroblock.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\macroblock_encoder.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\mc.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\me.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\mvpred.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\osdep.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\pin_mux.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\pixel.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\predict.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\quant.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\ratecontrol.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\raw.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\raw_input.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\rectangle.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\resize.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\sdcard_fatfs.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\sdmmc_config.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\select_every.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\set.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\set_encoder.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\slicetype.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\source.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\startup_MIMXRT1176_cm7.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\system_MIMXRT1176_cm7.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\threadpool.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\video.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\vlc.o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj\x264.o
+#        --redirect _Printf=_PrintfSmallNoMb --redirect _Scanf=_ScanfSmallNoMb
+#        --no_out_extension -o
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\sdcard_fatfs_cm7.out
+#        --map
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\list\sdcard_fatfs_cm7.map
+#        --config
+#        C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar/MIMXRT1176xxxxx_cm7_sdram.icf
+#        --semihosting --entry Reset_Handler --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = DLMalloc
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The advanced heap was selected because the application calls memory
+allocation functions outside of system library functions, and there
+are calls to deallocation functions in the application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x8000'2000 { ro section .intvec };
+"P1":  place in [from 0x8000'2000 to 0x8000'23ff] |
+                [from 0x8000'2400 to 0x801f'ffff] { ro };
+define block RW { first rw, section m_usb_dma_init_data };
+"P2":  place in [from 0x8020'0000 to 0x81ff'ffff] { block RW };
+define block ZI
+   with alignment = 32 { first zi, section m_usb_dma_noninit_data };
+"P3":  place in [from 0x8020'0000 to 0x81ff'ffff] { block ZI };
+define block CSTACK with size = 256K, alignment = 8 { };
+"P4":  place in [from 0x8020'0000 to 0x81ff'ffff] { block CSTACK };
+define block HEAP with size = 16M, alignment = 8 { };
+"P5":  place in [from 0x8200'0000 to 0x82ff'ffff] { last block HEAP };
+define block NCACHE_VAR
+   with size = 16M, alignment = 1M {
+      section NonCacheable, section NonCacheable.init };
+"P6":  place in [from 0x8300'0000 to 0x83ff'ffff] { block NCACHE_VAR };
+"P7":  place in [from 0x0 to 0x6'ffff] { rw section .critical_text };
+"P8":  place in [from 0x0 to 0x6'ffff] {
+          rw object dct.o, rw object deblock.o, rw object macroblock.o,
+          rw object mc.o, rw object mvpred.o, rw object osdep.o,
+          rw object pixel.o, rw object predict.o, rw object quant.o,
+          rw object ratecontrol.o, rw object me.o, rw object cabac_encoder.o };
+initialize by copy { rw, section .textrw };
+initialize by copy {
+   object dct.o, object deblock.o, object macroblock.o, object mc.o,
+   object mvpred.o, object osdep.o, object pixel.o, object predict.o,
+   object quant.o, object ratecontrol.o, object me.o, object cabac_encoder.o };
+
+No sections matched the following patterns:
+
+  rw section .critical_text       in "P7-P8"
+  section NonCacheable.init       in block NCACHE_VAR
+  section m_usb_dma_init_data     in block RW
+  section m_usb_dma_noninit_data  in block ZI
+
+
+  Section            Kind         Address        Size  Object
+  -------            ----         -------        ----  ------
+"P7-P8", part 1 of 2:                        0x1'ea66
+  P7-P8 s0                            0x0    0x1'ea66  <Init block>
+    Veneer           inited           0x0         0x8  - Linker created -
+    Veneer           inited           0x8         0x8  - Linker created -
+    .text            inited          0x10      0x53b8  me.o [1]
+    .text            inited        0x53c8      0x1048  mvpred.o [1]
+    Veneer           inited        0x6410         0x8  - Linker created -
+    Veneer           inited        0x6418         0x8  - Linker created -
+    Veneer           inited        0x6420         0x8  - Linker created -
+    Veneer           inited        0x6428         0x8  - Linker created -
+    Veneer           inited        0x6430         0x8  - Linker created -
+    Veneer           inited        0x6438         0x8  - Linker created -
+    Veneer           inited        0x6440         0x8  - Linker created -
+    Veneer           inited        0x6448         0x8  - Linker created -
+    Veneer           inited        0x6450         0x8  - Linker created -
+    Veneer           inited        0x6458         0x8  - Linker created -
+    Veneer           inited        0x6460         0x8  - Linker created -
+    Veneer           inited        0x6468         0x8  - Linker created -
+    Veneer           inited        0x6470         0x8  - Linker created -
+    Veneer           inited        0x6478         0x8  - Linker created -
+    Veneer           inited        0x6480         0x8  - Linker created -
+    Veneer           inited        0x6488         0x8  - Linker created -
+    Veneer           inited        0x6490         0x8  - Linker created -
+    Veneer           inited        0x6498         0x8  - Linker created -
+    Veneer           inited        0x64a0         0x8  - Linker created -
+    Veneer           inited        0x64a8         0x8  - Linker created -
+    Veneer           inited        0x64b0         0x8  - Linker created -
+    Veneer           inited        0x64b8         0x8  - Linker created -
+    Veneer           inited        0x64c0         0x8  - Linker created -
+    Veneer           inited        0x64c8         0x8  - Linker created -
+    Veneer           inited        0x64d0         0x8  - Linker created -
+    Veneer           inited        0x64d8         0x8  - Linker created -
+    Veneer           inited        0x64e0         0x8  - Linker created -
+    Veneer           inited        0x64e8         0x8  - Linker created -
+    .text            inited        0x64f0      0x4f4c  ratecontrol.o [1]
+    Veneer           inited        0xb43c         0x8  - Linker created -
+    .text            inited        0xb444      0x41b0  macroblock.o [1]
+    .text            inited        0xf5f4      0x33c0  pixel.o [1]
+    .text            inited      0x1'29b4      0x23cc  predict.o [1]
+    Veneer           inited      0x1'4d80         0x8  - Linker created -
+    Veneer           inited      0x1'4d88         0x8  - Linker created -
+    Veneer           inited      0x1'4d90         0x8  - Linker created -
+    Veneer           inited      0x1'4d98         0x8  - Linker created -
+    Veneer           inited      0x1'4da0         0x8  - Linker created -
+    Veneer           inited      0x1'4da8         0x8  - Linker created -
+    .text            inited      0x1'4db0      0x22e0  cabac_encoder.o [1]
+    .text            inited      0x1'7090      0x21a4  deblock.o [1]
+    .text            inited      0x1'9234      0x1dcc  dct.o [1]
+    Veneer           inited      0x1'b000         0x8  - Linker created -
+    Veneer           inited      0x1'b008         0x8  - Linker created -
+    .text            inited      0x1'b010      0x1d44  mc.o [1]
+    .text            inited      0x1'cd54       0xe9c  quant.o [1]
+    .rodata          inited      0x1'dbf0       0x210  deblock.o [1]
+    .rodata          inited      0x1'de00       0x138  me.o [1]
+    .rodata          inited      0x1'df38       0x128  cabac_encoder.o [1]
+    .rodata          inited      0x1'e060       0x100  dct.o [1]
+    .rodata          inited      0x1'e160       0x100  dct.o [1]
+    .rodata          inited      0x1'e260        0xec  ratecontrol.o [1]
+    .rodata          inited      0x1'e34c        0xbc  ratecontrol.o [1]
+    .rodata          inited      0x1'e408        0xb8  macroblock.o [1]
+    .rodata          inited      0x1'e4c0        0xac  ratecontrol.o [1]
+    .rodata          inited      0x1'e56c        0xa4  ratecontrol.o [1]
+    .rodata          inited      0x1'e610        0x90  mc.o [1]
+    .rodata          inited      0x1'e6a0        0x80  mvpred.o [1]
+    .rodata          inited      0x1'e720        0x5c  ratecontrol.o [1]
+    .rodata          inited      0x1'e77c        0x58  ratecontrol.o [1]
+    .rodata          inited      0x1'e7d4        0x50  macroblock.o [1]
+    .rodata          inited      0x1'e824        0x40  dct.o [1]
+    .rodata          inited      0x1'e864        0x40  dct.o [1]
+    .rodata          inited      0x1'e8a4        0x40  quant.o [1]
+    .rodata          inited      0x1'e8e4        0x3c  cabac_encoder.o [1]
+    .rodata          inited      0x1'e920        0x38  me.o [1]
+    .rodata          inited      0x1'e958        0x34  macroblock.o [1]
+    .rodata          inited      0x1'e98c        0x34  mvpred.o [1]
+    .rodata          inited      0x1'e9c0        0x30  me.o [1]
+    .rodata          inited      0x1'e9f0        0x28  ratecontrol.o [1]
+    .data            inited      0x1'ea18        0x18  mc.o [1]
+    .data            inited      0x1'ea30        0x10  cabac_encoder.o [1]
+    .data            inited      0x1'ea40        0x10  ratecontrol.o [1]
+    .data            inited      0x1'ea50        0x10  ratecontrol.o [1]
+    .rodata          inited      0x1'ea60         0x4  ratecontrol.o [1]
+    .text            inited      0x1'ea64         0x2  osdep.o [1]
+                               - 0x1'ea66    0x1'ea66
+
+"P7-P8", part 2 of 2:                            0x84
+  .bss               zero        0x1'ea68        0x80  me.o [1]
+  .bss               zero        0x1'eae8         0x4  me.o [1]
+                               - 0x1'eaec        0x84
+
+"A0":                                           0x400
+  .intvec            ro code  0x8000'2000       0x400  startup_MIMXRT1176_cm7.o [1]
+                            - 0x8000'2400       0x400
+
+"P1":                                        0x7'a3d5
+  Veneer             ro code  0x8000'2400         0x8  - Linker created -
+  Veneer             ro code  0x8000'2408         0x8  - Linker created -
+  Veneer             ro code  0x8000'2410         0x8  - Linker created -
+  Veneer             ro code  0x8000'2418         0x8  - Linker created -
+  Veneer             ro code  0x8000'2420         0x8  - Linker created -
+  Veneer             ro code  0x8000'2428         0x8  - Linker created -
+  Veneer             ro code  0x8000'2430         0x8  - Linker created -
+  Veneer             ro code  0x8000'2438         0x8  - Linker created -
+  Veneer             ro code  0x8000'2440         0x8  - Linker created -
+  Veneer             ro code  0x8000'2448         0x8  - Linker created -
+  Veneer             ro code  0x8000'2450         0x8  - Linker created -
+  Veneer             ro code  0x8000'2458         0x8  - Linker created -
+  Veneer             ro code  0x8000'2460         0x8  - Linker created -
+  .text              ro code  0x8000'2468    0x1'b27c  analyse.o [1]
+  .text              ro code  0x8001'd6e4        0x18  fsl_assert.o [1]
+  Veneer             ro code  0x8001'd6fc         0x8  - Linker created -
+  Veneer             ro code  0x8001'd704         0x8  - Linker created -
+  .text              ro code  0x8001'd70c      0x38e4  macroblock_encoder.o [1]
+  .text              ro code  0x8002'0ff0        0xa6  ABImemcpy.o [4]
+  .text              ro code  0x8002'1096        0x3a  zero_init3.o [4]
+  .text              ro code  0x8002'10d0         0x6  ABImemclr.o [4]
+  .text              ro code  0x8002'10d6        0x1e  xsscin.o [2]
+  .text              ro code  0x8002'10f4      0x37ac  common.o [1]
+  .text              ro code  0x8002'48a0        0xc0  logf.o [3]
+  .text              ro code  0x8002'4960      0x1b70  frame.o [1]
+  .text              ro code  0x8002'64d0         0x6  ABImemclr4.o [4]
+  .text              ro code  0x8002'64d6        0x1a  xsnprout.o [2]
+  .text              ro code  0x8002'64f0       0x274  I64DivMod.o [4]
+  .text              ro code  0x8002'6764       0x158  fsl_debug_console.o [1]
+  .text              ro code  0x8002'68bc        0x66  ABImemset.o [4]
+  .text              ro code  0x8002'6922         0x8  cpu.o [1]
+  .text              ro code  0x8002'692a         0xa  xsprout.o [2]
+  .text              ro code  0x8002'6934        0x3a  ABImemset48.o [4]
+  .text              ro code  0x8002'696e        0x94  iar_Stolx.o [2]
+  .text              ro code  0x8002'6a02        0x54  strcasecmp.o [2]
+  .text              ro code  0x8002'6a56         0x2  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8002'6a58        0x36  strlen.o [4]
+  .text              ro code  0x8002'6a8e         0x2  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8002'6a90        0x8c  strcpy_fast.o [4]
+  .text              ro code  0x8002'6b1c        0x4c  strtok.o [2]
+  .text              ro code  0x8002'6b68        0x44  strncasecmp.o [2]
+  .text              ro code  0x8002'6bac         0x4  heaptramp0.o [2]
+  .text              ro code  0x8002'6bb0        0x60  strchr_fast.o [4]
+  .text              ro code  0x8002'6c10        0x28  sscanf.o [2]
+  .text              ro code  0x8002'6c38      0x14dc  dlmalloc.o [2]
+  .text              ro code  0x8002'8114        0x28  strncmp.o [2]
+  .text              ro code  0x8002'813c        0xb0  strcmp_fast.o [4]
+  .text              ro code  0x8002'81ec        0x39  strtok_r.o [2]
+  .text              ro code  0x8002'8226         0x2  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8002'8228       0x45e  strto64.o [3]
+  .text              ro code  0x8002'8686        0x2c  strstr.o [2]
+  .text              ro code  0x8002'86b2         0x2  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8002'86b4        0x40  sprintf.o [2]
+  .text              ro code  0x8002'86f4        0x24  errno.o [2]
+  .text              ro code  0x8002'8718         0x2  I64DivZer.o [4]
+  .text              ro code  0x8002'871a        0xd2  fsl_component_serial_manager.o [1]
+  .text              ro code  0x8002'87ec       0x244  fsl_str.o [1]
+  .text              ro code  0x8002'8a30       0x14a  iar_Stoulx.o [2]
+  .text              ro code  0x8002'8b7a         0xc  tolower.o [2]
+  .text              ro code  0x8002'8b86        0x22  strspn.o [2]
+  .text              ro code  0x8002'8ba8        0x22  strcspn.o [2]
+  .text              ro code  0x8002'8bca         0x2  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8002'8bcc       0x684  xscanfsmall_nomb.o [2]
+  .text              ro code  0x8002'9250         0x6  abort.o [2]
+  .text              ro code  0x8002'9256         0x2  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8002'9258        0x2c  xgetmemchunk.o [2]
+  .text              ro code  0x8002'9284        0x7c  frexp.o [3]
+  .text              ro code  0x8002'9300        0xf0  ldexp.o [3]
+  .text              ro code  0x8002'93f0       0x120  iar_Stopfx.o [2]
+  .text              ro code  0x8002'9510       0x1a8  iar_Stoflt.o [2]
+  .text              ro code  0x8002'96b8       0x20c  iar_Stoxflt.o [2]
+  .text              ro code  0x8002'98c4       0x501  xprintfsmall_nomb.o [2]
+  .rodata            const    0x8002'9dc5         0x1  common.o [1]
+  .text              ro code  0x8002'9dc6         0x4  tp_nothreads.o [2]
+  .text              ro code  0x8002'9dca        0x28  fsl_component_serial_port_uart.o [1]
+  .text              ro code  0x8002'9df2         0x2  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8002'9df4        0x58  memchr.o [4]
+  .text              ro code  0x8002'9e4c        0x40  xfail_s.o [2]
+  .text              ro code  0x8002'9e8c        0x14  exit.o [5]
+  .text              ro code  0x8002'9ea0       0x130  fsl_adapter_lpuart.o [1]
+  .text              ro code  0x8002'9fd0        0x7c  iarttio.o [5]
+  .text              ro code  0x8002'a04c       0x484  fsl_lpuart.o [1]
+  .text              ro code  0x8002'a4d0        0x3c  XShttio.o [2]
+  Veneer             ro code  0x8002'a50c         0x8  - Linker created -
+  Veneer             ro code  0x8002'a514         0x8  - Linker created -
+  Veneer             ro code  0x8002'a51c         0x8  - Linker created -
+  Veneer             ro code  0x8002'a524         0x8  - Linker created -
+  Veneer             ro code  0x8002'a52c         0x8  - Linker created -
+  Veneer             ro code  0x8002'a534         0x8  - Linker created -
+  Veneer             ro code  0x8002'a53c         0x8  - Linker created -
+  Veneer             ro code  0x8002'a544         0x8  - Linker created -
+  Veneer             ro code  0x8002'a54c         0x8  - Linker created -
+  Veneer             ro code  0x8002'a554         0x8  - Linker created -
+  Veneer             ro code  0x8002'a55c         0x8  - Linker created -
+  Veneer             ro code  0x8002'a564         0x8  - Linker created -
+  Veneer             ro code  0x8002'a56c         0x8  - Linker created -
+  Veneer             ro code  0x8002'a574         0x8  - Linker created -
+  Veneer             ro code  0x8002'a57c         0x8  - Linker created -
+  Veneer             ro code  0x8002'a584         0x8  - Linker created -
+  Veneer             ro code  0x8002'a58c         0x8  - Linker created -
+  Veneer             ro code  0x8002'a594         0x8  - Linker created -
+  Veneer             ro code  0x8002'a59c         0x8  - Linker created -
+  Veneer             ro code  0x8002'a5a4         0x8  - Linker created -
+  Veneer             ro code  0x8002'a5ac         0x8  - Linker created -
+  Veneer             ro code  0x8002'a5b4         0x8  - Linker created -
+  Veneer             ro code  0x8002'a5bc         0x8  - Linker created -
+  Veneer             ro code  0x8002'a5c4         0x8  - Linker created -
+  Veneer             ro code  0x8002'a5cc         0x8  - Linker created -
+  Veneer             ro code  0x8002'a5d4         0x8  - Linker created -
+  Veneer             ro code  0x8002'a5dc         0x8  - Linker created -
+  Veneer             ro code  0x8002'a5e4         0x8  - Linker created -
+  Veneer             ro code  0x8002'a5ec         0x8  - Linker created -
+  Veneer             ro code  0x8002'a5f4         0x8  - Linker created -
+  Veneer             ro code  0x8002'a5fc         0x8  - Linker created -
+  Veneer             ro code  0x8002'a604         0x8  - Linker created -
+  Veneer             ro code  0x8002'a60c         0x8  - Linker created -
+  Veneer             ro code  0x8002'a614         0x8  - Linker created -
+  Veneer             ro code  0x8002'a61c         0x8  - Linker created -
+  Veneer             ro code  0x8002'a624         0x8  - Linker created -
+  Veneer             ro code  0x8002'a62c         0x8  - Linker created -
+  Veneer             ro code  0x8002'a634         0x8  - Linker created -
+  Veneer             ro code  0x8002'a63c         0x8  - Linker created -
+  Veneer             ro code  0x8002'a644         0x8  - Linker created -
+  Veneer             ro code  0x8002'a64c         0x8  - Linker created -
+  Veneer             ro code  0x8002'a654         0x8  - Linker created -
+  Veneer             ro code  0x8002'a65c         0x8  - Linker created -
+  Veneer             ro code  0x8002'a664         0x8  - Linker created -
+  Veneer             ro code  0x8002'a66c         0x8  - Linker created -
+  Veneer             ro code  0x8002'a674         0x8  - Linker created -
+  .text              ro code  0x8002'a67c      0x9f84  encoder.o [1]
+  .text              ro code  0x8003'4600      0x2ebc  set_encoder.o [1]
+  .text              ro code  0x8003'74bc       0xe6c  set.o [1]
+  .text              ro code  0x8003'8328        0xf8  bitstream.o [1]
+  .text              ro code  0x8003'8420       0x364  cabac.o [1]
+  .text              ro code  0x8003'8784       0x240  vlc.o [1]
+  .text              ro code  0x8003'89c4       0x560  pow64.o [3]
+  .text              ro code  0x8003'8f24       0x310  lookahead.o [1]
+  .text              ro code  0x8003'9234        0x44  snprintf.o [2]
+  .text              ro code  0x8003'9278      0x26ec  cavlc.o [1]
+  .text              ro code  0x8003'b964        0x96  ABImemmove.o [4]
+  .text              ro code  0x8003'b9fa         0x2  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8003'b9fc        0x52  S64ToDbl.o [3]
+  .text              ro code  0x8003'ba4e         0x2  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8003'ba50        0xc8  log10.o [3]
+  .text              ro code  0x8003'bb18        0x68  memcmp.o [4]
+  .text              ro code  0x8003'bb80        0x22  I64Shl.o [4]
+  .text              ro code  0x8003'bba2        0x24  strpbrk.o [2]
+  .rodata            const    0x8003'bbc6         0x1  cpu.o [1]
+  .text              ro code  0x8003'bbc8       0x330  iar_Exp64.o [3]
+  Veneer             ro code  0x8003'bef8         0x8  - Linker created -
+  .text              ro code  0x8003'bf00      0x4c98  slicetype.o [1]
+  .text              ro code  0x8004'0b98        0xd8  log.o [3]
+  .text              ro code  0x8004'0c70        0x48  U64ToFlt.o [3]
+  .text              ro code  0x8004'0cb8        0x1e  sqrtf.o [3]
+  .text              ro code  0x8004'0cd8        0x62  round.o [3]
+  .rodata            const    0x8004'0d3c      0x7378  ffunicode.o [1]
+  .rodata            const    0x8004'80b4      0x7378  ffunicode.o [1]
+  .text              ro code  0x8004'f42c      0x20d8  fsl_sd.o [1]
+  .text              ro code  0x8005'1504       0x724  fsl_sdmmc_host.o [1]
+  .text              ro code  0x8005'1c28       0x168  fsl_sdmmc_common.o [1]
+  .text              ro code  0x8005'1d90       0x14c  fsl_sdmmc_osa.o [1]
+  .text              ro code  0x8005'1edc       0xebc  fsl_usdhc.o [1]
+  .text              ro code  0x8005'2d98        0xd8  fsl_os_abstraction_bm.o [1]
+  .text              ro code  0x8005'2e70        0x90  fsl_common.o [1]
+  .text              ro code  0x8005'2f00        0x78  fsl_cache.o [1]
+  .text              ro code  0x8005'2f78      0x20bc  ff.o [1]
+  .text              ro code  0x8005'5034        0x3c  diskio.o [1]
+  .text              ro code  0x8005'5070       0x150  ffunicode.o [1]
+  .text              ro code  0x8005'51c0        0xcc  fsl_sd_disk.o [1]
+  .rodata            const    0x8005'528c      0x2000  cabac.o [1]
+  .rodata            const    0x8005'728c      0x14a0  slicetype.o [1]
+  Veneer             ro code  0x8005'872c         0x8  - Linker created -
+  .text              ro code  0x8005'8734       0xe54  x264.o [1]
+  .text              ro code  0x8005'9588       0x110  gpt.o [1]
+  .text              ro code  0x8005'9698       0x190  video.o [1]
+  .text              ro code  0x8005'9828       0x1bc  fmod.o [3]
+  .text              ro code  0x8005'99e4        0x5c  DblToS64.o [3]
+  .text              ro code  0x8005'9a40       0x1bc  fsl_gpt.o [1]
+  .text              ro code  0x8005'9bfc       0x874  fsl_clock.o [1]
+  .text              ro code  0x8005'a470        0x54  fsl_anatop.o [1]
+  .text              ro code  0x8005'a4c4       0x3d0  fsl_anatop_ai.o [1]
+  .rodata            const    0x8005'a894       0xbe8  analyse.o [1]
+  .rodata            const    0x8005'b47c       0x8f8  common.o [1]
+  .rodata            const    0x8005'bd74       0x728  encoder.o [1]
+  .text              ro code  0x8005'c49c       0x728  depth.o [1]
+  .text              ro code  0x8005'cbc4       0x2b0  input.o [1]
+  .text              ro code  0x8005'ce74       0x2a4  filters.o [1]
+  .text              ro code  0x8005'd118        0x3a  FltToU64.o [3]
+  .rodata            const    0x8005'd154       0x5a8  encoder.o [1]
+  .rodata            const    0x8005'd6fc       0x430  fsl_clock.o [1]
+  .rodata            const    0x8005'db2c        0x7c  frame.o [1]
+  .rodata            const    0x8005'dba8       0x420  pow64.o [3]
+  .rodata            const    0x8005'dfc8       0x3f8  set_encoder.o [1]
+  .text              ro code  0x8005'e3c0       0x3f4  board.o [1]
+  .text              ro code  0x8005'e7b4       0x380  pow32.o [3]
+  .text              ro code  0x8005'eb34        0x48  frexpf.o [3]
+  .text              ro code  0x8005'eb7c       0x23c  iar_Exp32.o [3]
+  .text              ro code  0x8005'edb8        0xc4  ldexpf.o [3]
+  .rodata            const    0x8005'ee7c        0x7c  fsl_sd.o [1]
+  .rodata            const    0x8005'eef8       0x368  analyse.o [1]
+  .text              ro code  0x8005'f260       0x324  select_every.o [1]
+  .text              ro code  0x8005'f584        0x28  printf.o [2]
+  .rodata            const    0x8005'f5ac       0x314  x264.o [1]
+  .rodata            const    0x8005'f8c0       0x300  input.o [1]
+  .rodata            const    0x8005'fbc0       0x300  vlc.o [1]
+  .text              ro code  0x8005'fec0       0x2e0  crop.o [1]
+  .rodata            const    0x8006'01a0       0x2d0  board.o [1]
+  .rodata            const    0x8006'0470       0x2d0  clock_config.o [1]
+  .rodata            const    0x8006'0740       0x2d0  sdmmc_config.o [1]
+  .rodata            const    0x8006'0a10       0x2b0  ffunicode.o [1]
+  .rodata            const    0x8006'0cc0       0x264  cavlc.o [1]
+  .text              ro code  0x8006'0f24       0x260  raw_input.o [1]
+  .rodata            const    0x8006'1184       0x240  set_encoder.o [1]
+  .text              ro code  0x8006'13c4       0x234  clock_config.o [1]
+  .text              ro code  0x8006'15f8       0x22c  fsl_pmu.o [1]
+  .text              ro code  0x8006'1824       0x234  sdmmc_config.o [1]
+  .text              ro code  0x8006'1a58       0x188  fsl_gpio.o [1]
+  .rodata            const    0x8006'1be0       0x230  fsl_usdhc.o [1]
+  .rodata            const    0x8006'1e10       0x200  analyse.o [1]
+  .rodata            const    0x8006'2010       0x200  cabac.o [1]
+  .text              ro code  0x8006'2210       0x1f0  lz77_init.o [4]
+  .rodata            const    0x8006'2400       0x1e0  vlc.o [1]
+  .text              ro code  0x8006'25e0       0x1d8  cache.o [1]
+  .text              ro code  0x8006'27b8       0x160  internal.o [1]
+  .text              ro code  0x8006'2918       0x1c6  system_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'2ae0       0x196  fix_vfr_pts.o [1]
+  .text              ro code  0x8006'2c78       0x14c  sdcard_fatfs.o [1]
+  .text              ro code  0x8006'2dc4        0x94  pin_mux.o [1]
+  .rodata            const    0x8006'2e58       0x148  slicetype.o [1]
+  .rodata            const    0x8006'2fa0       0x128  encoder.o [1]
+  .rodata            const    0x8006'30c8       0x11c  encoder.o [1]
+  .rodata            const    0x8006'31e4       0x11c  fsl_lpuart.o [1]
+  .rodata            const    0x8006'3300       0x118  select_every.o [1]
+  .text              ro code  0x8006'3418       0x10c  raw.o [1]
+  .rodata            const    0x8006'3524       0x100  cabac.o [1]
+  .rodata            const    0x8006'3624       0x100  slicetype.o [1]
+  .rodata            const    0x8006'3724        0xfc  fsl_adapter_lpuart.o [1]
+  .rodata            const    0x8006'3820        0xe4  fsl_gpt.o [1]
+  .text              ro code  0x8006'3904        0xe2  xexp.o [3]
+  .rodata            const    0x8006'39e8        0xe0  vlc.o [1]
+  .rodata            const    0x8006'3ac8        0xd4  common.o [1]
+  .rodata            const    0x8006'3b9c        0xd0  fsl_gpio.o [1]
+  .text              ro code  0x8006'3c6c        0xcc  source.o [1]
+  .rodata            const    0x8006'3d38        0xc4  set.o [1]
+  .rodata            const    0x8006'3dfc        0xb8  common.o [1]
+  .rodata            const    0x8006'3eb4        0xb8  frame.o [1]
+  .rodata            const    0x8006'3f6c        0x7c  sdmmc_config.o [1]
+  .rodata            const    0x8006'3fe8        0xb0  log.o [3]
+  .rodata            const    0x8006'4098        0xa8  xexp.o [3]
+  .rodata            const    0x8006'4140        0xa4  filters.o [1]
+  .rodata            const    0x8006'41e4        0x98  common.o [1]
+  .rodata            const    0x8006'427c        0x84  analyse.o [1]
+  .rodata            const    0x8006'4300        0x80  analyse.o [1]
+  .rodata            const    0x8006'4380        0x80  fsl_sdmmc_common.o [1]
+  .rodata            const    0x8006'4400        0x80  lookahead.o [1]
+  .rodata            const    0x8006'4480        0x80  set.o [1]
+  .rodata            const    0x8006'4500        0x80  slicetype.o [1]
+  .rodata            const    0x8006'4580        0x78  encoder.o [1]
+  .rodata            const    0x8006'45f8        0x74  board.o [1]
+  .rodata            const    0x8006'466c        0x74  crop.o [1]
+  .text              ro code  0x8006'46e0        0x74  resize.o [1]
+  .rodata            const    0x8006'4754        0x70  set_encoder.o [1]
+  .rodata            const    0x8006'47c4        0x70  vlc.o [1]
+  .text              ro code  0x8006'4834        0x6c  startup_MIMXRT1176_cm7.o [1]
+  .rodata            const    0x8006'48a0        0x68  fsl_sdmmc_host.o [1]
+  .rodata            const    0x8006'4908        0x68  sdcard_fatfs.o [1]
+  .rodata            const    0x8006'4970        0x68  x264.o [1]
+  .rodata            const    0x8006'49d8        0x60  common.o [1]
+  .rodata            const    0x8006'4a38        0x5c  crop.o [1]
+  .rodata            const    0x8006'4a94        0x5c  fsl_anatop_ai.o [1]
+  .rodata            const    0x8006'4af0        0x58  fsl_common.o [1]
+  .rodata            const    0x8006'4b48        0x58  fsl_os_abstraction_bm.o [1]
+  .rodata            const    0x8006'4ba0        0x58  fsl_sd.o [1]
+  .text              ro code  0x8006'4bf8        0x58  exp.o [3]
+  .rodata            const    0x8006'4c50        0x54  fsl_pmu.o [1]
+  .rodata            const    0x8006'4ca4        0x54  fsl_sdmmc_osa.o [1]
+  .rodata            const    0x8006'4cf8        0x50  slicetype.o [1]
+  .rodata            const    0x8006'4d48        0x50  iar_Stoulx.o [2]
+  .rodata            const    0x8006'4d98        0x4c  depth.o [1]
+  .rodata            const    0x8006'4de4        0x4c  raw_input.o [1]
+  .rodata            const    0x8006'4e30        0x48  strto64.o [3]
+  .text              ro code  0x8006'4e78        0x46  U64ToDbl.o [3]
+  .rodata            const    0x8006'4ec0        0x44  logf.o [3]
+  .rodata            const    0x8006'4f04        0x40  analyse.o [1]
+  .rodata            const    0x8006'4f44        0x40  cabac.o [1]
+  .rodata            const    0x8006'4f84        0x40  cabac.o [1]
+  .rodata            const    0x8006'4fc4        0x40  fsl_sdmmc_common.o [1]
+  .rodata            const    0x8006'5004        0x38  frame.o [1]
+  .rodata            const    0x8006'503c        0x38  gpt.o [1]
+  .rodata            const    0x8006'5074        0x34  cavlc.o [1]
+  .rodata            const    0x8006'50a8        0x34  macroblock_encoder.o [1]
+  .rodata            const    0x8006'50dc        0x34  set_encoder.o [1]
+  .rodata            const    0x8006'5110        0x2c  cache.o [1]
+  .rodata            const    0x8006'513c        0x2c  fsl_assert.o [1]
+  .rodata            const    0x8006'5168        0x28  raw.o [1]
+  .rodata            const    0x8006'5190        0x28  set.o [1]
+  .text              ro code  0x8006'51b8        0x28  data_init.o [4]
+  .rodata            const    0x8006'51e0        0x24  encoder.o [1]
+  .rodata            const    0x8006'5204        0x24  resize.o [1]
+  .rodata            const    0x8006'5228        0x24  set_encoder.o [1]
+  .rodata            const    0x8006'524c        0x24  xscanfsmall_nomb.o [2]
+  .text              ro code  0x8006'5270        0x22  fpinit_M.o [3]
+  .text              ro code  0x8006'5292        0x22  iarwrite.o [5]
+  .iar.init_table    const    0x8006'52b4        0x58  - Linker created -
+  .rodata            const    0x8006'530c        0x20  macroblock_encoder.o [1]
+  .text              ro code  0x8006'532c        0x20  putchar.o [2]
+  .text              ro code  0x8006'534c        0x10  write.o [5]
+  .text              ro code  0x8006'535c        0x1e  dwrite.o [5]
+  .text              ro code  0x8006'537a        0x20  iarwstd.o [5]
+  .text              ro code  0x8006'539c        0x1e  U64Shr.o [4]
+  .text              ro code  0x8006'53bc        0x1e  sqrt.o [3]
+  .text              ro code  0x8006'53dc        0x1e  cmain.o [4]
+  .text              ro code  0x8006'53fa         0x4  low_level_init.o [2]
+  .text              ro code  0x8006'53fe         0x4  exit.o [2]
+  .text              ro code  0x8006'5404         0xa  cexit.o [4]
+  .rodata            const    0x8006'5410        0x18  raw_input.o [1]
+  .rodata            const    0x8006'5428        0x18  vlc.o [1]
+  .text              ro code  0x8006'5440        0x16  xprout.o [2]
+  .rodata            const    0x8006'5458        0x14  raw.o [1]
+  .rodata            const    0x8006'546c        0x10  common.o [1]
+  .rodata            const    0x8006'547c        0x10  common.o [1]
+  .rodata            const    0x8006'548c         0xc  common.o [1]
+  .rodata            const    0x8006'5498         0xc  common.o [1]
+  .rodata            const    0x8006'54a4         0xc  common.o [1]
+  .rodata            const    0x8006'54b0         0xc  common.o [1]
+  .rodata            const    0x8006'54bc         0xc  common.o [1]
+  .rodata            const    0x8006'54c8         0xc  common.o [1]
+  .rodata            const    0x8006'54d4         0xc  common.o [1]
+  .rodata            const    0x8006'54e0         0xc  common.o [1]
+  .rodata            const    0x8006'54ec         0xc  common.o [1]
+  .rodata            const    0x8006'54f8         0xc  common.o [1]
+  .rodata            const    0x8006'5504         0xc  common.o [1]
+  .rodata            const    0x8006'5510         0xc  common.o [1]
+  .rodata            const    0x8006'551c         0xc  fix_vfr_pts.o [1]
+  .rodata            const    0x8006'5528         0xc  vlc.o [1]
+  .text              ro code  0x8006'5534         0xc  memcpy.o [4]
+  .text              ro code  0x8006'5540         0xc  cstartup_M.o [4]
+  .rodata            const    0x8006'554c         0x8  common.o [1]
+  .rodata            const    0x8006'5554         0x8  common.o [1]
+  .rodata            const    0x8006'555c         0x8  common.o [1]
+  .rodata            const    0x8006'5564         0x8  common.o [1]
+  .rodata            const    0x8006'556c         0x8  common.o [1]
+  .rodata            const    0x8006'5574         0x8  common.o [1]
+  .rodata            const    0x8006'557c         0x8  common.o [1]
+  .rodata            const    0x8006'5584         0x8  common.o [1]
+  .rodata            const    0x8006'558c         0x8  common.o [1]
+  .rodata            const    0x8006'5594         0x8  common.o [1]
+  .rodata            const    0x8006'559c         0x8  common.o [1]
+  .rodata            const    0x8006'55a4         0x8  common.o [1]
+  .rodata            const    0x8006'55ac         0x8  common.o [1]
+  .rodata            const    0x8006'55b4         0x8  common.o [1]
+  .rodata            const    0x8006'55bc         0x8  common.o [1]
+  .rodata            const    0x8006'55c4         0x8  common.o [1]
+  .rodata            const    0x8006'55cc         0x8  common.o [1]
+  .rodata            const    0x8006'55d4         0x8  common.o [1]
+  .rodata            const    0x8006'55dc         0x8  common.o [1]
+  .rodata            const    0x8006'55e4         0x8  common.o [1]
+  .rodata            const    0x8006'55ec         0x8  cpu.o [1]
+  .rodata            const    0x8006'55f4         0x8  crop.o [1]
+  .rodata            const    0x8006'55fc         0x8  crop.o [1]
+  .rodata            const    0x8006'5604         0x8  crop.o [1]
+  .rodata            const    0x8006'560c         0x8  encoder.o [1]
+  .rodata            const    0x8006'5614         0x8  encoder.o [1]
+  .rodata            const    0x8006'561c         0x8  encoder.o [1]
+  .rodata            const    0x8006'5624         0x8  encoder.o [1]
+  .rodata            const    0x8006'562c         0x8  input.o [1]
+  .rodata            const    0x8006'5634         0x8  input.o [1]
+  .rodata            const    0x8006'563c         0x8  input.o [1]
+  .rodata            const    0x8006'5644         0x8  input.o [1]
+  .rodata            const    0x8006'564c         0x8  input.o [1]
+  .rodata            const    0x8006'5654         0x8  input.o [1]
+  .rodata            const    0x8006'565c         0x8  input.o [1]
+  .rodata            const    0x8006'5664         0x8  input.o [1]
+  .rodata            const    0x8006'566c         0x8  input.o [1]
+  .rodata            const    0x8006'5674         0x8  input.o [1]
+  .rodata            const    0x8006'567c         0x8  input.o [1]
+  .rodata            const    0x8006'5684         0x8  input.o [1]
+  .rodata            const    0x8006'568c         0x8  slicetype.o [1]
+  .rodata            const    0x8006'5694         0x8  slicetype.o [1]
+  .rodata            const    0x8006'569c         0x8  slicetype.o [1]
+  .rodata            const    0x8006'56a4         0x8  source.o [1]
+  .text              ro code  0x8006'56ac         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'56b4         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'56bc         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'56c4         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'56cc         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'56d4         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'56dc         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'56e4         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'56ec         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'56f4         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'56fc         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'5704         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'570c         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'5714         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'571c         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'5724         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'572c         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'5734         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'573c         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'5744         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'574c         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'5754         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'575c         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'5764         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'576c         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'5774         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'577c         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'5784         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'578c         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'5794         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'579c         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'57a4         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'57ac         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'57b4         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'57bc         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'57c4         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'57cc         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'57d4         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'57dc         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'57e4         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'57ec         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'57f4         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'57fc         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'5804         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'580c         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'5814         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'581c         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'5824         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'582c         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'5834         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'583c         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'5844         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'584c         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'5854         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'585c         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'5864         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'586c         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'5874         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'587c         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'5884         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'588c         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'5894         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'589c         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'58a4         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'58ac         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'58b4         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'58bc         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'58c4         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'58cc         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'58d4         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'58dc         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'58e4         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'58ec         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'58f4         0x8  startup_MIMXRT1176_cm7.o [1]
+  .text              ro code  0x8006'58fc         0x8  startup_MIMXRT1176_cm7.o [1]
+  .rodata            const    0x8006'5904         0x4  common.o [1]
+  .rodata            const    0x8006'5908         0x4  common.o [1]
+  .rodata            const    0x8006'590c         0x4  common.o [1]
+  .rodata            const    0x8006'5910         0x4  common.o [1]
+  .rodata            const    0x8006'5914         0x4  common.o [1]
+  .rodata            const    0x8006'5918         0x4  common.o [1]
+  .rodata            const    0x8006'591c         0x4  common.o [1]
+  .rodata            const    0x8006'5920         0x4  common.o [1]
+  .rodata            const    0x8006'5924         0x4  common.o [1]
+  .rodata            const    0x8006'5928         0x4  common.o [1]
+  .rodata            const    0x8006'592c         0x4  common.o [1]
+  .rodata            const    0x8006'5930         0x4  common.o [1]
+  .rodata            const    0x8006'5934         0x4  crop.o [1]
+  .rodata            const    0x8006'5938         0x4  input.o [1]
+  .rodata            const    0x8006'593c         0x4  input.o [1]
+  .text              ro code  0x8006'5940         0x4  startup_MIMXRT1176_cm7.o [1]
+  .rodata            const    0x8006'5944         0x0  zero_init3.o [4]
+  .rodata            const    0x8006'5944         0x0  lz77_init.o [4]
+  Initializer bytes  const    0x8006'5944       0xc43  <for RW-1>
+  Initializer bytes  const    0x8006'6587    0x1'624e  <for P7-P8 s0>
+                            - 0x8007'c7d5    0x7'a3d5
+
+"P2-P4", part 1 of 3:                        0x4'18f8
+  RW                          0x8020'0000    0x4'18f8  <Block>
+    RW-1                      0x8020'0000    0x4'18f8  <Init block>
+      .data          inited   0x8020'0000       0x930  analyse.o [1]
+      .data          inited   0x8020'0930        0x10  cabac.o [1]
+      .data          inited   0x8020'0940        0x1c  cache.o [1]
+      .data          inited   0x8020'095c        0x10  cavlc.o [1]
+      .data          inited   0x8020'096c        0x1c  crop.o [1]
+      .data          inited   0x8020'0988        0x1c  depth.o [1]
+      .data          inited   0x8020'09a4        0x10  encoder.o [1]
+      .data          inited   0x8020'09b4        0x1c  fix_vfr_pts.o [1]
+      .data          inited   0x8020'09d0        0x10  macroblock_encoder.o [1]
+      .data          inited   0x8020'09e0        0x1c  resize.o [1]
+      .data          inited   0x8020'09fc        0x98  sdmmc_config.o [1]
+      .data          inited   0x8020'0a94        0x1c  select_every.o [1]
+      .data          inited   0x8020'0ab0        0x10  slicetype.o [1]
+      .data          inited   0x8020'0ac0        0x1c  source.o [1]
+      .data          inited   0x8020'0adc         0x4  system_MIMXRT1176_cm7.o [1]
+      .data          inited   0x8020'0ae0    0x4'0e10  vlc.o [1]
+      .data          inited   0x8024'18f0         0x8  XShttio.o [2]
+                            - 0x8024'18f8    0x4'18f8
+
+"P2-P4", part 2 of 3:                        0x3'a2a0
+  ZI                          0x8024'1900    0x3'a2a0  <Block>
+    .bss             zero     0x8024'1900       0xf00  analyse.o [1]
+    .bss             zero     0x8024'2800      0x47e4  analyse.o [1]
+    .bss             zero     0x8024'6fe4       0x200  analyse.o [1]
+    .bss             zero     0x8024'71e4    0x3'4000  cabac.o [1]
+    .bss             zero     0x8027'b1e4       0x210  ff.o [1]
+    .bss             zero     0x8027'b3f4         0x4  fsl_debug_console.o [1]
+    .bss             zero     0x8027'b3f8        0x38  fsl_lpuart.o [1]
+    .bss             zero     0x8027'b430       0x2b0  fsl_sd_disk.o [1]
+    .bss             zero     0x8027'b6e0        0x10  fsl_usdhc.o [1]
+    .bss             zero     0x8027'b6f0         0x8  gpt.o [1]
+    .bss             zero     0x8027'b6f8         0x4  raw.o [1]
+    .bss             zero     0x8027'b6fc         0x8  raw.o [1]
+    .bss             zero     0x8027'b704         0x1  raw.o [1]
+    .bss             zero     0x8027'b708         0x4  raw_input.o [1]
+    .bss             zero     0x8027'b70c         0x1  raw_input.o [1]
+    .bss             zero     0x8027'b710       0x238  sdcard_fatfs.o [1]
+    .bss             zero     0x8027'b948         0x4  video.o [1]
+    .bss             zero     0x8027'b94c        0x4c  x264.o [1]
+    .bss             zero     0x8027'b998         0x4  x264.o [1]
+    .bss             zero     0x8027'b99c         0x4  strtok.o [2]
+    .bss             zero     0x8027'b9a0        0x18  dlmalloc.o [2]
+    .bss             zero     0x8027'b9b8       0x1d8  dlmalloc.o [2]
+    .bss             zero     0x8027'bb90         0x4  xgetmemchunk.o [2]
+    .bss             zero     0x8027'bb94         0x4  xfail_s.o [2]
+    .bss             zero     0x8027'bb98         0x1  XShttio.o [2]
+    .tbss            zero     0x8027'bb9c         0x4  errno.o [2]
+                            - 0x8027'bba0    0x3'a2a0
+
+"P2-P4", part 3 of 3:                        0x4'0000
+  CSTACK                      0x8027'bba0    0x4'0000  <Block>
+    CSTACK           uninit   0x8027'bba0    0x4'0000  <Block tail>
+                            - 0x802b'bba0    0x4'0000
+
+"P5":                                      0x100'0000
+  HEAP                        0x8200'0000  0x100'0000  <Block>
+    HEAP             uninit   0x8200'0000  0x100'0000  <Block tail>
+                            - 0x8300'0000  0x100'0000
+
+"P6":                                      0x100'0000
+  NCACHE_VAR                  0x8300'0000  0x100'0000  <Block>
+    NonCacheable     zero     0x8300'0000        0x1c  fsl_debug_console.o [1]
+    NonCacheable     zero     0x8300'001c         0x4  fsl_usdhc.o [1]
+    NonCacheable     zero     0x8300'0020       0x228  raw.o [1]
+    NonCacheable     zero     0x8300'0248       0x228  raw_input.o [1]
+    NonCacheable     zero     0x8300'0470        0x80  sdmmc_config.o [1]
+    NCACHE_VAR       uninit   0x8300'04f0   0xff'fb10  <Block tail>
+                            - 0x8400'0000  0x100'0000
+
+Unused ranges:
+
+         From           To        Size
+         ----           --        ----
+     0x1'ea66     0x1'ea67         0x2
+     0x1'eaec     0x6'ffff    0x5'1514
+  0x8007'c7d5  0x801f'ffff   0x18'382b
+  0x8024'18f8  0x8024'18ff         0x8
+  0x802b'bba0  0x81ff'ffff  0x1d4'4460
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    3 destination ranges, total size 0x3'a814:
+             0x1'ea68      0x84
+          0x8024'1900  0x3'a2a0
+          0x8300'0000     0x4f0
+
+Copy/lz77 (__iar_lz77_init3)
+    1 source range, total size 0xc43 (1% of destination):
+          0x8006'5944     0xc43
+    1 destination range, total size 0x4'18f8:
+          0x8020'0000  0x4'18f8
+
+Copy/lz77 (__iar_lz77_init3)
+    1 source range, total size 0x1'624e (72% of destination):
+          0x8006'6587  0x1'624e
+    1 destination range, total size 0x1'ea66:
+                  0x0  0x1'ea66
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                            ro code  rw code  ro data     rw data
+    ------                            -------  -------  -------     -------
+command line/config:
+    -----------------------------------------------------------------------
+    Total:
+
+C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj: [1]
+    analyse.o                         111'228             4'783      25'108
+    bitstream.o                           248
+    board.o                             1'012               836
+    cabac.o                               868             9'088     213'008
+    cabac_encoder.o                              8'928    6'719         372
+    cache.o                               472                45          28
+    cavlc.o                             9'964               664          16
+    clock_config.o                        564               720
+    common.o                           14'252             3'325
+    cpu.o                                   8                 9
+    crop.o                                736               236          28
+    dct.o                                        7'628    5'973         640
+    deblock.o                                    8'612    6'603         528
+    depth.o                             1'832                76          28
+    diskio.o                               60
+    encoder.o                          40'836             4'049          16
+    ff.o                                8'380                           528
+    ffunicode.o                           336            59'808
+    filters.o                             676               164
+    fix_vfr_pts.o                         406                12          28
+    frame.o                             7'024               364
+    fsl_adapter_lpuart.o                  304               252
+    fsl_anatop.o                           84
+    fsl_anatop_ai.o                       976                92
+    fsl_assert.o                           24                44
+    fsl_cache.o                           120
+    fsl_clock.o                         2'164             1'072
+    fsl_common.o                          144                88
+    fsl_component_serial_manager.o        210
+    fsl_component_serial_port_uart.o       40
+    fsl_debug_console.o                   344                            32
+    fsl_gpio.o                            392               208
+    fsl_gpt.o                             444               228
+    fsl_lpuart.o                        1'156               284          56
+    fsl_os_abstraction_bm.o               216                88
+    fsl_pmu.o                             556                84
+    fsl_sd.o                            8'408               212
+    fsl_sd_disk.o                         204                           688
+    fsl_sdmmc_common.o                    360               192
+    fsl_sdmmc_host.o                    1'828               104
+    fsl_sdmmc_osa.o                       332                84
+    fsl_str.o                             580
+    fsl_usdhc.o                         3'772               560          20
+    gpt.o                                 272                56           8
+    input.o                               688               872
+    internal.o                            352
+    lookahead.o                           784               128
+    macroblock.o                                16'816   12'378         316
+    macroblock_encoder.o               14'564                84          16
+    mc.o                                         7'492    5'534         168
+    me.o                                        21'432   15'784         548
+    mvpred.o                                     4'168    3'142         180
+    osdep.o                                          2        2
+    pin_mux.o                             148
+    pixel.o                                     13'248    9'571
+    predict.o                                    9'164    6'621
+    quant.o                                      3'740    2'749          64
+    ratecontrol.o                               20'300   15'401       1'016
+    raw.o                                 268                60         565
+    raw_input.o                           608               100         557
+    resize.o                              116                36          28
+    sdcard_fatfs.o                        332               104         568
+    sdmmc_config.o                        564               846         280
+    select_every.o                        804               280          28
+    set.o                               3'692               364
+    set_encoder.o                      11'964             1'792
+    slicetype.o                        19'608             6'097          16
+    source.o                              204                 8          28
+    startup_MIMXRT1176_cm7.o            1'754
+    system_MIMXRT1176_cm7.o               454                             4
+    video.o                               400                             4
+    vlc.o                                 576             4'726     265'744
+    x264.o                              3'668               892          80
+    -----------------------------------------------------------------------
+    Total:                            283'380  121'530  194'693     511'342
+
+dl7M_tln.a: [2]
+    XShttio.o                              60                 1           9
+    abort.o                                 6
+    dlmalloc.o                          5'340                           496
+    errno.o                                36                             4
+    exit.o                                  4
+    heaptramp0.o                            4
+    iar_Stoflt.o                          424
+    iar_Stolx.o                           148
+    iar_Stopfx.o                          288
+    iar_Stoulx.o                          330                80
+    iar_Stoxflt.o                         524
+    low_level_init.o                        4
+    printf.o                               40
+    putchar.o                              32
+    snprintf.o                             68
+    sprintf.o                              64
+    sscanf.o                               40
+    strcasecmp.o                           84
+    strcspn.o                              34
+    strncasecmp.o                          68
+    strncmp.o                              40
+    strpbrk.o                              36
+    strspn.o                               34
+    strstr.o                               44
+    strtok.o                               76                             4
+    strtok_r.o                             57
+    tolower.o                              12
+    tp_nothreads.o                          4
+    xfail_s.o                              64                             4
+    xgetmemchunk.o                         44                             4
+    xprintfsmall_nomb.o                 1'281
+    xprout.o                               22
+    xscanfsmall_nomb.o                  1'668                36
+    xsnprout.o                             26
+    xsprout.o                              10
+    xsscin.o                               30
+    -----------------------------------------------------------------------
+    Total:                             11'046               117         521
+
+m7M_tlv.a: [3]
+    DblToS64.o                             92
+    FltToU64.o                             58
+    S64ToDbl.o                             82
+    U64ToDbl.o                             70
+    U64ToFlt.o                             72
+    exp.o                                  88
+    fmod.o                                444
+    fpinit_M.o                             34
+    frexp.o                               124
+    frexpf.o                               72
+    iar_Exp32.o                           572
+    iar_Exp64.o                           816
+    ldexp.o                               240
+    ldexpf.o                              196
+    log.o                                 216               176
+    log10.o                               200
+    logf.o                                192                68
+    pow32.o                               896
+    pow64.o                             1'376             1'056
+    round.o                                98
+    sqrt.o                                 30
+    sqrtf.o                                30
+    strto64.o                           1'118                72
+    xexp.o                                226               168
+    -----------------------------------------------------------------------
+    Total:                              7'342             1'540
+
+rt7M_tl.a: [4]
+    ABImemclr.o                             6
+    ABImemclr4.o                            6
+    ABImemcpy.o                           166
+    ABImemmove.o                          150
+    ABImemset.o                           102
+    ABImemset48.o                          58
+    I64DivMod.o                           628
+    I64DivZer.o                             2
+    I64Shl.o                               34
+    U64Shr.o                               30
+    cexit.o                                10
+    cmain.o                                30
+    cstartup_M.o                           12
+    data_init.o                            40
+    lz77_init.o                           496
+    memchr.o                               88
+    memcmp.o                              104
+    memcpy.o                               12
+    strchr_fast.o                          96
+    strcmp_fast.o                         176
+    strcpy_fast.o                         140
+    strlen.o                               54
+    zero_init3.o                           58
+    -----------------------------------------------------------------------
+    Total:                              2'498
+
+shb_l.a: [5]
+    dwrite.o                               30
+    exit.o                                 20
+    iarttio.o                             124
+    iarwrite.o                             34
+    iarwstd.o                              32
+    write.o                                16
+    -----------------------------------------------------------------------
+    Total:                                256
+
+    Gaps                                   16                12           9
+    Linker created                        504      312      313  33'815'312
+---------------------------------------------------------------------------
+    Grand Total:                      305'042  121'842  196'675  34'327'184
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address      Size  Type      Object
+-----                       -------      ----  ----      ------
+.iar.init_table$$Base   0x8006'52b4             --   Gb  - Linker created -
+.iar.init_table$$Limit  0x8006'530c             --   Gb  - Linker created -
+?main                   0x8006'53dd            Code  Gb  cmain.o [4]
+ANATOP_AI_Read          0x8005'a6a9     0x1de  Code  Gb  fsl_anatop_ai.o [1]
+ANATOP_AI_Write         0x8005'a4c5     0x1de  Code  Gb  fsl_anatop_ai.o [1]
+ANATOP_EnablePllLdo     0x8005'a471      0x4a  Code  Gb  fsl_anatop.o [1]
+BOARD_BootClockRUN      0x8006'1421     0x196  Code  Gb  clock_config.o [1]
+BOARD_BootClockRUN::sysPll3Config
+                        0x8006'15f4       0x4  Data  Lc  clock_config.o [1]
+BOARD_BootClockRUN::sysPllConfig
+                        0x8006'15e0      0x14  Data  Lc  clock_config.o [1]
+BOARD_ConfigMPU         0x8005'e421     0x2e4  Code  Gb  board.o [1]
+BOARD_DebugConsoleSrcFreq
+                        0x8005'e3c1      0x44  Code  Gb  board.o [1]
+BOARD_InitBootPins      0x8006'2dc5       0x2  Code  Gb  pin_mux.o [1]
+BOARD_InitDebugConsole  0x8005'e405      0x1c  Code  Gb  board.o [1]
+BOARD_InitPins          0x8006'2dc7      0x86  Code  Gb  pin_mux.o [1]
+BOARD_SDCardDetectInit  0x8006'18f5      0x64  Code  Gb  sdmmc_config.o [1]
+BOARD_SDCardGetDetectStatus
+                        0x8006'18c1       0xc  Code  Gb  sdmmc_config.o [1]
+BOARD_SDCardPowerControl
+                        0x8006'1959      0x20  Code  Gb  sdmmc_config.o [1]
+BOARD_SD_Config         0x8006'197d      0x7a  Code  Gb  sdmmc_config.o [1]
+BOARD_USDHC1ClockConfiguration
+                        0x8006'1825      0x9c  Code  Gb  sdmmc_config.o [1]
+BOARD_USDHC1ClockConfiguration::sysPllConfig
+                        0x8006'1a44      0x14  Data  Lc  sdmmc_config.o [1]
+CLOCK_CalcArmPllFreq    0x8005'9ee9      0xc2  Code  Gb  fsl_clock.o [1]
+CLOCK_EnableOsc24M      0x8005'9fd1      0x16  Code  Gb  fsl_clock.o [1]
+CLOCK_GetFreq           0x8005'a021     0x3da  Code  Gb  fsl_clock.o [1]
+CLOCK_GetRootClockFreq::source
+                        0x8006'01a0     0x278  Data  Lc  board.o [1]
+CLOCK_GetRootClockFreq::source
+                        0x8006'0470     0x278  Data  Lc  clock_config.o [1]
+CLOCK_GetRootClockFreq::source
+                        0x8005'd6fc     0x278  Data  Lc  fsl_clock.o [1]
+CLOCK_GetRootClockFreq::source
+                        0x8006'0740     0x278  Data  Lc  sdmmc_config.o [1]
+CLOCK_InitArmPll        0x8005'9bfd      0xc4  Code  Gb  fsl_clock.o [1]
+CLOCK_InitArmPllWithFreq
+                        0x8005'9fab      0x20  Code  Gb  fsl_clock.o [1]
+CLOCK_InitPfd           0x8005'9d75      0xba  Code  Gb  fsl_clock.o [1]
+CLOCK_InitSysPll2       0x8005'9cc1      0xb4  Code  Gb  fsl_clock.o [1]
+CLOCK_InitSysPll3       0x8005'9e4d      0x96  Code  Gb  fsl_clock.o [1]
+CLOCK_SetRootClock      0x8006'13c5      0x5a  Code  Lc  clock_config.o [1]
+CSTACK$$Base            0x8027'bba0             --   Gb  - Linker created -
+CSTACK$$Limit           0x802b'bba0             --   Gb  - Linker created -
+CurrVol                 0x8027'b1e4       0x1  Data  Lc  ff.o [1]
+DCACHE_CleanByRange     0x8005'2f25      0x24  Code  Gb  fsl_cache.o [1]
+DCACHE_CleanInvalidateByRange
+                        0x8005'2f49      0x24  Code  Gb  fsl_cache.o [1]
+DCACHE_InvalidateByRange
+                        0x8005'2f01      0x24  Code  Gb  fsl_cache.o [1]
+DbgConsole_Init         0x8002'67e1      0x82  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_PrintCallback
+                        0x8002'678f      0x50  Code  Lc  fsl_debug_console.o [1]
+DbgConsole_Printf       0x8002'6863      0x38  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_SendDataReliable
+                        0x8002'6765      0x2a  Code  Gb  fsl_debug_console.o [1]
+DelayLoop               0x8005'2e71       0xa  Code  Lc  fsl_common.o [1]
+Dtentox                 0x8002'82f9     0x1f8  Code  Lc  strto64.o [3]
+FatFs                   0x8027'b1e8       0xc  Data  Lc  ff.o [1]
+Fsid                    0x8027'b1e6       0x2  Data  Lc  ff.o [1]
+GPIO3_Combined_16_31_IRQHandler
+                        0x8006'18cd      0x28  Code  Gb  sdmmc_config.o [1]
+GPIO_PinInit            0x8006'1a59      0xa8  Code  Gb  fsl_gpio.o [1]
+GPIO_PinSetInterruptConfig
+                        0x8006'1b41      0x82  Code  Gb  fsl_gpio.o [1]
+GPIO_PinWrite           0x8006'1b01      0x32  Code  Gb  fsl_gpio.o [1]
+GPT_GetDefaultConfig    0x8005'9b5d      0x3a  Code  Gb  fsl_gpt.o [1]
+GPT_GetInstance         0x8005'9a41      0x50  Code  Lc  fsl_gpt.o [1]
+GPT_Init                0x8005'9a91      0xca  Code  Gb  fsl_gpt.o [1]
+HAL_UartInit            0x8002'9ea1      0xaa  Code  Gb  fsl_adapter_lpuart.o [1]
+HAL_UartSendBlocking    0x8002'9f4d      0x5e  Code  Gb  fsl_adapter_lpuart.o [1]
+HEAP$$Base              0x8200'0000             --   Gb  - Linker created -
+HEAP$$Limit             0x8300'0000             --   Gb  - Linker created -
+InStream_Read           0x8006'2225      0x28  Code  Lc  lz77_init.o [4]
+InStream_StepRegion     0x8006'2211      0x14  Code  Lc  lz77_init.o [4]
+LPUART10_DriverIRQHandler
+                        0x8002'a469      0x16  Code  Gb  fsl_lpuart.o [1]
+LPUART11_DriverIRQHandler
+                        0x8002'a47f      0x16  Code  Gb  fsl_lpuart.o [1]
+LPUART1_DriverIRQHandler
+                        0x8002'a39d      0x16  Code  Gb  fsl_lpuart.o [1]
+LPUART2_DriverIRQHandler
+                        0x8002'a3b3      0x16  Code  Gb  fsl_lpuart.o [1]
+LPUART3_DriverIRQHandler
+                        0x8002'a3c9      0x16  Code  Gb  fsl_lpuart.o [1]
+LPUART4_DriverIRQHandler
+                        0x8002'a3e5      0x16  Code  Gb  fsl_lpuart.o [1]
+LPUART5_DriverIRQHandler
+                        0x8002'a3fb      0x16  Code  Gb  fsl_lpuart.o [1]
+LPUART6_DriverIRQHandler
+                        0x8002'a411      0x16  Code  Gb  fsl_lpuart.o [1]
+LPUART7_DriverIRQHandler
+                        0x8002'a427      0x16  Code  Gb  fsl_lpuart.o [1]
+LPUART8_DriverIRQHandler
+                        0x8002'a43d      0x16  Code  Gb  fsl_lpuart.o [1]
+LPUART9_DriverIRQHandler
+                        0x8002'a453      0x16  Code  Gb  fsl_lpuart.o [1]
+LPUART_GetDefaultConfig
+                        0x8002'a2e9      0x4a  Code  Gb  fsl_lpuart.o [1]
+LPUART_GetInstance      0x8002'a04d      0x52  Code  Gb  fsl_lpuart.o [1]
+LPUART_Init             0x8002'a0a1     0x21a  Code  Gb  fsl_lpuart.o [1]
+LPUART_WriteBlocking    0x8002'a341      0x3a  Code  Gb  fsl_lpuart.o [1]
+LfnBuf                  0x8027'b1f4     0x200  Data  Lc  ff.o [1]
+LfnOfs                  0x8005'3c00      0x10  Data  Lc  ff.o [1]
+NCACHE_VAR$$Base        0x8300'0000             --   Gb  - Linker created -
+NCACHE_VAR$$Limit       0x8400'0000             --   Gb  - Linker created -
+OSA_EnterCritical       0x8005'2d99       0xa  Code  Gb  fsl_os_abstraction_bm.o [1]
+OSA_ExitCritical        0x8005'2da3       0x6  Code  Gb  fsl_os_abstraction_bm.o [1]
+OSA_SemaphoreCreate     0x8005'2da9      0x2c  Code  Gb  fsl_os_abstraction_bm.o [1]
+OSA_SemaphorePost       0x8005'2e21      0x3a  Code  Gb  fsl_os_abstraction_bm.o [1]
+OSA_SemaphoreWait       0x8005'2dd5      0x4c  Code  Gb  fsl_os_abstraction_bm.o [1]
+OutStream_Write         0x8006'224d      0x46  Code  Lc  lz77_init.o [4]
+PMU_StaticCm7FBBInit    0x8006'1765      0xaa  Code  Gb  fsl_pmu.o [1]
+PMU_StaticEnableLpsrDigLdoBypassMode
+                        0x8006'169d      0x9a  Code  Gb  fsl_pmu.o [1]
+PMU_StaticGetCm7FBBDefaultConfig
+                        0x8006'1737      0x2e  Code  Gb  fsl_pmu.o [1]
+PMU_StaticSetLpsrAnaLdoBypassMode
+                        0x8006'15f9      0xa4  Code  Gb  fsl_pmu.o [1]
+RW$$Base                0x8020'0000             --   Gb  - Linker created -
+RW$$Limit               0x8024'18f8             --   Gb  - Linker created -
+Region$$Table$$Base     0x8006'52b4             --   Gb  - Linker created -
+Region$$Table$$Limit    0x8006'530c             --   Gb  - Linker created -
+Reset_Handler           0x8006'485d            Code  Wk  startup_MIMXRT1176_cm7.o [1]
+SDK_DelayAtLeastUs      0x8005'2e7d      0x54  Code  Gb  fsl_common.o [1]
+SDMMCHOST_CardDetectInit
+                        0x8005'1587      0x92  Code  Gb  fsl_sdmmc_host.o [1]
+SDMMCHOST_CardDetectStatus
+                        0x8005'1619      0x2c  Code  Gb  fsl_sdmmc_host.o [1]
+SDMMCHOST_DetectCardInsertByHost
+                        0x8005'1505      0x48  Code  Lc  fsl_sdmmc_host.o [1]
+SDMMCHOST_DetectCardRemoveByHost
+                        0x8005'154d      0x3a  Code  Lc  fsl_sdmmc_host.o [1]
+SDMMCHOST_ExecuteManualTuning
+                        0x8005'1ae3      0xdc  Code  Gb  fsl_sdmmc_host.o [1]
+SDMMCHOST_ExecuteStdTuning
+                        0x8005'18c7      0xe6  Code  Gb  fsl_sdmmc_host.o [1]
+SDMMCHOST_ExecuteTuning
+                        0x8005'1be1      0x16  Code  Gb  fsl_sdmmc_host.o [1]
+SDMMCHOST_Init          0x8005'17c7      0x6c  Code  Gb  fsl_sdmmc_host.o [1]
+SDMMCHOST_PollingCardDetectStatus
+                        0x8005'1645      0x9a  Code  Gb  fsl_sdmmc_host.o [1]
+SDMMCHOST_ReceiveTuningBlock
+                        0x8005'19b1     0x100  Code  Gb  fsl_sdmmc_host.o [1]
+SDMMCHOST_Reset         0x8005'1839      0x5e  Code  Gb  fsl_sdmmc_host.o [1]
+SDMMCHOST_SetCardBusWidth
+                        0x8005'1897      0x18  Code  Gb  fsl_sdmmc_host.o [1]
+SDMMCHOST_SetCardPower  0x8005'17c5       0x2  Code  Gb  fsl_sdmmc_host.o [1]
+SDMMCHOST_SwitchToVoltage
+                        0x8005'18af      0x18  Code  Gb  fsl_sdmmc_host.o [1]
+SDMMCHOST_TransferCompleteCallback
+                        0x8005'16df      0x2c  Code  Lc  fsl_sdmmc_host.o [1]
+SDMMCHOST_TransferFunction
+                        0x8005'170b      0xba  Code  Gb  fsl_sdmmc_host.o [1]
+SDMMC_CheckTuningResult
+                        0x8005'1ab1      0x32  Code  Gb  fsl_sdmmc_host.o [1]
+SDMMC_GoIdle            0x8005'1ce5      0x36  Code  Gb  fsl_sdmmc_common.o [1]
+SDMMC_OSADelay          0x8005'1ea9       0xc  Code  Gb  fsl_sdmmc_osa.o [1]
+SDMMC_OSAEventClear     0x8005'1e7d      0x2c  Code  Gb  fsl_sdmmc_osa.o [1]
+SDMMC_OSAEventCreate    0x8005'1d95      0x22  Code  Gb  fsl_sdmmc_osa.o [1]
+SDMMC_OSAEventGet       0x8005'1e35      0x48  Code  Gb  fsl_sdmmc_osa.o [1]
+SDMMC_OSAEventSet       0x8005'1e09      0x2c  Code  Gb  fsl_sdmmc_osa.o [1]
+SDMMC_OSAEventWait      0x8005'1db9      0x4e  Code  Gb  fsl_sdmmc_osa.o [1]
+SDMMC_OSAInit           0x8005'1d91       0x2  Code  Gb  fsl_sdmmc_osa.o [1]
+SDMMC_SelectCard        0x8005'1c29      0x62  Code  Gb  fsl_sdmmc_common.o [1]
+SDMMC_SendApplicationCommand
+                        0x8005'1c8d      0x58  Code  Gb  fsl_sdmmc_common.o [1]
+SDMMC_SetBlockSize      0x8005'1d1d      0x4e  Code  Gb  fsl_sdmmc_common.o [1]
+SDMMC_TuningBlockPattern4Bit
+                        0x8006'4fc4      0x40  Data  Gb  fsl_sdmmc_common.o [1]
+SDMMC_TuningBlockPattern8Bit
+                        0x8006'4380      0x80  Data  Gb  fsl_sdmmc_common.o [1]
+SD_CardDeinit           0x8005'131d      0x24  Code  Gb  fsl_sd.o [1]
+SD_CardInit             0x8005'01ed    0x112a  Code  Gb  fsl_sd.o [1]
+SD_HostDoReset          0x8005'14ad       0x6  Code  Gb  fsl_sd.o [1]
+SD_HostInit             0x8005'1345      0x56  Code  Gb  fsl_sd.o [1]
+SD_PollingCardInsert    0x8005'13e5      0x8a  Code  Gb  fsl_sd.o [1]
+SD_ProbeBusVoltage      0x8004'fee1     0x2de  Code  Gb  fsl_sd.o [1]
+SD_ReadBlocks           0x8004'f77d     0x2f8  Code  Gb  fsl_sd.o [1]
+SD_ReadStatus           0x8004'f525     0x21a  Code  Gb  fsl_sd.o [1]
+SD_SelectCard           0x8004'f749      0x2e  Code  Gb  fsl_sd.o [1]
+SD_SetCardPower         0x8005'13a1      0x3c  Code  Gb  fsl_sd.o [1]
+SD_Transfer             0x8004'f42d      0xee  Code  Lc  fsl_sd.o [1]
+SD_WriteBlocks          0x8004'fa89     0x414  Code  Gb  fsl_sd.o [1]
+SerialManager_Init      0x8002'871b      0x30  Code  Gb  fsl_component_serial_manager.o [1]
+SerialManager_OpenReadHandle
+                        0x8002'877b      0x40  Code  Gb  fsl_component_serial_manager.o [1]
+SerialManager_OpenWriteHandle
+                        0x8002'874b      0x30  Code  Gb  fsl_component_serial_manager.o [1]
+SerialManager_WriteBlocking
+                        0x8002'87bb      0x32  Code  Gb  fsl_component_serial_manager.o [1]
+Serial_UartInit         0x8002'9dcb      0x18  Code  Gb  fsl_component_serial_port_uart.o [1]
+Serial_UartWrite        0x8002'9de3      0x10  Code  Gb  fsl_component_serial_port_uart.o [1]
+StrFormatPrintf         0x8002'87ed     0x240  Code  Gb  fsl_str.o [1]
+SystemCoreClock         0x8020'0adc       0x4  Data  Gb  system_MIMXRT1176_cm7.o [1]
+SystemInit              0x8006'2919     0x1a4  Code  Gb  system_MIMXRT1176_cm7.o [1]
+USDHC1_DriverIRQHandler
+                        0x8005'2c41      0x16  Code  Gb  fsl_usdhc.o [1]
+USDHC2_DriverIRQHandler
+                        0x8005'2c57      0x16  Code  Gb  fsl_usdhc.o [1]
+USDHC_AdjustDelayForManualTuning
+                        0x8005'29a3      0x18  Code  Gb  fsl_usdhc.o [1]
+USDHC_EnableDDRMode     0x8005'2473      0x4c  Code  Gb  fsl_usdhc.o [1]
+USDHC_EnableManualTuning
+                        0x8005'2979      0x2a  Code  Gb  fsl_usdhc.o [1]
+USDHC_EnableStandardTuning
+                        0x8005'29bb      0x50  Code  Gb  fsl_usdhc.o [1]
+USDHC_GetInstance       0x8005'1edd      0x34  Code  Lc  fsl_usdhc.o [1]
+USDHC_Init              0x8005'2251      0xc8  Code  Gb  fsl_usdhc.o [1]
+USDHC_ReadDataPort      0x8005'20c5      0x78  Code  Lc  fsl_usdhc.o [1]
+USDHC_ReceiveCommandResponse
+                        0x8005'203d      0x78  Code  Lc  fsl_usdhc.o [1]
+USDHC_Reset             0x8005'231d      0x2a  Code  Gb  fsl_usdhc.o [1]
+USDHC_SendCommand       0x8005'21b5      0x9c  Code  Gb  fsl_usdhc.o [1]
+USDHC_SetADMA1Descriptor
+                        0x8005'24cd      0xce  Code  Gb  fsl_usdhc.o [1]
+USDHC_SetADMA2Descriptor
+                        0x8005'259d     0x152  Code  Gb  fsl_usdhc.o [1]
+USDHC_SetAdmaTableConfig
+                        0x8005'278f      0xb6  Code  Gb  fsl_usdhc.o [1]
+USDHC_SetCardActive     0x8005'2451      0x22  Code  Gb  fsl_usdhc.o [1]
+USDHC_SetDataConfig     0x8005'1fe3      0x58  Code  Gb  fsl_usdhc.o [1]
+USDHC_SetDataTransferConfig
+                        0x8005'1f11      0xd2  Code  Lc  fsl_usdhc.o [1]
+USDHC_SetInternalDmaConfig
+                        0x8005'26ef      0xa0  Code  Gb  fsl_usdhc.o [1]
+USDHC_SetSdClock        0x8005'2349      0xe0  Code  Gb  fsl_usdhc.o [1]
+USDHC_TransferCreateHandle
+                        0x8005'2a19      0x96  Code  Gb  fsl_usdhc.o [1]
+USDHC_TransferHandleIRQ
+                        0x8005'2ab5     0x18c  Code  Gb  fsl_usdhc.o [1]
+USDHC_TransferNonBlocking
+                        0x8005'2865     0x114  Code  Gb  fsl_usdhc.o [1]
+USDHC_WriteDataPort     0x8005'213d      0x78  Code  Lc  fsl_usdhc.o [1]
+ZI$$Base                0x8024'1900             --   Gb  - Linker created -
+ZI$$Limit               0x8027'bba0             --   Gb  - Linker created -
+_Get                    0x8002'8bcd      0x12  Code  Lc  xscanfsmall_nomb.o [2]
+_GetN                   0x8002'8bdf      0x22  Code  Lc  xscanfsmall_nomb.o [2]
+_GetstrSmallNoMb        0x8002'9125      0xd8  Code  Lc  xscanfsmall_nomb.o [2]
+_LitobSmallNoMb         0x8002'9c83      0xce  Code  Lc  xprintfsmall_nomb.o [2]
+_PrintfSmallNoMb        0x8002'98c5     0x3b2  Code  Gb  xprintfsmall_nomb.o [2]
+_Prout                  0x8006'5441      0x16  Code  Gb  xprout.o [2]
+_PutcharSmallNoMb       0x8002'9d51      0x20  Code  Lc  xprintfsmall_nomb.o [2]
+_PutcharsSmallNoMb      0x8002'9d71      0x2e  Code  Lc  xprintfsmall_nomb.o [2]
+_SNProut                0x8002'64d7      0x1a  Code  Gb  xsnprout.o [2]
+_SProut                 0x8002'692b       0xa  Code  Gb  xsprout.o [2]
+_SScin                  0x8002'10d7      0x1e  Code  Gb  xsscin.o [2]
+_ScanfSmallNoMb         0x8002'8c1d     0x500  Code  Gb  xscanfsmall_nomb.o [2]
+_Strtok_ssave           0x8027'b99c       0x4  Data  Lc  strtok.o [2]
+_UngetN                 0x8002'8c01      0x1a  Code  Lc  xscanfsmall_nomb.o [2]
+__NCACHE_REGION_SIZE {Abs}
+                         0x100'0000            Data  Gb  <internal module>
+__NCACHE_REGION_START {Abs}
+                        0x8300'0000            Data  Gb  <internal module>
+__RAM_VECTOR_TABLE_SIZE {Abs}
+                                0x0            Data  Gb  <internal module>
+__VECTOR_RAM {Abs}      0x8000'2000            Data  Gb  <internal module>
+__VECTOR_TABLE {Abs}    0x8000'2000            Data  Gb  <internal module>
+__Vectors               0x8000'2000             --   Gb  startup_MIMXRT1176_cm7.o [1]
+__Vectors_End           0x8000'2400            Data  Gb  startup_MIMXRT1176_cm7.o [1]
+__Vectors_Size {Abs}          0x400             --   Gb  startup_MIMXRT1176_cm7.o [1]
+__aeabi_assert          0x8001'd6e5      0x18  Code  Gb  fsl_assert.o [1]
+__aeabi_d2lz            0x8005'99e5            Code  Gb  DblToS64.o [3]
+__aeabi_f2ulz           0x8005'd119            Code  Gb  FltToU64.o [3]
+__aeabi_l2d             0x8003'b9fd            Code  Gb  S64ToDbl.o [3]
+__aeabi_ldiv0           0x8002'8719            Code  Gb  I64DivZer.o [4]
+__aeabi_ldivmod         0x8002'64f1            Code  Gb  I64DivMod.o [4]
+__aeabi_llsl            0x8003'bb81            Code  Gb  I64Shl.o [4]
+__aeabi_llsr            0x8006'539d            Code  Gb  U64Shr.o [4]
+__aeabi_memclr          0x8002'10d1            Code  Gb  ABImemclr.o [4]
+__aeabi_memclr4         0x8002'64d1            Code  Gb  ABImemclr4.o [4]
+__aeabi_memcpy          0x8002'0ff1            Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy4         0x8002'1011            Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy8         0x8002'1011            Code  Gb  ABImemcpy.o [4]
+__aeabi_memmove         0x8003'b965            Code  Gb  ABImemmove.o [4]
+__aeabi_memmove4        0x8003'b965            Code  Gb  ABImemmove.o [4]
+__aeabi_memmove8        0x8003'b965            Code  Gb  ABImemmove.o [4]
+__aeabi_memset          0x8002'68bd            Code  Gb  ABImemset.o [4]
+__aeabi_memset4         0x8002'6935            Code  Gb  ABImemset48.o [4]
+__aeabi_memset8         0x8002'6935            Code  Gb  ABImemset48.o [4]
+__aeabi_ul2d            0x8006'4e79            Code  Gb  U64ToDbl.o [3]
+__aeabi_ul2f            0x8004'0c71            Code  Gb  U64ToFlt.o [3]
+__aeabi_uldivmod        0x8002'6535            Code  Gb  I64DivMod.o [4]
+__cmain                 0x8006'53dd            Code  Gb  cmain.o [4]
+__data_GetMemChunk      0x8002'9259      0x2c  Code  Gb  xgetmemchunk.o [2]
+__data_GetMemChunk::start
+                        0x8027'bb90       0x4  Data  Lc  xgetmemchunk.o [2]
+__dwrite                0x8006'535d      0x1e  Code  Gb  dwrite.o [5]
+__exit                  0x8002'9e8d      0x14  Code  Gb  exit.o [5]
+__iar_Errno             0x8027'bb9c       0x4  Tls   Gb  errno.o [2]
+__iar_Exp32             0x8005'eb7d     0x23c  Code  Gb  iar_Exp32.o [3]
+__iar_Exp64             0x8003'bbc9     0x330  Code  Gb  iar_Exp64.o [3]
+__iar_Fail_s            0x8002'9e4d      0x1c  Code  Gb  xfail_s.o [2]
+__iar_Memchr            0x8002'9df5            Code  Gb  memchr.o [4]
+__iar_Memset            0x8002'68bd            Code  Gb  ABImemset.o [4]
+__iar_Memset4_word      0x8002'693d            Code  Gb  ABImemset48.o [4]
+__iar_Memset8_word      0x8002'693d            Code  Gb  ABImemset48.o [4]
+__iar_Memset_word       0x8002'68c5            Code  Gb  ABImemset.o [4]
+__iar_Sto64             0x8002'84f9     0x142  Code  Gb  strto64.o [3]
+__iar_Stoflt            0x8002'9511     0x1a8  Code  Gb  iar_Stoflt.o [2]
+__iar_Stolx             0x8002'696f      0x90  Code  Gb  iar_Stolx.o [2]
+__iar_Stopfx            0x8002'93f1     0x120  Code  Gb  iar_Stopfx.o [2]
+__iar_Stoulx            0x8002'8a31     0x13e  Code  Gb  iar_Stoulx.o [2]
+__iar_Stoxflt           0x8002'96b9     0x1d6  Code  Gb  iar_Stoxflt.o [2]
+__iar_Stoxflt::digits   0x8002'9894      0x18  Data  Lc  iar_Stoxflt.o [2]
+__iar_Stoxflt::vals     0x8002'98ac      0x18  Data  Lc  iar_Stoxflt.o [2]
+__iar_close_ttio        0x8002'9fd1      0x2c  Code  Gb  iarttio.o [5]
+__iar_data_init3        0x8006'51b9      0x28  Code  Gb  data_init.o [4]
+__iar_dlcalloc          0x8002'80d1      0x3e  Code  Gb  dlmalloc.o [2]
+__iar_dlfree            0x8002'7baf     0x51e  Code  Gb  dlmalloc.o [2]
+__iar_dlmalloc          0x8002'6cc1     0xeee  Code  Gb  dlmalloc.o [2]
+__iar_errno_set_EDOM    0x8002'86f5       0xe  Code  Gb  errno.o [2]
+__iar_errno_set_ERANGE  0x8002'8703       0xc  Code  Gb  errno.o [2]
+__iar_exp64             0x8006'4bf9            Code  Gb  exp.o [3]
+__iar_exp_OutBnd        0x8006'4c29            Code  Gb  exp.o [3]
+__iar_exp_cTab          0x8006'4098            Data  Gb  xexp.o [3]
+__iar_fast_Strchr       0x8002'6bb1            Code  Gb  strchr_fast.o [4]
+__iar_fast_strchr       0x8002'6bb1            Code  Gb  strchr_fast.o [4]
+__iar_fast_strcmp       0x8002'814d            Code  Gb  strcmp_fast.o [4]
+__iar_fast_strcpy       0x8002'6a91            Code  Gb  strcpy_fast.o [4]
+__iar_fmod64            0x8005'983d            Code  Gb  fmod.o [3]
+__iar_frexp             0x8002'929d            Code  Gb  frexp.o [3]
+__iar_frexp32           0x8005'eb35            Code  Gb  frexpf.o [3]
+__iar_frexp64           0x8002'9285            Code  Gb  frexp.o [3]
+__iar_frexpf            0x8005'eb49            Code  Gb  frexpf.o [3]
+__iar_frexpl            0x8002'929d            Code  Gb  frexp.o [3]
+__iar_get_ttio          0x8002'9ffd      0x4c  Code  Gb  iarttio.o [5]
+__iar_init_vfp          0x8006'5271            Code  Gb  fpinit_M.o [3]
+__iar_ldexp32           0x8005'edb9            Code  Gb  ldexpf.o [3]
+__iar_ldexp64           0x8002'9301            Code  Gb  ldexp.o [3]
+__iar_log10_64          0x8003'ba51            Code  Gb  log10.o [3]
+__iar_log10_medium      0x8003'ba51            Code  Gb  log10.o [3]
+__iar_log10_medium64    0x8003'ba51            Code  Gb  log10.o [3]
+__iar_log10_mediuml     0x8003'ba51            Code  Gb  log10.o [3]
+__iar_log32             0x8002'48a1            Code  Gb  logf.o [3]
+__iar_log64             0x8004'0b99            Code  Gb  log.o [3]
+__iar_log_NoFini        0x8004'0c4b            Code  Gb  log.o [3]
+__iar_log_ZerNeg        0x8004'0c5f            Code  Gb  log.o [3]
+__iar_log_cTab          0x8006'3ff0            Data  Gb  log.o [3]
+__iar_log_medium        0x8004'0b99            Code  Gb  log.o [3]
+__iar_log_medium32      0x8002'48a1            Code  Gb  logf.o [3]
+__iar_log_medium64      0x8004'0b99            Code  Gb  log.o [3]
+__iar_log_mediumf       0x8002'48a1            Code  Gb  logf.o [3]
+__iar_log_mediuml       0x8004'0b99            Code  Gb  log.o [3]
+__iar_logf_NoFini       0x8002'4939            Code  Gb  logf.o [3]
+__iar_logf_ZerNeg       0x8002'494d            Code  Gb  logf.o [3]
+__iar_logf_cTab         0x8006'4ec0            Data  Gb  logf.o [3]
+__iar_lookup_ttioh      0x8002'a4ff       0x4  Code  Gb  XShttio.o [2]
+__iar_lz77_init3        0x8006'2293     0x16e  Code  Gb  lz77_init.o [4]
+__iar_nothread_read_tp  0x8002'9dc7       0x4  Code  Gb  tp_nothreads.o [2]
+__iar_pow32             0x8005'e7b5     0x344  Code  Gb  pow32.o [3]
+__iar_pow64             0x8003'89c5     0x50c  Code  Gb  pow64.o [3]
+__iar_pow_medium        0x8003'89c5     0x50c  Code  Gb  pow64.o [3]
+__iar_pow_medium32      0x8005'e7b5     0x344  Code  Gb  pow32.o [3]
+__iar_pow_medium64      0x8003'89c5     0x50c  Code  Gb  pow64.o [3]
+__iar_pow_mediumf       0x8005'e7b5     0x344  Code  Gb  pow32.o [3]
+__iar_pow_mediuml       0x8003'89c5     0x50c  Code  Gb  pow64.o [3]
+__iar_program_start     0x8006'5541            Code  Gb  cstartup_M.o [4]
+__iar_round64           0x8004'0ce9            Code  Gb  round.o [3]
+__iar_safe_log          0x8004'0bb7            Code  Gb  log.o [3]
+__iar_safe_logf         0x8002'48c1            Code  Gb  logf.o [3]
+__iar_scalbln32         0x8005'edb9            Code  Gb  ldexpf.o [3]
+__iar_scalbln64         0x8002'9301            Code  Gb  ldexp.o [3]
+__iar_scalbn32          0x8005'edb9            Code  Gb  ldexpf.o [3]
+__iar_scalbn64          0x8002'9301            Code  Gb  ldexp.o [3]
+__iar_sh_stdout         0x8006'537b      0x20  Code  Gb  iarwstd.o [5]
+__iar_sh_write          0x8006'5293      0x22  Code  Gb  iarwrite.o [5]
+__iar_sqrt32            0x8004'0cb9            Code  Gb  sqrtf.o [3]
+__iar_sqrt64            0x8006'53bd            Code  Gb  sqrt.o [3]
+__iar_ttio_guard_lock   0x8002'a4d1      0x1e  Code  Gb  XShttio.o [2]
+__iar_ttio_guard_unlock
+                        0x8002'a4ef      0x10  Code  Gb  XShttio.o [2]
+__iar_ttio_handles      0x8024'18f0       0x8  Data  Lc  XShttio.o [2]
+__iar_vfp___iar_fmod64  0x8005'9829            Code  Gb  fmod.o [3]
+__iar_vfp___iar_round64
+                        0x8004'0cd9            Code  Gb  round.o [3]
+__iar_vfp_fmod          0x8005'9829            Code  Gb  fmod.o [3]
+__iar_vfp_fmodl         0x8005'9829            Code  Gb  fmod.o [3]
+__iar_vfp_round         0x8004'0cd9            Code  Gb  round.o [3]
+__iar_vfp_roundl        0x8004'0cd9            Code  Gb  round.o [3]
+__iar_xexp              0x8006'3905            Code  Gb  xexp.o [3]
+__iar_xexp2             0x8006'3911            Code  Gb  xexp.o [3]
+__iar_xtanh             0x8006'390d            Code  Gb  xexp.o [3]
+__iar_zero_init3        0x8002'1097      0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init        0x8006'53fb       0x4  Code  Gb  low_level_init.o [2]
+__vector_table          0x8000'2000            Data  Gb  startup_MIMXRT1176_cm7.o [1]
+__vector_table_0x1c     0x8000'201c            Data  Gb  startup_MIMXRT1176_cm7.o [1]
+__write                 0x8006'534d      0x10  Code  Gb  write.o [5]
+_call_main              0x8006'53e9            Code  Gb  cmain.o [4]
+_exit                   0x8006'5405            Code  Gb  cexit.o [4]
+_gm_                    0x8027'b9b8     0x1d8  Data  Lc  dlmalloc.o [2]
+_main                   0x8006'53f7            Code  Gb  cmain.o [4]
+abort                   0x8002'9251       0x6  Code  Gb  abort.o [2]
+add16x16_idct              0x1'995f      0x34  Code  Lc  dct.o [1]
+add16x16_idct8             0x1'9e39      0x34  Code  Lc  dct.o [1]
+add16x16_idct_dc           0x1'9f1b      0xc0  Code  Lc  dct.o [1]
+add4x4_idct                0x1'982d     0x100  Code  Lc  dct.o [1]
+add4x4_idct_dc             0x1'9e6d      0x78  Code  Lc  dct.o [1]
+add8x8_idct                0x1'992d      0x32  Code  Lc  dct.o [1]
+add8x8_idct8               0x1'9c25     0x214  Code  Lc  dct.o [1]
+add8x8_idct_dc             0x1'9ee5      0x36  Code  Lc  dct.o [1]
+avcintra_uuid           0x8003'749c      0x10  Data  Lc  set_encoder.o [1]
+b_ctrl_c                0x8027'b994       0x4  Data  Lc  x264.o [1]
+block_idx_x             0x8005'f030      0x10  Data  Lc  analyse.o [1]
+block_idx_x                0x1'e8e4      0x10  Data  Lc  cabac_encoder.o [1]
+block_idx_x             0x8001'e324      0x10  Data  Lc  macroblock_encoder.o [1]
+block_idx_x                  0x535c      0x10  Data  Lc  me.o [1]
+block_idx_xy_1d         0x8006'530c      0x10  Data  Lc  macroblock_encoder.o [1]
+block_idx_xy_fdec       0x8005'f060      0x20  Data  Lc  analyse.o [1]
+block_idx_xy_fdec       0x8002'0fbc      0x20  Data  Lc  macroblock_encoder.o [1]
+block_idx_xy_fdec            0x537c      0x20  Data  Lc  me.o [1]
+block_idx_xy_fenc       0x8005'f050      0x10  Data  Lc  analyse.o [1]
+block_idx_xy_fenc       0x8002'0fac      0x10  Data  Lc  macroblock_encoder.o [1]
+block_idx_y             0x8005'f040      0x10  Data  Lc  analyse.o [1]
+block_idx_y                0x1'e8f4      0x10  Data  Lc  cabac_encoder.o [1]
+block_idx_y             0x8001'e314      0x10  Data  Lc  macroblock_encoder.o [1]
+block_idx_y                  0x536c      0x10  Data  Lc  me.o [1]
+block_idx_yx_1d         0x8006'531c      0x10  Data  Lc  macroblock_encoder.o [1]
+bs_align_10             0x8003'4701      0x22  Code  Lc  set_encoder.o [1]
+bs_flush                0x8003'4601      0x3e  Code  Lc  set_encoder.o [1]
+bs_init                 0x8002'a67d      0x46  Code  Lc  encoder.o [1]
+bs_realign              0x8003'463f      0x40  Code  Lc  set_encoder.o [1]
+bs_size_ue_big          0x8000'2541      0x1e  Code  Lc  analyse.o [1]
+bs_write                0x8000'2495      0x4c  Code  Lc  analyse.o [1]
+bs_write                0x8003'9279      0x4c  Code  Lc  cavlc.o [1]
+bs_write                0x8002'a6c3      0x4c  Code  Lc  encoder.o [1]
+bs_write                0x8003'467f      0x4c  Code  Lc  set_encoder.o [1]
+bs_write1               0x8000'24e1      0x36  Code  Lc  analyse.o [1]
+bs_write1               0x8003'92c5      0x36  Code  Lc  cavlc.o [1]
+bs_write1               0x8002'a70f      0x36  Code  Lc  encoder.o [1]
+bs_write1               0x8003'46cb      0x36  Code  Lc  set_encoder.o [1]
+bs_write_se             0x8000'2517      0x2a  Code  Lc  analyse.o [1]
+bs_write_se             0x8003'92fb      0x70  Code  Lc  cavlc.o [1]
+bs_write_se             0x8003'4761      0x26  Code  Lc  set_encoder.o [1]
+bs_write_ue_big         0x8002'a745      0xb0  Code  Lc  encoder.o [1]
+bs_write_ue_big         0x8003'4723      0x3e  Code  Lc  set_encoder.o [1]
+bw_wf                   0x8027'b700       0x4  Data  Gb  raw.o [1]
+bw_wh                   0x8027'b6f8       0x4  Data  Gb  raw.o [1]
+bw_yuv                  0x8027'b708       0x4  Data  Gb  raw_input.o [1]
+bypass_lut              0x8006'4f84      0x40  Data  Lc  cabac.o [1]
+cabac_size_5ones        0x8020'0810     0x100  Data  Lc  analyse.o [1]
+cabac_transition_5ones  0x8020'0790      0x80  Data  Lc  analyse.o [1]
+cache_filter            0x8020'0940      0x1c  Data  Gb  cache.o [1]
+cached_hadamard::hadamard_offset
+                        0x8005'f1b4       0x4  Data  Lc  analyse.o [1]
+cached_hadamard::hadamard_shift_x
+                        0x8005'f1ac       0x4  Data  Lc  analyse.o [1]
+cached_hadamard::hadamard_shift_y
+                        0x8005'f1b0       0x4  Data  Lc  analyse.o [1]
+cached_satd::satd_offset
+                        0x8005'f1c0       0x4  Data  Lc  analyse.o [1]
+cached_satd::satd_shift_x
+                        0x8005'f1b8       0x4  Data  Lc  analyse.o [1]
+cached_satd::satd_shift_y
+                        0x8005'f1bc       0x4  Data  Lc  analyse.o [1]
+cached_satd::zero       0x8020'0910      0x10  Data  Lc  analyse.o [1]
+cbp_to_golomb           0x8005'ab58      0xc0  Data  Lc  analyse.o [1]
+cbp_to_golomb           0x8006'0e64      0xc0  Data  Lc  cavlc.o [1]
+check_fs                0x8005'40ed      0xae  Code  Lc  ff.o [1]
+chroma_mode_available   0x8005'f210      0x1c  Data  Lc  analyse.o [1]
+cli_input               0x8027'b94c      0x18  Data  Gb  x264.o [1]
+cli_log_level           0x8027'b998       0x4  Data  Lc  x264.o [1]
+cli_output              0x8027'b964      0x14  Data  Lc  x264.o [1]
+close_file              0x8006'3491      0x1e  Code  Lc  raw.o [1]
+close_file              0x8006'10f5      0x14  Code  Lc  raw_input.o [1]
+clst2sect               0x8005'30e1      0x1a  Code  Lc  ff.o [1]
+cnt1                    0x8027'b6f4       0x4  Data  Lc  gpt.o [1]
+coeff_abs_level1_ctx    0x8005'f184       0x8  Data  Lc  analyse.o [1]
+coeff_abs_level1_ctx       0x1'5560       0x8  Data  Lc  cabac_encoder.o [1]
+coeff_abs_level_transition
+                        0x8005'f19c      0x10  Data  Lc  analyse.o [1]
+coeff_abs_level_transition
+                           0x1'5568      0x10  Data  Lc  cabac_encoder.o [1]
+coeff_abs_levelgt1_ctx  0x8005'f18c       0x8  Data  Lc  analyse.o [1]
+coeff_abs_levelgt1_ctx     0x1'5558       0x8  Data  Lc  cabac_encoder.o [1]
+coeff_abs_levelgt1_ctx_chroma_dc
+                        0x8005'f194       0x8  Data  Lc  analyse.o [1]
+coeff_abs_levelgt1_ctx_chroma_dc
+                           0x1'5550       0x8  Data  Lc  cabac_encoder.o [1]
+create_chain            0x8005'32d1      0xe2  Code  Lc  ff.o [1]
+crop_filter             0x8020'096c      0x1c  Data  Gb  crop.o [1]
+ct_index                0x8005'f100      0x14  Data  Lc  analyse.o [1]
+ct_index                0x8003'b950      0x14  Data  Lc  cavlc.o [1]
+ctx_cat_plane           0x8005'f080      0x14  Data  Lc  analyse.o [1]
+ctx_cat_plane              0x1'704c      0x14  Data  Lc  cabac_encoder.o [1]
+ctx_cat_plane           0x8002'0fdc      0x14  Data  Lc  macroblock_encoder.o [1]
+dct2x4dc                   0x1'934d      0xac  Code  Lc  dct.o [1]
+dct4x4dc                   0x1'9235      0x94  Code  Lc  dct.o [1]
+deblock_chroma_c           0x1'72f9     0x116  Code  Lc  deblock.o [1]
+deblock_chroma_intra_c     0x1'7715      0xac  Code  Lc  deblock.o [1]
+deblock_edge               0x1'793b      0x8e  Code  Lc  deblock.o [1]
+deblock_edge_luma_c        0x1'7091     0x110  Code  Lc  deblock.o [1]
+deblock_edge_luma_intra_c
+                           0x1'7477     0x124  Code  Lc  deblock.o [1]
+deblock_h_chroma_422_c     0x1'745d      0x1a  Code  Lc  deblock.o [1]
+deblock_h_chroma_422_intra_c
+                           0x1'780b      0x18  Code  Lc  deblock.o [1]
+deblock_h_chroma_c         0x1'7443      0x1a  Code  Lc  deblock.o [1]
+deblock_h_chroma_intra_c
+                           0x1'77f3      0x18  Code  Lc  deblock.o [1]
+deblock_h_chroma_intra_mbaff_c
+                           0x1'77c1      0x18  Code  Lc  deblock.o [1]
+deblock_h_chroma_mbaff_c
+                           0x1'740f      0x1a  Code  Lc  deblock.o [1]
+deblock_h_luma_c           0x1'72e1      0x18  Code  Lc  deblock.o [1]
+deblock_h_luma_intra_c     0x1'76ef      0x24  Code  Lc  deblock.o [1]
+deblock_h_luma_intra_mbaff_c
+                           0x1'759d     0x12e  Code  Lc  deblock.o [1]
+deblock_h_luma_mbaff_c     0x1'721b      0xb0  Code  Lc  deblock.o [1]
+deblock_luma_c             0x1'71a1      0x7a  Code  Lc  deblock.o [1]
+deblock_strength_c         0x1'7825     0x116  Code  Lc  deblock.o [1]
+deblock_v_chroma_c         0x1'7429      0x1a  Code  Lc  deblock.o [1]
+deblock_v_chroma_intra_c
+                           0x1'77d9      0x1a  Code  Lc  deblock.o [1]
+deblock_v_luma_c           0x1'72cb      0x16  Code  Lc  deblock.o [1]
+deblock_v_luma_intra_c     0x1'76cb      0x24  Code  Lc  deblock.o [1]
+delta_tfi_divisor       0x8004'0b84       0xc  Data  Lc  slicetype.o [1]
+depth_filter            0x8020'0988      0x1c  Data  Gb  depth.o [1]
+dequant4_scale          0x8003'8304      0x14  Data  Lc  set.o [1]
+dequant8_scale          0x8006'3d5c      0x24  Data  Lc  set.o [1]
+dequant_4x4                0x1'cfc1      0xc8  Code  Lc  quant.o [1]
+dequant_4x4_dc             0x1'd151      0x9a  Code  Lc  quant.o [1]
+dequant_8x8                0x1'd089      0xc8  Code  Lc  quant.o [1]
+digits                  0x8006'4d70      0x28  Data  Lc  iar_Stoulx.o [2]
+dir_clear               0x8005'33b3      0x52  Code  Lc  ff.o [1]
+dir_find                0x8005'34f9     0x280  Code  Lc  ff.o [1]
+dir_register            0x8005'3779     0x486  Code  Lc  ff.o [1]
+dir_sdi                 0x8005'3405      0x8e  Code  Lc  ff.o [1]
+disk_initialize         0x8005'5041       0xc  Code  Gb  diskio.o [1]
+disk_ioctl              0x8005'5065       0xc  Code  Gb  diskio.o [1]
+disk_read               0x8005'504d       0xc  Code  Gb  diskio.o [1]
+disk_status             0x8005'5035       0xc  Code  Gb  diskio.o [1]
+disk_write              0x8005'5059       0xc  Code  Gb  diskio.o [1]
+dither_plane_2          0x8005'c49d      0x88  Code  Lc  depth.o [1]
+dither_plane_3          0x8005'c525      0x88  Code  Lc  depth.o [1]
+dither_plane_4          0x8005'c5ad      0x88  Code  Lc  depth.o [1]
+dmul                    0x8002'8229      0xd0  Code  Lc  strto64.o [3]
+exit                    0x8006'53ff       0x4  Code  Gb  exit.o [2]
+exp                     0x8006'4bf9            Code  Gb  exp.o [3]
+expl                    0x8006'4bf9            Code  Gb  exp.o [3]
+f_chdrive               0x8005'4fd5      0x4e  Code  Gb  ff.o [1]
+f_close                 0x8005'4fb3      0x22  Code  Gb  ff.o [1]
+f_mount                 0x8005'44cf     0x30a  Code  Gb  ff.o [1]
+f_open                  0x8005'47dd     0x31c  Code  Gb  ff.o [1]
+f_read                  0x8005'4af9     0x190  Code  Gb  ff.o [1]
+f_sync                  0x8005'4f1d      0x96  Code  Gb  ff.o [1]
+f_write                 0x8005'4c89     0x294  Code  Gb  ff.o [1]
+ff_oem2uni              0x8005'50c5      0x4a  Code  Gb  ffunicode.o [1]
+ff_uni2oem              0x8005'5071      0x54  Code  Gb  ffunicode.o [1]
+ff_wtoupper             0x8005'5111      0xa2  Code  Gb  ffunicode.o [1]
+ff_wtoupper::cvt1       0x8006'0a10     0x1f4  Data  Lc  ffunicode.o [1]
+ff_wtoupper::cvt2       0x8006'0c04      0xbc  Data  Lc  ffunicode.o [1]
+filter                  0x8027'b978      0x1c  Data  Lc  x264.o [1]
+first_filter            0x8027'b948       0x4  Data  Lc  video.o [1]
+fix_vfr_pts_filter      0x8020'09b4      0x1c  Data  Gb  fix_vfr_pts.o [1]
+fmod                    0x8005'983d            Code  Gb  fmod.o [3]
+fmodl                   0x8005'983d            Code  Gb  fmod.o [3]
+follow_path             0x8005'3c11     0x472  Code  Lc  ff.o [1]
+fr_1                    0x8027'b704       0x1  Data  Gb  raw.o [1]
+fr_4                    0x8027'b6fc       0x1  Data  Gb  raw.o [1]
+fr_open_yuv             0x8027'b70c       0x1  Data  Gb  raw_input.o [1]
+frame_init_lowres_core     0x1'c529     0x114  Code  Lc  mc.o [1]
+free                    0x8002'6bad       0x4  Code  Gb  heaptramp0.o [2]
+free_filter             0x8006'276d      0x42  Code  Lc  cache.o [1]
+free_filter             0x8006'012b      0x14  Code  Lc  crop.o [1]
+free_filter             0x8005'c9e9      0x1c  Code  Lc  depth.o [1]
+free_filter             0x8006'2c55      0x22  Code  Lc  fix_vfr_pts.o [1]
+free_filter             0x8005'f4d5      0x1a  Code  Lc  select_every.o [1]
+free_filter             0x8006'3d11      0x20  Code  Lc  source.o [1]
+frexp                   0x8002'9285            Code  Gb  frexp.o [3]
+frexpf                  0x8005'eb35            Code  Gb  frexpf.o [3]
+frexpl                  0x8002'9285            Code  Gb  frexp.o [3]
+g_fileSystem            0x8027'b710     0x238  Data  Lc  sdcard_fatfs.o [1]
+g_sd                    0x8027'b430     0x2b0  Data  Gb  fsl_sd_disk.o [1]
+g_serialHandle          0x8027'b3f4       0x4  Data  Gb  fsl_debug_console.o [1]
+get_fat                 0x8005'30fb      0xc8  Code  Lc  ff.o [1]
+get_filename_extension  0x8005'8735      0x24  Code  Lc  x264.o [1]
+get_frame               0x8006'2681      0xde  Code  Lc  cache.o [1]
+get_frame               0x8006'0081      0xa2  Code  Lc  crop.o [1]
+get_frame               0x8005'c635     0x3ac  Code  Lc  depth.o [1]
+get_frame               0x8006'2b31     0x10e  Code  Lc  fix_vfr_pts.o [1]
+get_frame               0x8005'f45d      0x54  Code  Lc  select_every.o [1]
+get_frame               0x8006'3cbd      0x36  Code  Lc  source.o [1]
+get_ldnumber            0x8005'4099      0x4a  Code  Lc  ff.o [1]
+get_plane_ptr           0x8002'49c1      0x5a  Code  Lc  frame.o [1]
+get_qscale                   0x97f5     0x13c  Code  Lc  ratecontrol.o [1]
+get_ref                    0x1'b965      0xd6  Code  Lc  mc.o [1]
+get_zone                     0x7ed5      0x32  Code  Lc  ratecontrol.o [1]
+gp_timer_compute_us     0x8005'958f      0x1c  Code  Gb  gpt.o [1]
+gp_timer_get_cnt        0x8005'9589       0x6  Code  Gb  gpt.o [1]
+gp_timer_init           0x8005'95ad      0x86  Code  Gb  gpt.o [1]
+gptFreq                 0x8027'b6f0       0x4  Data  Gb  gpt.o [1]
+help                    0x8005'fec1      0x22  Code  Lc  crop.o [1]
+help                    0x8005'f261      0x22  Code  Lc  select_every.o [1]
+hex2                         0x53a4      0x10  Data  Lc  me.o [1]
+hpel_filter                0x1'b721     0x176  Code  Lc  mc.o [1]
+i16x16_mode_available   0x8005'f1f4      0x1c  Data  Lc  analyse.o [1]
+i4x4_mode_available     0x8005'b3f0      0x64  Data  Lc  analyse.o [1]
+i8x8_mode_available     0x8005'b38c      0x64  Data  Lc  analyse.o [1]
+i_alpha_table              0x1'dd50      0x58  Data  Lc  deblock.o [1]
+i_beta_table               0x1'dda8      0x58  Data  Lc  deblock.o [1]
+i_chroma_qp_table       0x8006'3184      0x60  Data  Lc  encoder.o [1]
+i_mb_b16x8_cost_table   0x8005'f1e0      0x14  Data  Lc  analyse.o [1]
+i_tc0_table                0x1'dbf0     0x160  Data  Lc  deblock.o [1]
+idct4x4dc                  0x1'92c9      0x84  Code  Lc  dct.o [1]
+idct_dequant_2x2_dconly
+                        0x8001'd733      0x5c  Code  Lc  macroblock_encoder.o [1]
+idct_dequant_2x4_dc        0x1'd1eb     0x102  Code  Lc  quant.o [1]
+idct_dequant_2x4_dconly
+                           0x1'd2ed      0xee  Code  Lc  quant.o [1]
+init                    0x8006'25e1      0xa0  Code  Lc  cache.o [1]
+init                    0x8005'fee5     0x188  Code  Lc  crop.o [1]
+init                    0x8005'ca05     0x176  Code  Lc  depth.o [1]
+init                    0x8006'2ae1      0x4c  Code  Lc  fix_vfr_pts.o [1]
+init                    0x8006'46e1      0x60  Code  Lc  resize.o [1]
+init                    0x8005'f285     0x1ca  Code  Lc  select_every.o [1]
+init                    0x8006'3c6d      0x50  Code  Lc  source.o [1]
+init::optlist           0x8006'018c      0x14  Data  Lc  crop.o [1]
+init_costs              0x8001'087d     0x208  Code  Lc  analyse.o [1]
+init_mparams            0x8002'6c53      0x2c  Code  Lc  dlmalloc.o [2]
+init_top                0x8002'6c7f      0x34  Code  Lc  dlmalloc.o [2]
+init{1}{2}::optlist     0x8005'cbbc       0x8  Data  Lc  depth.o [1]
+integral_init4h            0x1'c105      0x98  Code  Lc  mc.o [1]
+integral_init4v            0x1'c249     0x102  Code  Lc  mc.o [1]
+integral_init8h            0x1'c19d      0xac  Code  Lc  mc.o [1]
+integral_init8v            0x1'c34d      0x60  Code  Lc  mc.o [1]
+ld_clust                0x8005'3493      0x1e  Code  Lc  ff.o [1]
+ld_dword                0x8005'2f79      0x16  Code  Lc  ff.o [1]
+ldexp                   0x8002'9301            Code  Gb  ldexp.o [3]
+ldexpf                  0x8005'edb9            Code  Gb  ldexpf.o [3]
+ldexpl                  0x8002'9301            Code  Gb  ldexp.o [3]
+left_indices               0x1'e7d4      0x50  Data  Lc  macroblock.o [1]
+lnbias                  0x8005'dba8     0x420  Data  Lc  pow64.o [3]
+load_deinterleave_chroma_fdec
+                           0x1'c03b      0xc2  Code  Lc  mc.o [1]
+load_deinterleave_chroma_fenc
+                           0x1'bf79      0xc2  Code  Lc  mc.o [1]
+log                     0x8004'0b99            Code  Gb  log.o [3]
+log10                   0x8003'ba51            Code  Gb  log10.o [3]
+log10l                  0x8003'ba51            Code  Gb  log10.o [3]
+logf                    0x8002'48a1            Code  Gb  logf.o [3]
+logl                    0x8004'0b99            Code  Gb  log.o [3]
+main                    0x8006'2c79      0xb4  Code  Gb  sdcard_fatfs.o [1]
+main::driverNumberBuffer
+                        0x8006'2dc0       0x4  Data  Lc  sdcard_fatfs.o [1]
+mb_type_b_to_golomb     0x8005'f0a8      0x1c  Data  Lc  analyse.o [1]
+mb_type_b_to_golomb     0x8006'5074      0x1c  Data  Lc  cavlc.o [1]
+mbcmp_init              0x8002'bff1     0x128  Code  Lc  encoder.o [1]
+mbtree_fix8_pack           0x1'c8fd      0xb8  Code  Lc  mc.o [1]
+mbtree_fix8_unpack         0x1'c9b5      0xb8  Code  Lc  mc.o [1]
+mbtree_propagate_cost      0x1'c63d      0x8e  Code  Lc  mc.o [1]
+mbtree_propagate_list      0x1'c6cd     0x230  Code  Lc  mc.o [1]
+mc_chroma                  0x1'ba5d      0xee  Code  Lc  mc.o [1]
+mc_copy                    0x1'b6f1      0x2e  Code  Lc  mc.o [1]
+mc_copy_w16                0x1'bb4b      0x28  Code  Lc  mc.o [1]
+mc_copy_w4                 0x1'bb93      0x1c  Code  Lc  mc.o [1]
+mc_copy_w8                 0x1'bb73      0x20  Code  Lc  mc.o [1]
+mc_luma                    0x1'b897      0xcc  Code  Lc  mc.o [1]
+mc_weight                  0x1'b545     0x11c  Code  Lc  mc.o [1]
+mc_weight_w12              0x1'b691      0x18  Code  Lc  mc.o [1]
+mc_weight_w16              0x1'b679      0x18  Code  Lc  mc.o [1]
+mc_weight_w2               0x1'b6d9      0x18  Code  Lc  mc.o [1]
+mc_weight_w20              0x1'b661      0x18  Code  Lc  mc.o [1]
+mc_weight_w4               0x1'b6c1      0x18  Code  Lc  mc.o [1]
+mc_weight_w8               0x1'b6a9      0x18  Code  Lc  mc.o [1]
+mem_cmp                 0x8005'2f91      0x1a  Code  Lc  ff.o [1]
+memchr                  0x8002'9df5            Code  Gb  memchr.o [4]
+memcmp                  0x8003'bb19            Code  Gb  memcmp.o [4]
+memcpy                  0x8006'5535       0xc  Code  Gb  memcpy.o [4]
+memzero_aligned            0x1'c101       0x4  Code  Lc  mc.o [1]
+mod6m1                       0x539c       0x8  Data  Lc  me.o [1]
+mount_volume            0x8005'41a9     0x2ec  Code  Lc  ff.o [1]
+move_window             0x8005'2ff7      0x34  Code  Lc  ff.o [1]
+mparams                 0x8027'b9a0      0x18  Data  Lc  dlmalloc.o [2]
+ndigs                   0x8006'4d48      0x28  Data  Lc  iar_Stoulx.o [2]
+num_clock_ts            0x8003'7490       0xc  Data  Lc  set_encoder.o [1]
+oem2uni932              0x8004'80b4    0x7378  Data  Lc  ffunicode.o [1]
+open_file               0x8006'3419      0x20  Code  Lc  raw.o [1]
+open_file               0x8006'0f25     0x160  Code  Lc  raw_input.o [1]
+optimize_chroma_2x2_dc     0x1'd723       0x4  Code  Lc  quant.o [1]
+optimize_chroma_2x4_dc     0x1'd727       0x4  Code  Lc  quant.o [1]
+optimize_chroma_dc_internal
+                           0x1'd4ed     0x236  Code  Lc  quant.o [1]
+optimize_chroma_idct_dequant_2x2
+                           0x1'd4a7      0x46  Code  Lc  quant.o [1]
+optimize_chroma_idct_dequant_2x4
+                           0x1'd3db      0xcc  Code  Lc  quant.o [1]
+parse_cqm               0x8002'1b19      0x50  Code  Lc  common.o [1]
+parse_enum              0x8002'1ae9      0x30  Code  Lc  common.o [1]
+picture_alloc           0x8006'10c9      0x1c  Code  Lc  raw_input.o [1]
+picture_clean           0x8006'10e5      0x10  Code  Lc  raw_input.o [1]
+pixel_asd8                 0x1'2401      0x78  Code  Lc  pixel.o [1]
+pixel_avg                  0x1'b011      0xbe  Code  Lc  mc.o [1]
+pixel_avg_16x16            0x1'b251      0x3a  Code  Lc  mc.o [1]
+pixel_avg_16x8             0x1'b28b      0x40  Code  Lc  mc.o [1]
+pixel_avg_2x2              0x1'b4ff      0x3a  Code  Lc  mc.o [1]
+pixel_avg_2x4              0x1'b4bf      0x40  Code  Lc  mc.o [1]
+pixel_avg_2x8              0x1'b47f      0x40  Code  Lc  mc.o [1]
+pixel_avg_4x16             0x1'b385      0x40  Code  Lc  mc.o [1]
+pixel_avg_4x2              0x1'b43f      0x40  Code  Lc  mc.o [1]
+pixel_avg_4x4              0x1'b405      0x3a  Code  Lc  mc.o [1]
+pixel_avg_4x8              0x1'b3c5      0x40  Code  Lc  mc.o [1]
+pixel_avg_8x16             0x1'b2cb      0x40  Code  Lc  mc.o [1]
+pixel_avg_8x4              0x1'b345      0x40  Code  Lc  mc.o [1]
+pixel_avg_8x8              0x1'b30b      0x3a  Code  Lc  mc.o [1]
+pixel_avg_weight_wxh       0x1'b18f      0xc2  Code  Lc  mc.o [1]
+pixel_avg_wxh              0x1'b0d1      0xbe  Code  Lc  mc.o [1]
+pixel_hadamard_ac          0x1'0d15     0x1a6  Code  Lc  pixel.o [1]
+pixel_ssd_nv12_core        0x1'021d     0x126  Code  Lc  pixel.o [1]
+pixel_vsad                 0x1'2385      0x7c  Code  Lc  pixel.o [1]
+pow                     0x8003'89c5     0x50c  Code  Gb  pow64.o [3]
+powf                    0x8005'e7b5     0x344  Code  Gb  pow32.o [3]
+powl                    0x8003'89c5     0x50c  Code  Gb  pow64.o [3]
+pows                    0x8006'4e30      0x48  Data  Lc  strto64.o [3]
+predict_row_size_to_end
+                             0x861d     0x142  Code  Lc  ratecontrol.o [1]
+prefetch_fenc_null         0x1'c0fd       0x2  Code  Lc  mc.o [1]
+prefetch_ref_null          0x1'c0ff       0x2  Code  Lc  mc.o [1]
+print_status            0x8005'91d9     0x1ba  Code  Lc  x264.o [1]
+printf                  0x8005'f585      0x28  Code  Gb  printf.o [2]
+pulldown_frame_duration
+                        0x8005'f5ac      0x28  Data  Lc  x264.o [1]
+pulldown_values         0x8005'f7e0      0xe0  Data  Lc  x264.o [1]
+put_fat                 0x8005'31c3     0x10e  Code  Lc  ff.o [1]
+putchar                 0x8006'532d      0x20  Code  Gb  putchar.o [2]
+qscale2bits                  0x6569      0x8c  Code  Lc  ratecontrol.o [1]
+quant4_scale            0x8006'3d38      0x24  Data  Lc  set.o [1]
+quant8_scale            0x8006'3d80      0x48  Data  Lc  set.o [1]
+quant8_scan             0x8003'8318      0x10  Data  Lc  set.o [1]
+quant_2x2_dc               0x1'cf2f      0x90  Code  Lc  quant.o [1]
+quant_4x4                  0x1'cdbd      0x66  Code  Lc  quant.o [1]
+quant_4x4_dc               0x1'ced5      0x5a  Code  Lc  quant.o [1]
+quant_4x4x4                0x1'ce25      0xae  Code  Lc  quant.o [1]
+quant_8x8                  0x1'cd55      0x66  Code  Lc  quant.o [1]
+quant_trellis_cabac     0x8000'cfa5     0xfde  Code  Lc  analyse.o [1]
+quant_trellis_cavlc     0x8000'df9d     0x598  Code  Lc  analyse.o [1]
+rate_estimate_qscale         0x9ba9    0x1162  Code  Lc  ratecontrol.o [1]
+raw_input               0x8006'5410      0x18  Data  Gb  raw_input.o [1]
+raw_output              0x8006'5458      0x14  Data  Gb  raw.o [1]
+read_frame              0x8006'1085      0x40  Code  Lc  raw_input.o [1]
+refine_subpel                0x2b5d     0xe9a  Code  Lc  me.o [1]
+release_frame           0x8006'2769       0x4  Code  Lc  cache.o [1]
+release_frame           0x8006'0123       0x8  Code  Lc  crop.o [1]
+release_frame           0x8005'c9e1       0x8  Code  Lc  depth.o [1]
+release_frame           0x8006'2c3f      0x16  Code  Lc  fix_vfr_pts.o [1]
+release_frame           0x8006'10c5       0x4  Code  Lc  raw_input.o [1]
+release_frame           0x8005'f4b1      0x24  Code  Lc  select_every.o [1]
+release_frame           0x8006'3cf3      0x1e  Code  Lc  source.o [1]
+resize_filter           0x8020'09e0      0x1c  Data  Gb  resize.o [1]
+round                   0x8004'0ce9            Code  Gb  round.o [3]
+roundl                  0x8004'0ce9            Code  Gb  round.o [3]
+run_before              0x8006'39e8      0xe0  Data  Lc  vlc.o [1]
+s_LpuartAdapterBase     0x8006'3724      0x34  Data  Lc  fsl_adapter_lpuart.o [1]
+s_cd                    0x8020'0a74      0x18  Data  Lc  sdmmc_config.o [1]
+s_debugConsoleState     0x8300'0000      0x1c  Data  Lc  fsl_debug_console.o [1]
+s_gpioBases             0x8006'3b9c      0x40  Data  Lc  fsl_gpio.o [1]
+s_gpioClock             0x8006'1bd0      0x10  Data  Lc  fsl_gpio.o [1]
+s_gptClocks             0x8005'9bf4       0x8  Data  Lc  fsl_gpt.o [1]
+s_host                  0x8020'09fc      0x78  Data  Lc  sdmmc_config.o [1]
+s_ioVoltage             0x8020'0a8c       0x8  Data  Lc  sdmmc_config.o [1]
+s_lpuartBases           0x8006'31e4      0x34  Data  Lc  fsl_lpuart.o [1]
+s_lpuartClock           0x8002'a2d8      0x10  Data  Lc  fsl_lpuart.o [1]
+s_lpuartHandle          0x8027'b3f8      0x34  Data  Lc  fsl_lpuart.o [1]
+s_lpuartIsr             0x8027'b42c       0x4  Data  Lc  fsl_lpuart.o [1]
+s_sdmmcHostDmaBuffer    0x8300'0470      0x80  Data  Lc  sdmmc_config.o [1]
+s_usdhcBootDummy        0x8300'001c       0x4  Data  Gb  fsl_usdhc.o [1]
+s_usdhcClock            0x8005'2318       0x4  Data  Lc  fsl_usdhc.o [1]
+s_usdhcHandle           0x8027'b6e0       0xc  Data  Lc  fsl_usdhc.o [1]
+s_usdhcIRQ              0x8005'2d90       0x8  Data  Lc  fsl_usdhc.o [1]
+s_usdhcIsr              0x8027'b6ec       0x4  Data  Lc  fsl_usdhc.o [1]
+sa8d_8x8                   0x1'0ac5     0x1ea  Code  Lc  pixel.o [1]
+scalbln                 0x8002'9301            Code  Gb  ldexp.o [3]
+scalblnf                0x8005'edb9            Code  Gb  ldexpf.o [3]
+scalblnl                0x8002'9301            Code  Gb  ldexp.o [3]
+scalbn                  0x8002'9301            Code  Gb  ldexp.o [3]
+scalbnf                 0x8005'edb9            Code  Gb  ldexpf.o [3]
+scalbnl                 0x8002'9301            Code  Gb  ldexp.o [3]
+scenecut                0x8003'f3c1     0x30a  Code  Lc  slicetype.o [1]
+scenecut_internal       0x8003'f251     0x168  Code  Lc  slicetype.o [1]
+sd_disk_initialize      0x8005'5245      0x44  Code  Gb  fsl_sd_disk.o [1]
+sd_disk_ioctl           0x8005'51fd      0x3c  Code  Gb  fsl_sd_disk.o [1]
+sd_disk_read            0x8005'51df      0x1e  Code  Gb  fsl_sd_disk.o [1]
+sd_disk_status          0x8005'5239       0xc  Code  Gb  fsl_sd_disk.o [1]
+sd_disk_write           0x8005'51c1      0x1e  Code  Gb  fsl_sd_disk.o [1]
+sec_hand                0x8027'bb94       0x4  Data  Lc  xfail_s.o [2]
+segment_holding         0x8002'6c39      0x1a  Code  Lc  dlmalloc.o [2]
+select_every_filter     0x8020'0a94      0x1c  Data  Gb  select_every.o [1]
+set_param               0x8006'3439       0x4  Code  Lc  raw.o [1]
+slice_type_to_char      0x8006'30ac       0x4  Data  Lc  encoder.o [1]
+slice_type_to_char         0x1'ea60       0x4  Data  Lc  ratecontrol.o [1]
+snprintf                0x8003'9235      0x44  Code  Gb  snprintf.o [2]
+source_filter           0x8020'0ac0      0x1c  Data  Gb  source.o [1]
+sprintf                 0x8002'86b5      0x40  Code  Gb  sprintf.o [2]
+sqrt                    0x8006'53bd            Code  Gb  sqrt.o [3]
+sqrtf                   0x8004'0cb9            Code  Gb  sqrtf.o [3]
+sqrtl                   0x8006'53bd            Code  Gb  sqrt.o [3]
+square1                      0x53b4      0x14  Data  Lc  me.o [1]
+sscanf                  0x8002'6c11      0x28  Code  Gb  sscanf.o [2]
+ssd_mb                  0x8000'6ff1      0x60  Code  Lc  analyse.o [1]
+ssd_plane               0x8000'6dfd     0x1bc  Code  Lc  analyse.o [1]
+ssd_plane::zero         0x8020'0920      0x10  Data  Lc  analyse.o [1]
+ssim_4x4x2_core            0x1'20d5      0xa8  Code  Lc  pixel.o [1]
+ssim_end4                  0x1'217d      0xb8  Code  Lc  pixel.o [1]
+st_clust                0x8005'34b1      0x18  Code  Lc  ff.o [1]
+store_interleave_chroma
+                           0x1'beb9      0xc0  Code  Lc  mc.o [1]
+strcasecmp              0x8002'6a03      0x54  Code  Gb  strcasecmp.o [2]
+strcspn                 0x8002'8ba9      0x22  Code  Gb  strcspn.o [2]
+strdup                  0x8002'1bad      0x24  Code  Gb  common.o [1]
+strlen                  0x8002'6a59            Code  Gb  strlen.o [4]
+strncasecmp             0x8002'6b69      0x44  Code  Gb  strncasecmp.o [2]
+strncmp                 0x8002'8115      0x28  Code  Gb  strncmp.o [2]
+strpbrk                 0x8003'bba3      0x1e  Code  Gb  strpbrk.o [2]
+strspn                  0x8002'8b87      0x22  Code  Gb  strspn.o [2]
+strstr                  0x8002'8687      0x2c  Code  Gb  strstr.o [2]
+strtod                  0x8002'8681       0x6  Code  Gb  strto64.o [3]
+strtok                  0x8002'6b1d      0x4c  Code  Gb  strtok.o [2]
+strtok_r                0x8002'81ed      0x38  Code  Gb  strtok_r.o [2]
+strtol                  0x8002'69ff       0x4  Code  Gb  iar_Stolx.o [2]
+strtold                 0x8002'8681       0x6  Code  Gb  strto64.o [3]
+strtoul                 0x8002'8b75       0x2  Code  Gb  iar_Stoulx.o [2]
+sub16x16_dct               0x1'950f      0x3e  Code  Lc  dct.o [1]
+sub16x16_dct8              0x1'9be7      0x3e  Code  Lc  dct.o [1]
+sub4x4_dct                 0x1'93f9      0xdc  Code  Lc  dct.o [1]
+sub4x4_dct_dc              0x1'954d     0x194  Code  Lc  dct.o [1]
+sub8x16_dct_dc             0x1'9743      0xe8  Code  Lc  dct.o [1]
+sub8x8_dct                 0x1'94d5      0x3a  Code  Lc  dct.o [1]
+sub8x8_dct8                0x1'9995     0x252  Code  Lc  dct.o [1]
+sub8x8_dct_dc              0x1'96e1      0x62  Code  Lc  dct.o [1]
+subpartition_b_to_golomb
+                        0x8005'f0c8      0x10  Data  Lc  analyse.o [1]
+subpartition_b_to_golomb
+                        0x8006'5094      0x10  Data  Lc  cavlc.o [1]
+subpartition_p_to_golomb
+                        0x8005'f0c4       0x4  Data  Lc  analyse.o [1]
+subpartition_p_to_golomb
+                        0x8006'5090       0x4  Data  Lc  cavlc.o [1]
+subpel_iterations          0x1'e9c0      0x30  Data  Lc  me.o [1]
+sum_sfn                 0x8005'34c9      0x30  Code  Lc  ff.o [1]
+sync_fs                 0x8005'302b      0xb6  Code  Lc  ff.o [1]
+sync_window             0x8005'2fab      0x4c  Code  Lc  ff.o [1]
+tolower                 0x8002'8b7b       0xc  Code  Gb  tolower.o [2]
+transpose               0x8003'4789      0x94  Code  Lc  set_encoder.o [1]
+trellis_coef1_0         0x8000'c315     0x1f0  Code  Lc  analyse.o [1]
+trellis_coef1_1         0x8000'c509     0x38a  Code  Lc  analyse.o [1]
+trellis_coefn_0         0x8000'c893     0x286  Code  Lc  analyse.o [1]
+trellis_coefn_1         0x8000'cb2d     0x460  Code  Lc  analyse.o [1]
+ttio_guard              0x8027'bb98       0x1  Data  Lc  XShttio.o [2]
+txtFil_1                0x8300'0020     0x228  Data  Lc  raw.o [1]
+txtFil_2                0x8300'0248     0x228  Data  Lc  raw_input.o [1]
+uni2oem932              0x8004'0d3c    0x7378  Data  Lc  ffunicode.o [1]
+update_predictor             0x9939      0xce  Code  Lc  ratecontrol.o [1]
+validate                0x8005'4495      0x3a  Code  Lc  ff.o [1]
+write_frame             0x8006'346d      0x24  Code  Lc  raw.o [1]
+write_headers           0x8006'343d      0x30  Code  Lc  raw.o [1]
+x264_ac_energy_mb            0x660d     0x49c  Code  Lc  ratecontrol.o [1]
+x264_adaptive_quant_frame
+                             0x6aa9     0x4e0  Code  Gb  ratecontrol.o [1]
+x264_analyse_bi_chroma  0x8001'486b     0x75c  Code  Lc  analyse.o [1]
+x264_analyse_free_costs
+                        0x8001'0b2d      0x58  Code  Gb  analyse.o [1]
+x264_analyse_init_costs
+                        0x8001'0a85      0xa6  Code  Gb  analyse.o [1]
+x264_analyse_update_cache
+                        0x8001'ce79     0x83c  Code  Lc  analyse.o [1]
+x264_analyse_weight_frame
+                        0x8001'0b85      0xfe  Code  Gb  analyse.o [1]
+x264_b_pyramid_names    0x8005'bd1c      0x10  Data  Lc  common.o [1]
+x264_b_pyramid_names    0x8004'0b74      0x10  Data  Lc  slicetype.o [1]
+x264_bit_depth          0x8006'5930       0x4  Data  Gb  common.o [1]
+x264_bitstream_init     0x8003'8409      0x12  Code  Gb  bitstream.o [1]
+x264_cabac_8x8_mvd      0x8000'34bd     0x1c8  Code  Lc  analyse.o [1]
+x264_cabac_block_residual_internal
+                           0x1'52d9     0x258  Code  Lc  cabac_encoder.o [1]
+x264_cabac_cbf_ctxidxinc::base_ctx
+                        0x8005'f130      0x1c  Data  Lc  analyse.o [1]
+x264_cabac_cbf_ctxidxinc::base_ctx
+                           0x1'7074      0x1c  Data  Lc  cabac_encoder.o [1]
+x264_cabac_cbp_chroma   0x8000'30af      0x84  Code  Lc  analyse.o [1]
+x264_cabac_cbp_luma     0x8000'2fd7      0xd8  Code  Lc  analyse.o [1]
+x264_cabac_context_init
+                        0x8003'84a3      0x40  Code  Gb  cabac.o [1]
+x264_cabac_context_init_I
+                        0x8005'528c     0x800  Data  Lc  cabac.o [1]
+x264_cabac_context_init_PB
+                        0x8005'5a8c    0x1800  Data  Lc  cabac.o [1]
+x264_cabac_contexts     0x8024'71e4  0x3'4000  Data  Gb  cabac.o [1]
+x264_cabac_encode_bypass_c
+                        0x8003'8605      0x16  Code  Gb  cabac.o [1]
+x264_cabac_encode_decision_c
+                        0x8003'85c1      0x44  Code  Gb  cabac.o [1]
+x264_cabac_encode_flush
+                        0x8003'86b7      0xb2  Code  Gb  cabac.o [1]
+x264_cabac_encode_init  0x8003'84f7      0x1e  Code  Gb  cabac.o [1]
+x264_cabac_encode_init_core
+                        0x8003'84e3      0x14  Code  Gb  cabac.o [1]
+x264_cabac_encode_renorm
+                        0x8003'859f      0x22  Code  Lc  cabac.o [1]
+x264_cabac_encode_terminal_c
+                        0x8003'86af       0x8  Code  Gb  cabac.o [1]
+x264_cabac_encode_ue_bypass
+                        0x8003'861b      0x94  Code  Gb  cabac.o [1]
+x264_cabac_entropy      0x8006'3524     0x100  Data  Gb  cabac.o [1]
+x264_cabac_init         0x8003'8421      0x82  Code  Gb  cabac.o [1]
+x264_cabac_intra4x4_pred_mode
+                        0x8000'2e99      0xa2  Code  Lc  analyse.o [1]
+x264_cabac_intra_chroma_pred_mode
+                        0x8000'2f3b      0x9c  Code  Lc  analyse.o [1]
+x264_cabac_mb_header_b{2}{28}{29}{30}::i_mb_bits
+                        0x8005'f114      0x1c  Data  Lc  analyse.o [1]
+x264_cabac_mb_header_b{2}{28}{29}{30}::i_mb_bits
+                           0x1'e904      0x1c  Data  Lc  cabac_encoder.o [1]
+x264_cabac_mb_header_i  0x8000'3695     0x172  Code  Lc  analyse.o [1]
+x264_cabac_mb_header_i     0x1'50bd     0x204  Code  Lc  cabac_encoder.o [1]
+x264_cabac_mb_skip         0x1'4e55      0x24  Code  Gb  cabac_encoder.o [1]
+x264_cabac_mb_type_intra
+                        0x8000'2da5      0xf4  Code  Lc  analyse.o [1]
+x264_cabac_mb_type_intra
+                           0x1'4db1      0x9c  Code  Lc  cabac_encoder.o [1]
+x264_cabac_mvd          0x8000'33d1      0xde  Code  Lc  analyse.o [1]
+x264_cabac_mvd             0x1'4fe1      0xdc  Code  Lc  cabac_encoder.o [1]
+x264_cabac_mvd_cpn      0x8000'31e1     0x1e6  Code  Lc  analyse.o [1]
+x264_cabac_mvd_cpn         0x1'4efd      0xdc  Code  Lc  cabac_encoder.o [1]
+x264_cabac_mvd_cpn::ctxes
+                           0x1'4fd8       0x8  Data  Lc  cabac_encoder.o [1]
+x264_cabac_putbyte      0x8003'8515      0x8a  Code  Lc  cabac.o [1]
+x264_cabac_range_lps    0x8006'2110     0x100  Data  Gb  cabac.o [1]
+x264_cabac_ref_internal
+                           0x1'4e79      0x84  Code  Lc  cabac_encoder.o [1]
+x264_cabac_renorm_shift
+                        0x8006'4f44      0x40  Data  Gb  cabac.o [1]
+x264_cabac_size_decision
+                        0x8000'2469      0x2c  Code  Lc  analyse.o [1]
+x264_cabac_size_unary   0x8024'1900     0xf00  Data  Gb  analyse.o [1]
+x264_cabac_subpartition_p
+                        0x8000'3139      0x96  Code  Lc  analyse.o [1]
+x264_cabac_transition   0x8006'2010     0x100  Data  Gb  cabac.o [1]
+x264_cabac_transition_unary
+                        0x8020'0000     0x780  Data  Gb  analyse.o [1]
+x264_calculate_durations
+                        0x8003'f0a5      0x84  Code  Lc  slicetype.o [1]
+x264_cavlc_8x8_mvd      0x8000'2a01      0x82  Code  Lc  analyse.o [1]
+x264_cavlc_block_residual_escape
+                        0x8000'25e9      0xd8  Code  Lc  analyse.o [1]
+x264_cavlc_block_residual_escape
+                        0x8003'936d     0x1bc  Code  Lc  cavlc.o [1]
+x264_cavlc_block_residual_escape::next_suffix
+                        0x8005'f0d8      0x10  Data  Lc  analyse.o [1]
+x264_cavlc_block_residual_escape::next_suffix
+                        0x8003'9528      0x10  Data  Lc  cavlc.o [1]
+x264_cavlc_block_residual_internal
+                        0x8000'26c1     0x288  Code  Lc  analyse.o [1]
+x264_cavlc_block_residual_internal
+                        0x8003'9539     0x49c  Code  Lc  cavlc.o [1]
+x264_cavlc_block_residual_internal::count_cat
+                        0x8005'f0f0      0x10  Data  Lc  analyse.o [1]
+x264_cavlc_block_residual_internal::count_cat
+                        0x8003'99d4      0x10  Data  Lc  cavlc.o [1]
+x264_cavlc_block_residual_internal::ctz_index
+                        0x8005'f0e8       0x8  Data  Lc  analyse.o [1]
+x264_cavlc_block_residual_internal::ctz_index
+                        0x8003'b948       0x8  Data  Lc  cavlc.o [1]
+x264_cavlc_init         0x8003'87c1     0x1f4  Code  Gb  vlc.o [1]
+x264_cavlc_mb_header_i  0x8000'2bd9     0x1cc  Code  Lc  analyse.o [1]
+x264_cavlc_mb_header_i  0x8003'9a9d     0x1f6  Code  Lc  cavlc.o [1]
+x264_cavlc_mvd          0x8000'29a7      0x58  Code  Lc  analyse.o [1]
+x264_cavlc_mvd          0x8003'9a47      0x56  Code  Lc  cavlc.o [1]
+x264_cavlc_partition_luma_residual
+                        0x8000'2a85     0x152  Code  Lc  analyse.o [1]
+x264_cavlc_qp_delta     0x8000'2949      0x5e  Code  Lc  analyse.o [1]
+x264_cavlc_qp_delta     0x8003'99e5      0x62  Code  Lc  cavlc.o [1]
+x264_check_encapsulated_buffer
+                        0x8002'd0c3      0x96  Code  Lc  encoder.o [1]
+x264_chroma_lambda2_offset_tab
+                        0x8005'b134      0x4c  Data  Lc  analyse.o [1]
+x264_cli_csp_depth_factor
+                        0x8005'cbdf      0x22  Code  Gb  input.o [1]
+x264_cli_csp_is_invalid
+                        0x8005'cbc5      0x1a  Code  Gb  input.o [1]
+x264_cli_csps           0x8005'f8c0     0x300  Data  Gb  input.o [1]
+x264_cli_get_csp        0x8005'ce4d      0x22  Code  Gb  input.o [1]
+x264_cli_log            0x8005'8759       0x6  Code  Gb  x264.o [1]
+x264_cli_pic_alloc      0x8005'cc8d      0xe2  Code  Gb  input.o [1]
+x264_cli_pic_clean      0x8005'ce21      0x2c  Code  Gb  input.o [1]
+x264_cli_pic_copy       0x8006'27b9     0x116  Code  Gb  internal.o [1]
+x264_cli_pic_init_noalloc
+                        0x8005'cd71      0xb0  Code  Gb  input.o [1]
+x264_cli_pic_plane_size
+                        0x8005'cc01      0x8c  Code  Gb  input.o [1]
+x264_clz                     0x64f1      0x3e  Code  Lc  ratecontrol.o [1]
+x264_clz                0x8003'8785      0x3c  Code  Lc  vlc.o [1]
+x264_clz::lut           0x8020'0930      0x10  Data  Lc  cabac.o [1]
+x264_clz::lut           0x8020'09a4      0x10  Data  Lc  encoder.o [1]
+x264_clz::lut              0x1'ea40      0x10  Data  Lc  ratecontrol.o [1]
+x264_clz::lut           0x8020'0ab0      0x10  Data  Lc  slicetype.o [1]
+x264_clz::lut           0x8020'0ae0      0x10  Data  Lc  vlc.o [1]
+x264_coeff0_token       0x8006'5528       0xc  Data  Gb  vlc.o [1]
+x264_coeff_abs_level_m1_offset
+                        0x8005'f154      0x20  Data  Gb  analyse.o [1]
+x264_coeff_flag_offset_chroma_422_dc
+                        0x8005'f14c       0x8  Data  Gb  analyse.o [1]
+x264_coeff_last15          0x1'd951      0x14  Code  Lc  quant.o [1]
+x264_coeff_last16          0x1'd965      0x14  Code  Lc  quant.o [1]
+x264_coeff_last4           0x1'd929      0x14  Code  Lc  quant.o [1]
+x264_coeff_last64          0x1'd979      0x14  Code  Lc  quant.o [1]
+x264_coeff_last8           0x1'd93d      0x14  Code  Lc  quant.o [1]
+x264_coeff_level_run15     0x1'da2d      0x50  Code  Lc  quant.o [1]
+x264_coeff_level_run16     0x1'da7d      0x50  Code  Lc  quant.o [1]
+x264_coeff_level_run4      0x1'd98d      0x50  Code  Lc  quant.o [1]
+x264_coeff_level_run8      0x1'd9dd      0x50  Code  Lc  quant.o [1]
+x264_coeff_token        0x8005'fbc0     0x300  Data  Gb  vlc.o [1]
+x264_colmatrix_names    0x8006'3e80      0x34  Data  Lc  common.o [1]
+x264_colorprim_names    0x8006'3dfc      0x38  Data  Lc  common.o [1]
+x264_copy_column8            0xc741      0x66  Code  Gb  macroblock.o [1]
+x264_cost_i4x4_mode     0x8024'5e24    0x11c0  Data  Lc  analyse.o [1]
+x264_cost_ref           0x8024'2800    0x3624  Data  Lc  analyse.o [1]
+x264_count_cat_m1       0x8005'f174      0x10  Data  Gb  analyse.o [1]
+x264_cpu_detect         0x8002'6923       0x4  Code  Gb  cpu.o [1]
+x264_cpu_names          0x8006'55ec       0x8  Data  Gb  cpu.o [1]
+x264_cpu_num_processors
+                        0x8002'6927       0x4  Code  Gb  cpu.o [1]
+x264_cqm_delete         0x8003'7e49     0x18c  Code  Gb  set.o [1]
+x264_cqm_flat16         0x8006'1384      0x40  Data  Lc  set_encoder.o [1]
+x264_cqm_init           0x8003'74bd     0x962  Code  Gb  set.o [1]
+x264_cqm_jvt            0x8003'58dc      0x20  Data  Lc  set_encoder.o [1]
+x264_cqm_jvt4i          0x8003'82e4      0x10  Data  Lc  set.o [1]
+x264_cqm_jvt4i          0x8003'684c      0x10  Data  Lc  set_encoder.o [1]
+x264_cqm_jvt4p          0x8003'82f4      0x10  Data  Lc  set.o [1]
+x264_cqm_jvt4p          0x8003'685c      0x10  Data  Lc  set_encoder.o [1]
+x264_cqm_jvt8i          0x8006'4480      0x40  Data  Lc  set.o [1]
+x264_cqm_jvt8i          0x8006'1304      0x40  Data  Lc  set_encoder.o [1]
+x264_cqm_jvt8p          0x8006'44c0      0x40  Data  Lc  set.o [1]
+x264_cqm_jvt8p          0x8006'1344      0x40  Data  Lc  set_encoder.o [1]
+x264_cqm_parse_file     0x8003'80a9     0x140  Code  Gb  set.o [1]
+x264_cqm_parse_jmlist   0x8003'7fd5      0xd4  Code  Lc  set.o [1]
+x264_ctz                     0x652f      0x3a  Code  Lc  ratecontrol.o [1]
+x264_ctz::lut              0x1'ea50      0x10  Data  Lc  ratecontrol.o [1]
+x264_ctz_4bit::lut      0x8020'0780      0x10  Data  Lc  analyse.o [1]
+x264_ctz_4bit::lut         0x1'ea30      0x10  Data  Lc  cabac_encoder.o [1]
+x264_ctz_4bit::lut      0x8020'095c      0x10  Data  Lc  cavlc.o [1]
+x264_ctz_4bit::lut      0x8020'09d0      0x10  Data  Lc  macroblock_encoder.o [1]
+x264_dct4_weight2_tab      0x1'e864      0x40  Data  Gb  dct.o [1]
+x264_dct4_weight_tab       0x1'e824      0x40  Data  Gb  dct.o [1]
+x264_dct8_weight2_tab      0x1'e160     0x100  Data  Gb  dct.o [1]
+x264_dct8_weight_tab       0x1'e060     0x100  Data  Gb  dct.o [1]
+x264_dct_init              0x1'9fdb      0x4a  Code  Gb  dct.o [1]
+x264_deblock_init          0x1'91af      0x4a  Code  Gb  deblock.o [1]
+x264_decimate_score15      0x1'd7ad      0x80  Code  Lc  quant.o [1]
+x264_decimate_score16      0x1'd82d      0x7e  Code  Lc  quant.o [1]
+x264_decimate_score64      0x1'd8ad      0x7c  Code  Lc  quant.o [1]
+x264_decimate_table4       0x1'dbe0      0x10  Data  Gb  quant.o [1]
+x264_decimate_table8       0x1'e8a4      0x40  Data  Gb  quant.o [1]
+x264_denoise_dct           0x1'd72d      0x80  Code  Lc  quant.o [1]
+x264_direct_pred_names  0x8005'bcf0      0x14  Data  Lc  common.o [1]
+x264_encoder_close      0x8003'3005    0x146c  Code  Gb  encoder.o [1]
+x264_encoder_close{9}{10}{11}::slice_order
+                        0x8006'30c4       0x4  Data  Lc  encoder.o [1]
+x264_encoder_delayed_frames
+                        0x8003'44d1      0xba  Code  Gb  encoder.o [1]
+x264_encoder_encapsulate_nals
+                        0x8002'd159     0x1ca  Code  Lc  encoder.o [1]
+x264_encoder_encode     0x8002'd93d    0x4858  Code  Gb  encoder.o [1]
+x264_encoder_frame_end  0x8003'21a9     0xd5a  Code  Lc  encoder.o [1]
+x264_encoder_headers    0x8002'd323     0x162  Code  Gb  encoder.o [1]
+x264_encoder_open_152   0x8002'c119     0xa88  Code  Gb  encoder.o [1]
+x264_encoder_open_152{40}{42}::subsampling
+                        0x8002'ccf0      0x10  Data  Lc  encoder.o [1]
+x264_encoder_parameters
+                        0x8002'cfed      0x1c  Code  Gb  encoder.o [1]
+x264_encoder_reconfig_apply
+                        0x8002'cfb9      0x34  Code  Gb  encoder.o [1]
+x264_encoder_try_reconfig
+                        0x8002'cd01     0x28c  Code  Lc  encoder.o [1]
+x264_exp2_lut           0x8006'4f04      0x40  Data  Gb  analyse.o [1]
+x264_fdec_filter_row    0x8002'd545     0x316  Code  Lc  encoder.o [1]
+x264_filler_write       0x8003'6f6d      0xb0  Code  Gb  set_encoder.o [1]
+x264_frame_cond_broadcast
+                        0x8002'5829       0x8  Code  Gb  frame.o [1]
+x264_frame_cond_wait    0x8002'5831       0xc  Code  Gb  frame.o [1]
+x264_frame_copy_picture
+                        0x8002'4a1d     0x394  Code  Gb  frame.o [1]
+x264_frame_deblock_row     0x1'79cd    0x1464  Code  Gb  deblock.o [1]
+x264_frame_delete       0x8002'4961      0x60  Code  Gb  frame.o [1]
+x264_frame_delete_list  0x8002'642d      0x2a  Code  Gb  frame.o [1]
+x264_frame_expand_border
+                        0x8002'4ddd     0x326  Code  Gb  frame.o [1]
+x264_frame_expand_border_chroma
+                        0x8002'544d     0x22a  Code  Gb  frame.o [1]
+x264_frame_expand_border_filtered
+                        0x8002'5105     0x1e6  Code  Gb  frame.o [1]
+x264_frame_expand_border_lowres
+                        0x8002'52ed     0x15e  Code  Gb  frame.o [1]
+x264_frame_expand_border_mod16
+                        0x8002'5679     0x1b0  Code  Gb  frame.o [1]
+x264_frame_filter          0x1'cc05     0x150  Code  Gb  mc.o [1]
+x264_frame_init_lowres     0x1'c3ad     0x17a  Code  Gb  mc.o [1]
+x264_frame_new_slice    0x8002'584d      0x26  Code  Gb  frame.o [1]
+x264_frame_pop          0x8002'58ab      0x5a  Code  Gb  frame.o [1]
+x264_frame_pop_blank_unused
+                        0x8002'635d      0x2e  Code  Gb  frame.o [1]
+x264_frame_pop_unused   0x8002'59f1     0x92c  Code  Gb  frame.o [1]
+x264_frame_push         0x8002'5873      0x38  Code  Gb  frame.o [1]
+x264_frame_push_blank_unused
+                        0x8002'631d      0x3c  Code  Gb  frame.o [1]
+x264_frame_push_unused  0x8002'59ad      0x44  Code  Gb  frame.o [1]
+x264_frame_shift        0x8002'597d      0x30  Code  Gb  frame.o [1]
+x264_frame_unshift      0x8002'5905      0x78  Code  Gb  frame.o [1]
+x264_free               0x8002'4105       0xe  Code  Gb  common.o [1]
+x264_fullrange_names    0x8005'bd58       0xc  Data  Lc  common.o [1]
+x264_get_option         0x8005'd04b      0x3c  Code  Gb  filters.o [1]
+x264_hpel_ref0             0x1'ba3c      0x10  Data  Gb  mc.o [1]
+x264_hpel_ref1             0x1'ba4c      0x10  Data  Gb  mc.o [1]
+x264_hrd_fullness            0x9a07     0x156  Code  Gb  ratecontrol.o [1]
+x264_init_vid_filter    0x8005'9799      0x50  Code  Gb  video.o [1]
+x264_intra_rd           0x8001'1d99      0x94  Code  Lc  analyse.o [1]
+x264_intra_rd_refine    0x8001'1e2d    0x1e86  Code  Lc  analyse.o [1]
+x264_intra_sa8d_x3_8x8     0x1'1bb7      0x62  Code  Gb  pixel.o [1]
+x264_intra_sad_x3_16x16
+                           0x1'1ea9      0x46  Code  Gb  pixel.o [1]
+x264_intra_sad_x3_4x4      0x1'1c19      0x46  Code  Gb  pixel.o [1]
+x264_intra_sad_x3_8x16c
+                           0x1'1d71      0x46  Code  Gb  pixel.o [1]
+x264_intra_sad_x3_8x8      0x1'1b61      0x56  Code  Gb  pixel.o [1]
+x264_intra_sad_x3_8x8c     0x1'1ca5      0x46  Code  Gb  pixel.o [1]
+x264_intra_satd_x3_16x16
+                           0x1'1eef     0x1e6  Code  Gb  pixel.o [1]
+x264_intra_satd_x3_4x4     0x1'1c5f      0x46  Code  Gb  pixel.o [1]
+x264_intra_satd_x3_8x16c
+                           0x1'1db7      0xf2  Code  Gb  pixel.o [1]
+x264_intra_satd_x3_8x8c
+                           0x1'1ceb      0x86  Code  Gb  pixel.o [1]
+x264_iter_kludge           0x1'eae8       0x4  Data  Gb  me.o [1]
+x264_lambda2_tab        0x8005'afec     0x148  Data  Gb  analyse.o [1]
+x264_lambda_tab         0x8005'af48      0xa4  Data  Gb  analyse.o [1]
+x264_last_coeff_flag_offset
+                        0x8005'af08      0x40  Data  Gb  analyse.o [1]
+x264_last_coeff_flag_offset_8x8
+                        0x8005'ae88      0x40  Data  Gb  analyse.o [1]
+x264_level_token        0x8024'0af0     0xe00  Data  Gb  vlc.o [1]
+x264_levels             0x8005'e120     0x2a0  Data  Gb  set_encoder.o [1]
+x264_log                0x8002'402d      0x28  Code  Gb  common.o [1]
+x264_log2               0x8003'bf01      0x6a  Code  Lc  slicetype.o [1]
+x264_log2_lut           0x8006'1e10     0x200  Data  Gb  analyse.o [1]
+x264_log2_lz_lut        0x8006'4300      0x80  Data  Gb  analyse.o [1]
+x264_log_default        0x8002'4055       0x2  Code  Lc  common.o [1]
+x264_lookahead_delete   0x8003'9027      0x6e  Code  Gb  lookahead.o [1]
+x264_lookahead_encoder_shift
+                        0x8003'90c5      0x40  Code  Lc  lookahead.o [1]
+x264_lookahead_get_frames
+                        0x8003'9105     0x100  Code  Gb  lookahead.o [1]
+x264_lookahead_init     0x8003'8f25     0x102  Code  Gb  lookahead.o [1]
+x264_lookahead_is_empty
+                        0x8003'90ad      0x18  Code  Gb  lookahead.o [1]
+x264_lookahead_put_frame
+                        0x8003'9095      0x18  Code  Gb  lookahead.o [1]
+x264_lowres_context_init
+                        0x8003'bf6b      0x50  Code  Lc  slicetype.o [1]
+x264_luma2chroma_pixel  0x8002'cba8      0x1c  Data  Lc  encoder.o [1]
+x264_macroblock_analyse
+                        0x8001'5c25    0x724e  Code  Gb  analyse.o [1]
+x264_macroblock_analyse{231}{232}::check_mv_lists
+                        0x8005'f24c      0x14  Data  Lc  analyse.o [1]
+x264_macroblock_bipred_init
+                             0xf4c5     0x102  Code  Gb  macroblock.o [1]
+x264_macroblock_cache_allocate
+                             0xbdb1     0x396  Code  Gb  macroblock.o [1]
+x264_macroblock_cache_free
+                             0xc147       0xa  Code  Gb  macroblock.o [1]
+x264_macroblock_cache_load
+                             0xc7a9    0x2266  Code  Lc  macroblock.o [1]
+x264_macroblock_cache_load_progressive
+                             0xea0f       0x6  Code  Gb  macroblock.o [1]
+x264_macroblock_cache_save
+                             0xee35     0x690  Code  Gb  macroblock.o [1]
+x264_macroblock_deblock
+                           0x1'8e31     0x37e  Code  Gb  deblock.o [1]
+x264_macroblock_deblock_strength
+                             0xea15     0x420  Code  Gb  macroblock.o [1]
+x264_macroblock_encode  0x8001'fcc1      0x16  Code  Gb  macroblock_encoder.o [1]
+x264_macroblock_encode_internal
+                        0x8001'e4c5    0x17ea  Code  Lc  macroblock_encoder.o [1]
+x264_macroblock_encode_p4x4
+                        0x8002'0f9d      0x10  Code  Gb  macroblock_encoder.o [1]
+x264_macroblock_encode_p4x4_internal
+                        0x8002'0dd5     0x1b2  Code  Lc  macroblock_encoder.o [1]
+x264_macroblock_encode_p8x8
+                        0x8002'0db5      0x1e  Code  Gb  macroblock_encoder.o [1]
+x264_macroblock_encode_p8x8_internal
+                        0x8002'03c9     0x9ec  Code  Lc  macroblock_encoder.o [1]
+x264_macroblock_encode_skip
+                        0x8001'e113      0x48  Code  Lc  macroblock_encoder.o [1]
+x264_macroblock_probe_skip
+                        0x8002'0257      0x1c  Code  Gb  macroblock_encoder.o [1]
+x264_macroblock_probe_skip_internal
+                        0x8001'fcd9     0x57e  Code  Lc  macroblock_encoder.o [1]
+x264_macroblock_slice_init
+                             0xc315     0x320  Code  Gb  macroblock.o [1]
+x264_macroblock_thread_allocate
+                             0xc151     0x154  Code  Gb  macroblock.o [1]
+x264_macroblock_thread_free
+                             0xc2a5      0x70  Code  Gb  macroblock.o [1]
+x264_macroblock_thread_init
+                             0xc635      0xc2  Code  Gb  macroblock.o [1]
+x264_macroblock_tree    0x8003'e5ad     0xa98  Code  Lc  slicetype.o [1]
+x264_macroblock_tree_finish
+                        0x8003'e1cd     0x150  Code  Lc  slicetype.o [1]
+x264_macroblock_tree_propagate
+                        0x8003'e339     0x24c  Code  Lc  slicetype.o [1]
+x264_macroblock_tree_read
+                             0x6f9d       0x6  Code  Gb  ratecontrol.o [1]
+x264_macroblock_write_cabac
+                           0x1'7035      0x16  Code  Gb  cabac_encoder.o [1]
+x264_macroblock_write_cabac_internal
+                        0x8000'384d    0x35a6  Code  Lc  analyse.o [1]
+x264_macroblock_write_cabac_internal
+                           0x1'5579    0x1ab0  Code  Lc  cabac_encoder.o [1]
+x264_macroblock_write_cavlc
+                        0x8003'9cd9    0x1c30  Code  Gb  cavlc.o [1]
+x264_macroblock_write_cavlc{2}{3}::i_offsets
+                        0x8006'50a4       0x4  Data  Lc  cavlc.o [1]
+x264_main               0x8005'8761     0xa6c  Code  Gb  x264.o [1]
+x264_malloc             0x8002'40b1      0x38  Code  Gb  common.o [1]
+x264_mb_analyse_b_rd    0x8001'5a79     0x1ac  Code  Lc  analyse.o [1]
+x264_mb_analyse_init_qp
+                        0x8001'0cd7     0x110  Code  Lc  analyse.o [1]
+x264_mb_analyse_inter_b16x8
+                        0x8001'53cd     0x696  Code  Lc  analyse.o [1]
+x264_mb_analyse_inter_p4x4_chroma
+                        0x8001'3ced     0xb7e  Code  Lc  analyse.o [1]
+x264_mb_analyse_intra   0x8001'111d     0xc46  Code  Lc  analyse.o [1]
+x264_mb_analyse_intra::intra_analysis_shortcut
+                        0x8005'b454      0x28  Data  Lc  analyse.o [1]
+x264_mb_analyse_intra_chroma
+                        0x8001'0ec9     0x22a  Code  Lc  analyse.o [1]
+x264_mb_analyse_intra{14}{15}::i8x8_thresh
+                        0x8005'f240       0xc  Data  Lc  analyse.o [1]
+x264_mb_analyse_intra{14}{15}{32}{35}::cost_div_fix8
+                        0x8005'f238       0x8  Data  Lc  analyse.o [1]
+x264_mb_analyse_intra{1}{2}::i16x16_thresh_lut
+                        0x8005'f22c       0xc  Data  Lc  analyse.o [1]
+x264_mb_analyse_load_costs
+                        0x8001'0c83      0x54  Code  Gb  analyse.o [1]
+x264_mb_cache_mv_b16x8  0x8001'5125     0x14e  Code  Lc  analyse.o [1]
+x264_mb_cache_mv_b8x16  0x8001'5273     0x154  Code  Lc  analyse.o [1]
+x264_mb_cache_mv_p8x8   0x8001'4fc9      0xe8  Code  Lc  analyse.o [1]
+x264_mb_chroma_pred_mode_fix
+                        0x8005'efcc       0x8  Data  Lc  analyse.o [1]
+x264_mb_chroma_pred_mode_fix
+                           0x1'52d0       0x8  Data  Lc  cabac_encoder.o [1]
+x264_mb_chroma_pred_mode_fix
+                        0x8003'9cd0       0x8  Data  Lc  cavlc.o [1]
+x264_mb_chroma_pred_mode_fix
+                        0x8003'21a0       0x8  Data  Lc  encoder.o [1]
+x264_mb_chroma_pred_mode_fix
+                             0xf5d8       0x8  Data  Lc  macroblock.o [1]
+x264_mb_encode_chroma   0x8001'e0f9      0x1a  Code  Gb  macroblock_encoder.o [1]
+x264_mb_encode_chroma_internal
+                        0x8001'd791     0x948  Code  Lc  macroblock_encoder.o [1]
+x264_mb_encode_chroma_internal{23}{24}{25}{27}{28}::chroma422_scan
+                        0x8001'e0f0       0x8  Data  Lc  macroblock_encoder.o [1]
+x264_mb_init_fenc_cache
+                        0x8001'0e41      0x88  Code  Lc  analyse.o [1]
+x264_mb_load_mv_direct8x8
+                        0x8001'50b1      0x74  Code  Lc  analyse.o [1]
+x264_mb_mc                   0xbc47     0x16a  Code  Gb  macroblock.o [1]
+x264_mb_mc_01xywh            0xb785     0x39c  Code  Lc  macroblock.o [1]
+x264_mb_mc_0xywh             0xb445     0x1cc  Code  Lc  macroblock.o [1]
+x264_mb_mc_1xywh             0xb611     0x172  Code  Lc  macroblock.o [1]
+x264_mb_mc_8x8               0xbb41     0x106  Code  Gb  macroblock.o [1]
+x264_mb_partition_listX_table
+                        0x8005'ac18      0x24  Data  Lc  analyse.o [1]
+x264_mb_partition_listX_table
+                           0x1'df6c      0x24  Data  Lc  cabac_encoder.o [1]
+x264_mb_partition_listX_table
+                        0x8006'0cf4      0x24  Data  Lc  cavlc.o [1]
+x264_mb_partition_pixel_table
+                        0x8006'30b0      0x14  Data  Lc  encoder.o [1]
+x264_mb_pred_mode16x16_fix
+                        0x8005'efd4       0x8  Data  Lc  analyse.o [1]
+x264_mb_pred_mode16x16_fix
+                           0x1'4e4c       0x8  Data  Lc  cabac_encoder.o [1]
+x264_mb_pred_mode16x16_fix
+                        0x8003'9cb8       0x8  Data  Lc  cavlc.o [1]
+x264_mb_pred_mode4x4_fix
+                        0x8005'efdc      0x10  Data  Lc  analyse.o [1]
+x264_mb_pred_mode4x4_fix
+                           0x1'52c0      0x10  Data  Lc  cabac_encoder.o [1]
+x264_mb_pred_mode4x4_fix
+                        0x8003'9cc0      0x10  Data  Lc  cavlc.o [1]
+x264_mb_pred_mode4x4_fix
+                        0x8003'45f0      0x10  Data  Lc  encoder.o [1]
+x264_mb_predict_intra4x4_mode
+                        0x8000'255f      0x34  Code  Lc  analyse.o [1]
+x264_mb_predict_mv           0x543f     0x10c  Code  Gb  mvpred.o [1]
+x264_mb_predict_mv_16x16
+                             0x554b      0xaa  Code  Gb  mvpred.o [1]
+x264_mb_predict_mv_direct16x16
+                             0x5b25     0x6ca  Code  Gb  mvpred.o [1]
+x264_mb_predict_mv_direct16x16_spatial
+                             0x5631     0x4ea  Code  Lc  mvpred.o [1]
+x264_mb_predict_mv_pskip
+                             0x55f5      0x3a  Code  Gb  mvpred.o [1]
+x264_mb_predict_mv_ref16x16
+                             0x61f9     0x20e  Code  Gb  mvpred.o [1]
+x264_mb_predict_non_zero_code
+                        0x8000'2593      0x2a  Code  Lc  analyse.o [1]
+x264_mb_transform_8x8_allowed
+                        0x8000'25bd      0x2c  Code  Lc  analyse.o [1]
+x264_mb_type_fix             0xf5e0      0x14  Data  Lc  macroblock.o [1]
+x264_mb_type_list_table
+                        0x8005'ac3c      0x4c  Data  Lc  analyse.o [1]
+x264_mb_type_list_table
+                           0x1'df90      0x4c  Data  Lc  cabac_encoder.o [1]
+x264_mb_type_list_table
+                        0x8006'0d18      0x4c  Data  Lc  cavlc.o [1]
+x264_mb_type_list_table
+                        0x8005'd154      0x4c  Data  Lc  encoder.o [1]
+x264_mc_init               0x1'ca6d      0xe4  Code  Gb  mc.o [1]
+x264_mc_weight_wtab        0x1'ea18      0x18  Data  Lc  mc.o [1]
+x264_mdate                 0x1'ea65       0x2  Code  Gb  osdep.o [1]
+x264_me_refine_bidir         0x39fd     0xb8e  Code  Lc  me.o [1]
+x264_me_refine_bidir::dia4d
+                           0x1'de00      0x84  Data  Lc  me.o [1]
+x264_me_refine_bidir_rd
+                             0x45c9      0x2a  Code  Gb  me.o [1]
+x264_me_refine_bidir_satd
+                             0x45b5      0x14  Code  Gb  me.o [1]
+x264_me_refine_qpel          0x2adf      0x34  Code  Gb  me.o [1]
+x264_me_refine_qpel_rd       0x45f5     0xd3a  Code  Gb  me.o [1]
+x264_me_refine_qpel_refdupe
+                             0x2b13      0x28  Code  Gb  me.o [1]
+x264_me_search_ref             0x11    0x2ace  Code  Gb  me.o [1]
+x264_me_search_ref{44}{45}{228}::zero
+                           0x1'ea68      0x80  Data  Lc  me.o [1]
+x264_me_search_ref{44}{45}{61}::x264_pixel_size_shift
+                           0x1'e920       0x8  Data  Lc  me.o [1]
+x264_me_search_ref{44}{45}{61}{147}{148}::range_mul
+                           0x1'e928      0x10  Data  Lc  me.o [1]
+x264_me_search_ref{44}{45}{61}{198}{199}::hex4
+                           0x1'e938      0x20  Data  Lc  me.o [1]
+x264_median                  0x53c9      0x1c  Code  Lc  mvpred.o [1]
+x264_median_mv               0x53e5      0x5a  Code  Lc  mvpred.o [1]
+x264_motion_est_names   0x8005'bd04      0x18  Data  Lc  common.o [1]
+x264_nal_check_buffer   0x8002'd009      0x4c  Code  Lc  encoder.o [1]
+x264_nal_encode         0x8003'8371      0x98  Code  Gb  bitstream.o [1]
+x264_nal_end            0x8002'd055      0x6e  Code  Lc  encoder.o [1]
+x264_nal_escape_c       0x8003'8329      0x48  Code  Lc  bitstream.o [1]
+x264_nal_hrd_names      0x8005'bd64      0x10  Data  Lc  common.o [1]
+x264_noise_reduction_update
+                        0x8002'0273     0x148  Code  Gb  macroblock_encoder.o [1]
+x264_otoi               0x8005'd099      0x26  Code  Gb  filters.o [1]
+x264_overscan_names     0x8005'bd2c      0x10  Data  Lc  common.o [1]
+x264_param2string       0x8002'4229     0x564  Code  Gb  common.o [1]
+x264_param_apply_fastfirstpass
+                        0x8002'1921      0x36  Code  Gb  common.o [1]
+x264_param_apply_profile
+                        0x8002'1957     0x144  Code  Gb  common.o [1]
+x264_param_default      0x8002'10f5     0x256  Code  Gb  common.o [1]
+x264_param_default_preset
+                        0x8002'135d     0x4e8  Code  Gb  common.o [1]
+x264_param_parse        0x8002'1bd1    0x2318  Code  Gb  common.o [1]
+x264_picture_init       0x8002'4057      0x14  Code  Gb  common.o [1]
+x264_pixel_ads1            0x1'25db      0x94  Code  Lc  pixel.o [1]
+x264_pixel_ads2            0x1'24fd      0xde  Code  Lc  pixel.o [1]
+x264_pixel_ads4            0x1'2479      0x84  Code  Lc  pixel.o [1]
+x264_pixel_hadamard_ac_16x16
+                           0x1'0ebb      0x4e  Code  Lc  pixel.o [1]
+x264_pixel_hadamard_ac_16x8
+                           0x1'0f09      0x2e  Code  Lc  pixel.o [1]
+x264_pixel_hadamard_ac_8x16
+                           0x1'0f37      0x2e  Code  Lc  pixel.o [1]
+x264_pixel_hadamard_ac_8x8
+                           0x1'0f65      0x18  Code  Lc  pixel.o [1]
+x264_pixel_init            0x1'266f     0x1fc  Code  Gb  pixel.o [1]
+x264_pixel_sa8d_16x16      0x1'0cbf      0x56  Code  Lc  pixel.o [1]
+x264_pixel_sa8d_8x8        0x1'0caf      0x10  Code  Lc  pixel.o [1]
+x264_pixel_sad_16x16         0xf5f5      0x86  Code  Lc  pixel.o [1]
+x264_pixel_sad_16x8          0xf67d      0x86  Code  Lc  pixel.o [1]
+x264_pixel_sad_4x16          0xfa21      0x5c  Code  Lc  pixel.o [1]
+x264_pixel_sad_4x4           0xfad9      0x5c  Code  Lc  pixel.o [1]
+x264_pixel_sad_4x8           0xfa7d      0x5c  Code  Lc  pixel.o [1]
+x264_pixel_sad_8x16          0xf703     0x10a  Code  Lc  pixel.o [1]
+x264_pixel_sad_8x4           0xf917     0x10a  Code  Lc  pixel.o [1]
+x264_pixel_sad_8x8           0xf80d     0x10a  Code  Lc  pixel.o [1]
+x264_pixel_sad_x3_16x16
+                           0x1'0f7d      0x3a  Code  Lc  pixel.o [1]
+x264_pixel_sad_x3_16x8     0x1'1005      0x3a  Code  Lc  pixel.o [1]
+x264_pixel_sad_x3_4x4      0x1'12ad      0x3a  Code  Lc  pixel.o [1]
+x264_pixel_sad_x3_4x8      0x1'1225      0x3a  Code  Lc  pixel.o [1]
+x264_pixel_sad_x3_8x16     0x1'108d      0x3a  Code  Lc  pixel.o [1]
+x264_pixel_sad_x3_8x4      0x1'119d      0x3a  Code  Lc  pixel.o [1]
+x264_pixel_sad_x3_8x8      0x1'1115      0x3a  Code  Lc  pixel.o [1]
+x264_pixel_sad_x4_16x16
+                           0x1'0fb7      0x4e  Code  Lc  pixel.o [1]
+x264_pixel_sad_x4_16x8     0x1'103f      0x4e  Code  Lc  pixel.o [1]
+x264_pixel_sad_x4_4x4      0x1'12e7      0x4e  Code  Lc  pixel.o [1]
+x264_pixel_sad_x4_4x8      0x1'125f      0x4e  Code  Lc  pixel.o [1]
+x264_pixel_sad_x4_8x16     0x1'10c7      0x4e  Code  Lc  pixel.o [1]
+x264_pixel_sad_x4_8x4      0x1'11d7      0x4e  Code  Lc  pixel.o [1]
+x264_pixel_sad_x4_8x8      0x1'114f      0x4e  Code  Lc  pixel.o [1]
+x264_pixel_satd_16x16      0x1'08b3      0xc8  Code  Lc  pixel.o [1]
+x264_pixel_satd_16x8       0x1'097b      0x52  Code  Lc  pixel.o [1]
+x264_pixel_satd_4x16       0x1'0a49      0x54  Code  Lc  pixel.o [1]
+x264_pixel_satd_4x4        0x1'06c1      0xe8  Code  Lc  pixel.o [1]
+x264_pixel_satd_4x8        0x1'0a9d      0x28  Code  Lc  pixel.o [1]
+x264_pixel_satd_8x16       0x1'09cd      0x54  Code  Lc  pixel.o [1]
+x264_pixel_satd_8x4        0x1'07a9     0x10a  Code  Lc  pixel.o [1]
+x264_pixel_satd_8x8        0x1'0a21      0x28  Code  Lc  pixel.o [1]
+x264_pixel_satd_x3_16x16
+                           0x1'1335      0x3a  Code  Lc  pixel.o [1]
+x264_pixel_satd_x3_16x8
+                           0x1'13bd      0xf0  Code  Lc  pixel.o [1]
+x264_pixel_satd_x3_4x4     0x1'1ad9      0x3a  Code  Lc  pixel.o [1]
+x264_pixel_satd_x3_4x8     0x1'19bd      0x78  Code  Lc  pixel.o [1]
+x264_pixel_satd_x3_8x16
+                           0x1'15ed      0xec  Code  Lc  pixel.o [1]
+x264_pixel_satd_x3_8x4     0x1'1935      0x3a  Code  Lc  pixel.o [1]
+x264_pixel_satd_x3_8x8     0x1'1819      0x78  Code  Lc  pixel.o [1]
+x264_pixel_satd_x4_16x16
+                           0x1'136f      0x4e  Code  Lc  pixel.o [1]
+x264_pixel_satd_x4_16x8
+                           0x1'14ad     0x140  Code  Lc  pixel.o [1]
+x264_pixel_satd_x4_4x4     0x1'1b13      0x4e  Code  Lc  pixel.o [1]
+x264_pixel_satd_x4_4x8     0x1'1a35      0xa4  Code  Lc  pixel.o [1]
+x264_pixel_satd_x4_8x16
+                           0x1'16d9     0x140  Code  Lc  pixel.o [1]
+x264_pixel_satd_x4_8x4     0x1'196f      0x4e  Code  Lc  pixel.o [1]
+x264_pixel_satd_x4_8x8     0x1'1891      0xa4  Code  Lc  pixel.o [1]
+x264_pixel_size         0x8005'efec      0x18  Data  Lc  analyse.o [1]
+x264_pixel_size              0x5344      0x18  Data  Lc  me.o [1]
+x264_pixel_ssd_16x16         0xfb35      0x6a  Code  Lc  pixel.o [1]
+x264_pixel_ssd_16x8          0xfba1      0x6a  Code  Lc  pixel.o [1]
+x264_pixel_ssd_4x16          0xfe05      0x50  Code  Lc  pixel.o [1]
+x264_pixel_ssd_4x4           0xfea5      0x50  Code  Lc  pixel.o [1]
+x264_pixel_ssd_4x8           0xfe55      0x50  Code  Lc  pixel.o [1]
+x264_pixel_ssd_8x16          0xfc0b      0xa8  Code  Lc  pixel.o [1]
+x264_pixel_ssd_8x4           0xfd5b      0xa8  Code  Lc  pixel.o [1]
+x264_pixel_ssd_8x8           0xfcb3      0xa8  Code  Lc  pixel.o [1]
+x264_pixel_ssd_nv12        0x1'0345     0x138  Code  Gb  pixel.o [1]
+x264_pixel_ssd_wxh           0xfef5     0x328  Code  Gb  pixel.o [1]
+x264_pixel_ssim_wxh        0x1'2235     0x14c  Code  Gb  pixel.o [1]
+x264_pixel_var2_8x16       0x1'0579      0xa4  Code  Lc  pixel.o [1]
+x264_pixel_var2_8x8        0x1'061d      0xa4  Code  Lc  pixel.o [1]
+x264_pixel_var_16x16       0x1'047d      0x46  Code  Lc  pixel.o [1]
+x264_pixel_var_8x16        0x1'04c3      0x5a  Code  Lc  pixel.o [1]
+x264_pixel_var_8x8         0x1'051d      0x5a  Code  Lc  pixel.o [1]
+x264_plane_copy_c          0x1'bbaf      0x2c  Code  Gb  mc.o [1]
+x264_plane_copy_deinterleave_c
+                           0x1'bcc1      0xa6  Code  Gb  mc.o [1]
+x264_plane_copy_deinterleave_rgb_c
+                           0x1'bd69      0xe6  Code  Lc  mc.o [1]
+x264_plane_copy_deinterleave_v210_c
+                           0x1'be51      0x66  Code  Lc  mc.o [1]
+x264_plane_copy_interleave_c
+                           0x1'bc19      0xa6  Code  Gb  mc.o [1]
+x264_plane_copy_swap_c     0x1'bbdd      0x3a  Code  Gb  mc.o [1]
+x264_pps_init           0x8003'572d     0x19e  Code  Gb  set_encoder.o [1]
+x264_pps_write          0x8003'58fd     0xf2a  Code  Gb  set_encoder.o [1]
+x264_pred_i4x4_neighbors
+                        0x8005'f004       0xc  Data  Lc  analyse.o [1]
+x264_pred_i4x4_neighbors
+                        0x8001'fcb4       0xc  Data  Lc  macroblock_encoder.o [1]
+x264_predict_16x16_dc_128_c
+                           0x1'2af9      0x34  Code  Lc  predict.o [1]
+x264_predict_16x16_dc_c
+                           0x1'29b5      0x80  Code  Gb  predict.o [1]
+x264_predict_16x16_dc_left_c
+                           0x1'2a35      0x60  Code  Lc  predict.o [1]
+x264_predict_16x16_dc_top_c
+                           0x1'2a95      0x64  Code  Lc  predict.o [1]
+x264_predict_16x16_h_c     0x1'2b2d      0x62  Code  Gb  predict.o [1]
+x264_predict_16x16_init
+                           0x1'4bf3      0x22  Code  Gb  predict.o [1]
+x264_predict_16x16_p_c     0x1'2bd5      0xe0  Code  Gb  predict.o [1]
+x264_predict_16x16_v_c     0x1'2b8f      0x44  Code  Gb  predict.o [1]
+x264_predict_4x4_dc_128_c
+                           0x1'35af       0xe  Code  Lc  predict.o [1]
+x264_predict_4x4_dc_c      0x1'3617      0x42  Code  Gb  predict.o [1]
+x264_predict_4x4_dc_left_c
+                           0x1'35bd      0x2c  Code  Lc  predict.o [1]
+x264_predict_4x4_dc_top_c
+                           0x1'35e9      0x2e  Code  Lc  predict.o [1]
+x264_predict_4x4_ddl_c     0x1'368f      0xb0  Code  Lc  predict.o [1]
+x264_predict_4x4_ddr_c     0x1'373f      0xb6  Code  Lc  predict.o [1]
+x264_predict_4x4_h_c       0x1'3659      0x28  Code  Gb  predict.o [1]
+x264_predict_4x4_hd_c      0x1'38c7      0xee  Code  Lc  predict.o [1]
+x264_predict_4x4_hu_c      0x1'3a8d      0x92  Code  Lc  predict.o [1]
+x264_predict_4x4_init      0x1'4c93      0x36  Code  Gb  predict.o [1]
+x264_predict_4x4_v_c       0x1'3681       0xe  Code  Gb  predict.o [1]
+x264_predict_4x4_vl_c      0x1'39b5      0xd8  Code  Lc  predict.o [1]
+x264_predict_4x4_vr_c      0x1'37f5      0xd2  Code  Lc  predict.o [1]
+x264_predict_8x16c_dc_128_c
+                           0x1'3127      0x24  Code  Lc  predict.o [1]
+x264_predict_8x16c_dc_c
+                           0x1'3233     0x1e6  Code  Gb  predict.o [1]
+x264_predict_8x16c_dc_left_c
+                           0x1'314d      0x44  Code  Lc  predict.o [1]
+x264_predict_8x16c_dc_top_c
+                           0x1'3191      0xa2  Code  Lc  predict.o [1]
+x264_predict_8x16c_h_c     0x1'3419      0x4a  Code  Gb  predict.o [1]
+x264_predict_8x16c_init
+                           0x1'4c37      0x22  Code  Gb  predict.o [1]
+x264_predict_8x16c_p_c     0x1'348d     0x122  Code  Gb  predict.o [1]
+x264_predict_8x16c_v_c     0x1'3463      0x28  Code  Gb  predict.o [1]
+x264_predict_8x8_dc_128_c
+                           0x1'3e27      0x34  Code  Lc  predict.o [1]
+x264_predict_8x8_dc_c      0x1'3f17      0x82  Code  Gb  predict.o [1]
+x264_predict_8x8_dc_left_c
+                           0x1'3e5b      0x5e  Code  Lc  predict.o [1]
+x264_predict_8x8_dc_top_c
+                           0x1'3eb9      0x5e  Code  Lc  predict.o [1]
+x264_predict_8x8_ddl_c     0x1'4039     0x1f8  Code  Lc  predict.o [1]
+x264_predict_8x8_ddr_c     0x1'4231     0x206  Code  Lc  predict.o [1]
+x264_predict_8x8_filter_c
+                           0x1'3b1f     0x308  Code  Lc  predict.o [1]
+x264_predict_8x8_h_c       0x1'3f99      0x6a  Code  Gb  predict.o [1]
+x264_predict_8x8_hd_c      0x1'468f     0x220  Code  Lc  predict.o [1]
+x264_predict_8x8_hu_c      0x1'4acb     0x128  Code  Lc  predict.o [1]
+x264_predict_8x8_init      0x1'4c59      0x3a  Code  Gb  predict.o [1]
+x264_predict_8x8_v_c       0x1'4003      0x36  Code  Gb  predict.o [1]
+x264_predict_8x8_vl_c      0x1'48af     0x21c  Code  Lc  predict.o [1]
+x264_predict_8x8_vr_c      0x1'4437     0x258  Code  Lc  predict.o [1]
+x264_predict_8x8c_dc_128_c
+                           0x1'2cb5      0x34  Code  Lc  predict.o [1]
+x264_predict_8x8c_dc_c     0x1'2e47     0x114  Code  Gb  predict.o [1]
+x264_predict_8x8c_dc_left_c
+                           0x1'2ce9      0xae  Code  Lc  predict.o [1]
+x264_predict_8x8c_dc_top_c
+                           0x1'2d97      0xb0  Code  Lc  predict.o [1]
+x264_predict_8x8c_h_c      0x1'2f5b      0xba  Code  Gb  predict.o [1]
+x264_predict_8x8c_init     0x1'4c15      0x22  Code  Gb  predict.o [1]
+x264_predict_8x8c_p_c      0x1'304d      0xda  Code  Gb  predict.o [1]
+x264_predict_8x8c_v_c      0x1'3015      0x38  Code  Gb  predict.o [1]
+x264_predict_lossless_16x16
+                        0x8001'e41d      0xa6  Code  Gb  macroblock_encoder.o [1]
+x264_predict_lossless_4x4
+                        0x8001'e24d      0xc6  Code  Gb  macroblock_encoder.o [1]
+x264_predict_lossless_8x8
+                        0x8001'e335      0xe6  Code  Gb  macroblock_encoder.o [1]
+x264_predict_lossless_chroma
+                        0x8001'e15b      0xf2  Code  Gb  macroblock_encoder.o [1]
+x264_prefetch_fenc           0xc6f7      0x4a  Code  Gb  macroblock.o [1]
+x264_preset_names       0x8006'49d8      0x2c  Data  Lc  common.o [1]
+x264_print_intra        0x8003'2f4d      0x98  Code  Lc  encoder.o [1]
+x264_psy_trellis_init   0x8001'0df1      0x50  Code  Lc  analyse.o [1]
+x264_psy_trellis_init::zero
+                        0x8024'6fe4     0x200  Data  Lc  analyse.o [1]
+x264_quant_4x4_trellis  0x8000'f561      0xa2  Code  Gb  analyse.o [1]
+x264_quant_4x4_trellis::ctx_ac
+                        0x8005'f1d0      0x10  Data  Lc  analyse.o [1]
+x264_quant_8x8_trellis  0x8000'f625    0x1254  Code  Gb  analyse.o [1]
+x264_quant_chroma_dc_trellis
+                        0x8000'f175     0x3ec  Code  Gb  analyse.o [1]
+x264_quant_init            0x1'dacd      0xa6  Code  Gb  quant.o [1]
+x264_quant_luma_dc_trellis
+                        0x8000'e551     0xc14  Code  Gb  analyse.o [1]
+x264_ratecontrol_delete
+                             0x8035      0xba  Code  Gb  ratecontrol.o [1]
+x264_ratecontrol_end         0x91ed     0x606  Code  Gb  ratecontrol.o [1]
+x264_ratecontrol_init_reconfigurable
+                             0x7081     0x456  Code  Gb  ratecontrol.o [1]
+x264_ratecontrol_mb          0x877d     0x6a8  Code  Gb  ratecontrol.o [1]
+x264_ratecontrol_mb_qp       0x8e69      0x92  Code  Gb  ratecontrol.o [1]
+x264_ratecontrol_new         0x7511     0x916  Code  Gb  ratecontrol.o [1]
+x264_ratecontrol_new::pred_coeff_table
+                             0x7e34       0xc  Data  Lc  ratecontrol.o [1]
+x264_ratecontrol_qp          0x8e35      0x34  Code  Gb  ratecontrol.o [1]
+x264_ratecontrol_set_weights
+                             0x9141      0xaa  Code  Gb  ratecontrol.o [1]
+x264_ratecontrol_slice_type
+                             0x8f15     0x1f0  Code  Gb  ratecontrol.o [1]
+x264_ratecontrol_start       0x8125     0x4d2  Code  Gb  ratecontrol.o [1]
+x264_ratecontrol_summary
+                             0x7f09      0xd2  Code  Gb  ratecontrol.o [1]
+x264_ratecontrol_zone_init
+                             0x80ef      0x34  Code  Gb  ratecontrol.o [1]
+x264_rc_analyse_slice   0x8004'0905     0x25a  Code  Gb  slicetype.o [1]
+x264_rd_cost_chroma     0x8000'b229     0xfb8  Code  Lc  analyse.o [1]
+x264_rd_cost_mb         0x8000'7051    0x152a  Code  Lc  analyse.o [1]
+x264_rd_cost_part       0x8000'85b1    0x2c40  Code  Gb  analyse.o [1]
+x264_rdo_init           0x8000'c1fd     0x112  Code  Gb  analyse.o [1]
+x264_reduce_fraction    0x8002'4113      0x68  Code  Gb  common.o [1]
+x264_reduce_fraction64  0x8002'417b      0xa8  Code  Gb  common.o [1]
+x264_reference_build_list_optimal
+                             0x6fa5      0xda  Code  Gb  ratecontrol.o [1]
+x264_reference_check_reorder
+                        0x8002'd485      0xbe  Code  Lc  encoder.o [1]
+x264_reference_hierarchy_reset
+                        0x8002'd85b      0xe0  Code  Lc  encoder.o [1]
+x264_register_vid_filters
+                        0x8005'9699     0x100  Code  Gb  video.o [1]
+x264_run_before         0x8020'0af0  0x4'0000  Data  Gb  vlc.o [1]
+x264_scan8              0x8005'ab24      0x34  Data  Lc  analyse.o [1]
+x264_scan8                 0x1'df38      0x34  Data  Lc  cabac_encoder.o [1]
+x264_scan8              0x8006'0cc0      0x34  Data  Lc  cavlc.o [1]
+x264_scan8              0x8005'd2a0      0x34  Data  Lc  encoder.o [1]
+x264_scan8                 0x1'e958      0x34  Data  Lc  macroblock.o [1]
+x264_scan8              0x8006'50a8      0x34  Data  Lc  macroblock_encoder.o [1]
+x264_scan8                 0x1'de84      0x34  Data  Lc  me.o [1]
+x264_scan8                 0x1'e98c      0x34  Data  Lc  mvpred.o [1]
+x264_sei_avcintra_umid_write
+                        0x8003'7175      0x9e  Code  Gb  set_encoder.o [1]
+x264_sei_avcintra_vanc_write
+                        0x8003'7215      0x60  Code  Gb  set_encoder.o [1]
+x264_sei_buffering_period_write
+                        0x8003'69d9      0xb4  Code  Gb  set_encoder.o [1]
+x264_sei_dec_ref_pic_marking_write
+                        0x8003'701d     0x158  Code  Gb  set_encoder.o [1]
+x264_sei_frame_packing_write
+                        0x8003'6bb1     0x3ba  Code  Gb  set_encoder.o [1]
+x264_sei_pic_timing_write
+                        0x8003'6a8d     0x124  Code  Gb  set_encoder.o [1]
+x264_sei_recovery_point_write
+                        0x8003'686d      0xf8  Code  Gb  set_encoder.o [1]
+x264_sei_version_write  0x8003'6965      0x74  Code  Gb  set_encoder.o [1]
+x264_sei_version_write::uuid
+                        0x8003'74ac      0x10  Data  Lc  set_encoder.o [1]
+x264_sei_write          0x8003'481d     0x1a2  Code  Gb  set_encoder.o [1]
+x264_significant_coeff_flag_offset
+                        0x8005'aec8      0x40  Data  Gb  analyse.o [1]
+x264_significant_coeff_flag_offset_8x8
+                        0x8005'ae08      0x80  Data  Gb  analyse.o [1]
+x264_size2pixel              0xbb24      0x1c  Data  Lc  macroblock.o [1]
+x264_slice_header_init  0x8002'a825     0x1cc  Code  Lc  encoder.o [1]
+x264_slicetype_analyse  0x8003'f6d9     0xb84  Code  Gb  slicetype.o [1]
+x264_slicetype_decide   0x8004'0281     0x682  Code  Gb  slicetype.o [1]
+x264_slicetype_frame_cost
+                        0x8003'd141     0xf5e  Code  Lc  slicetype.o [1]
+x264_slicetype_frame_cost_recalculate
+                        0x8003'e0a1     0x12c  Code  Lc  slicetype.o [1]
+x264_slicetype_path_cost
+                        0x8003'f129     0x128  Code  Lc  slicetype.o [1]
+x264_slurp_file         0x8002'4223       0x4  Code  Gb  common.o [1]
+x264_split_options      0x8005'ce75     0x1d6  Code  Gb  filters.o [1]
+x264_sps_init           0x8003'49c1     0x3fa  Code  Gb  set_encoder.o [1]
+x264_sps_init_reconfigurable
+                        0x8003'4dc9      0x76  Code  Gb  set_encoder.o [1]
+x264_sps_write          0x8003'4e3f     0x8ee  Code  Gb  set_encoder.o [1]
+x264_sps_write{4}{5}{6}{7}::sar
+                        0x8006'50dc      0x34  Data  Lc  set_encoder.o [1]
+x264_sync_frame_list_delete
+                        0x8002'6487       0x4  Code  Gb  frame.o [1]
+x264_sync_frame_list_init
+                        0x8002'6457      0x30  Code  Gb  frame.o [1]
+x264_sync_frame_list_push
+                        0x8002'648b      0x14  Code  Gb  frame.o [1]
+x264_thread_sync_ratecontrol
+                             0xb271     0x1cc  Code  Gb  ratecontrol.o [1]
+x264_threadpool_wait_all
+                        0x8002'a7f9      0x2c  Code  Lc  encoder.o [1]
+x264_threads_distribute_ratecontrol
+                             0xae2d     0x2b2  Code  Gb  ratecontrol.o [1]
+x264_threads_merge_ratecontrol
+                             0xb0f1     0x162  Code  Gb  ratecontrol.o [1]
+x264_threads_normalize_predictors
+                             0xad1d      0xf4  Code  Lc  ratecontrol.o [1]
+x264_threadslice_cond_broadcast
+                        0x8002'583d       0x6  Code  Gb  frame.o [1]
+x264_threadslice_cond_wait
+                        0x8002'5843       0xa  Code  Gb  frame.o [1]
+x264_total_zeros        0x8006'2400     0x1e0  Data  Gb  vlc.o [1]
+x264_total_zeros_2x2_dc
+                        0x8006'5428      0x18  Data  Gb  vlc.o [1]
+x264_total_zeros_2x4_dc
+                        0x8006'47c4      0x70  Data  Gb  vlc.o [1]
+x264_transfer_names     0x8006'3e34      0x4c  Data  Lc  common.o [1]
+x264_transform_allowed  0x8005'f094      0x14  Data  Lc  analyse.o [1]
+x264_transform_allowed     0x1'7060      0x14  Data  Lc  cabac_encoder.o [1]
+x264_transform_allowed  0x8003'b934      0x14  Data  Lc  cavlc.o [1]
+x264_trellis_lambda2_tab
+                        0x8005'a894     0x290  Data  Lc  analyse.o [1]
+x264_ue_size_tab        0x8005'ac88     0x100  Data  Lc  analyse.o [1]
+x264_ue_size_tab        0x8006'0d64     0x100  Data  Lc  cavlc.o [1]
+x264_ue_size_tab        0x8005'd1a0     0x100  Data  Lc  encoder.o [1]
+x264_ue_size_tab        0x8006'1184     0x100  Data  Lc  set_encoder.o [1]
+x264_ue_size_tab        0x8006'3624     0x100  Data  Lc  slicetype.o [1]
+x264_validate_levels    0x8003'7275     0x1e6  Code  Gb  set_encoder.o [1]
+x264_validate_parameters
+                        0x8002'a9f1    0x15ae  Code  Lc  encoder.o [1]
+x264_validate_parameters{82}{83}{84}{85}::lookahead_thread_div
+                        0x8005'bd74      0x28  Data  Lc  encoder.o [1]
+x264_vbv_frame_cost     0x8003'f04d      0x58  Code  Lc  slicetype.o [1]
+x264_vidformat_names    0x8005'bd3c      0x1c  Data  Lc  common.o [1]
+x264_weight_cache          0x1'b539       0xa  Code  Lc  mc.o [1]
+x264_weight_cost_chroma
+                        0x8003'c17d     0x19e  Code  Lc  slicetype.o [1]
+x264_weight_cost_chroma444
+                        0x8003'c31d     0x184  Code  Lc  slicetype.o [1]
+x264_weight_cost_luma   0x8003'bfbd     0x1be  Code  Lc  slicetype.o [1]
+x264_weight_none           0x1'e610      0x90  Data  Gb  mc.o [1]
+x264_weight_scale_plane
+                        0x8002'638b      0xa0  Code  Gb  frame.o [1]
+x264_weights_analyse    0x8003'c4b5     0xc70  Code  Gb  slicetype.o [1]
+x264_weights_analyse{14}{15}{16}::weight_check_distance
+                        0x8003'd128      0x18  Data  Lc  slicetype.o [1]
+x264_zigzag_init           0x1'af9f      0x34  Code  Gb  dct.o [1]
+x264_zigzag_scan2x2     0x8005'f1c4       0x4  Data  Lc  analyse.o [1]
+x264_zigzag_scan2x4     0x8005'f1c8       0x8  Data  Lc  analyse.o [1]
+x264_zigzag_scan4       0x8005'f010      0x20  Data  Lc  analyse.o [1]
+x264_zigzag_scan4       0x8003'682c      0x20  Data  Lc  set_encoder.o [1]
+x264_zigzag_scan8       0x8005'ad88      0x80  Data  Lc  analyse.o [1]
+x264_zigzag_scan8       0x8006'1284      0x80  Data  Lc  set_encoder.o [1]
+zigzag_interleave_8x8_cavlc
+                           0x1'af45      0x5a  Code  Lc  dct.o [1]
+zigzag_scan_2x4_dc      0x8001'd70d      0x26  Code  Lc  macroblock_encoder.o [1]
+zigzag_scan_4x4_field      0x1'a3bb      0x1e  Code  Lc  dct.o [1]
+zigzag_scan_4x4_frame      0x1'a375      0x46  Code  Lc  dct.o [1]
+zigzag_scan_8x8_field      0x1'a1ef     0x186  Code  Lc  dct.o [1]
+zigzag_scan_8x8_frame      0x1'a069     0x186  Code  Lc  dct.o [1]
+zigzag_sub_4x4_field       0x1'a4bd      0xe4  Code  Lc  dct.o [1]
+zigzag_sub_4x4_frame       0x1'a3d9      0xe4  Code  Lc  dct.o [1]
+zigzag_sub_4x4ac_field     0x1'a687      0xe6  Code  Lc  dct.o [1]
+zigzag_sub_4x4ac_frame     0x1'a5a1      0xe6  Code  Lc  dct.o [1]
+zigzag_sub_8x8_field       0x1'ab59     0x3ec  Code  Lc  dct.o [1]
+zigzag_sub_8x8_frame       0x1'a76d     0x3ec  Code  Lc  dct.o [1]
+
+
+[1] = C:\x64444\aia_mediaplay\SDK_1170_x264_encoder\boards\evkmimxrt1170\x264_examples\sdcard_fatfs\cm7_itcm_org\iar\sdram_debug\obj
+[2] = dl7M_tln.a
+[3] = m7M_tlv.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+     305'042 bytes of readonly  code memory
+     121'842 bytes of readwrite code memory
+     196'675 bytes of readonly  data memory
+  34'327'184 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
